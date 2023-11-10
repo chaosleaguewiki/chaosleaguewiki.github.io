@@ -2,4 +2,4 @@
 
 Chaos League has different types of Game Mechanics available.
 
-- [Attacking the king](attack.md)
+- [Attacking the king](attacking-the-king.md)

@@ -16,7 +16,7 @@ nav:
   - chat-commands.md
   - Game Mechanics:
     - mechanics/index.md
-    - mechanics/attack.md
+    - mechanics/attacking-the-king.md
   - Minigames:
     - minigames/index.md
     - minigames/how-low-can-you-go.md
