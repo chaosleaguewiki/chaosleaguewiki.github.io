@@ -14,7 +14,7 @@
 ![bounce-house](../../assets/images/minigames/bounce-house.jpg)
 ///
 
-*Bounce House* is a game where players are released into the arena where they are thrown around, hitting different objects.
+**Bounce House** is a game where players are released into the arena where they are thrown around, hitting different objects.
 
 ## Gameplay
 

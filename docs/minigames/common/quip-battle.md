@@ -14,7 +14,7 @@
 ![quip-battle](../../assets/images/minigames/quip-battle.jpg)
 ///
 
-*Quip Battle* is a Game where the players provide an answer to a random question or complete a random sentence.
+**Quip Battle** is a Game where the players provide an answer to a random question or complete a random sentence.
 
 The game only starts when at least 2 players are participating, at which point a 15 second timer starts until the Game itself will begin.
 

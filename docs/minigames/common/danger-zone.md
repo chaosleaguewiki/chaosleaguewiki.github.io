@@ -14,7 +14,7 @@
 ![aaaaa](../../assets/images/minigames/danger-zone.jpg)
 ///
 
-*Danger Zone* is a game where players pull each other into one of 6 zones and maybe get eliminated.
+**Danger Zone** is a game where players pull each other into one of 6 zones and maybe get eliminated.
 
 ## Gameplay
 

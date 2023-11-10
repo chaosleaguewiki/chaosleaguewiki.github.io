@@ -24,6 +24,8 @@ nav:
       - minigames/common/danger-zone.md
       - minigames/common/how-low-can-you-go.md
       - minigames/common/quip-battle.md
+    - Rare:
+      - minigames/rare/stonks.md
 
 theme:
   name: material

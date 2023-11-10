@@ -15,7 +15,7 @@
 ![how-low-can-you-go](../../assets/images/minigames/how-low-can-you-go.jpg)
 ///
 
-*How Low Can You Go* is a common minigame added in version Alpha v0.1. It is based on a YouTube version's tile of the same name.
+**How Low Can You Go** is a common minigame added in version v0.1 Alpha. It is based on a YouTube version's tile of the same name.
 
 ## Gameplay
 
