@@ -1,0 +1,13 @@
+.info-table {
+    float: right;
+    clear: right;
+    padding-left: .3rem;
+}
+
+.info-table tr > td:first-child {
+    font-weight: 700;
+}
+
+.info-table .md-typeset__scrollwrap {
+    margin-top: 0;
+}

@@ -1,0 +1,100 @@
+site_name: Chaos League Docs
+site_description: Unofficial docs of the Chaos League Game made by DoodleChaos.
+site_author: Andre_601
+
+site_url: 'https://docs.andre601.ch/ChaosLeagueDocs'
+
+copyright: 'Everything is licensed under <a href="https://github.com/Andre601/ChaosLeagueDocs/blob/main/LICENSE" target="_blank" rel="nofollow">MIT</a> unless stated otherwise.'
+
+docs_dir: docs/
+
+repo_name: Andre601/ChaosLeagueDocs
+repo_url: https://github.com/Andre601/ChaosLeagueDocs
+
+nav:
+  - index.md
+  - Minigames:
+    - minigames/index.md
+    - minigames/how-low-can-you-go.md
+    - minigames/quip-battle.md
+    - minigames/bounce-house.md
+
+theme:
+  name: material
+  icon:
+    logo: 'fontawesome/solid/book'
+    repo: 'octicons/mark-github-16'
+    admonition:
+      note: octicons/pencil-16
+      abstract: octicons/multi-select-16
+      info: octicons/info-16
+      tip: octicons/light-bulb-16
+      success: octicons/check-circle-16
+      question: octicons/question-16
+      warning: octicons/stop-16
+      failure: octicons/x-circle-16
+      danger: octicons/alert-16
+      bug: octicons/bug-16
+      example: octicons/list-unordered-16
+      quote: octicons/comment-16
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: black
+      toggle:
+        icon: octicons/sun-24
+        name: 'Switch to Dark theme'
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      toggle:
+        icon: octicons/moon-24
+        name: 'Switch to Light theme'
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+
+extra_css:
+  - assets/stylesheet/style.css
+
+watch:
+  - .snippets
+
+markdown_extensions:
+  - attr_list
+  - toc:
+      permalink: true
+  - meta
+  - abbr
+  - pymdownx.superfences
+  - pymdownx.magiclink:
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      auto_append:
+        - '.snippets/game-terminology.md'
+  - pymdownx.highlight
+  - pymdownx.blocks.admonition:
+      types:
+        - note
+        - abstract
+        - info
+        - tip
+        - success
+        - question
+        - warning
+        - failure
+        - danger
+        - bug
+        - example
+        - quote
+  - pymdownx.blocks.details:
+  - pymdownx.blocks.tab:
+      alternate_style: true
