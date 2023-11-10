@@ -19,12 +19,12 @@ Check the [`Attacking the King` page][attacking-the-king] for more info.
 
 ### Earning Points
 
-To earn points, you have to participate in [Minigames]. To participate, you have to either spent Channel Points or Bits to buy "tickets".  
+To earn points, you have to participate in Minigames. To participate, you have to either spent Channel Points or Bits to buy "tickets".  
 Each ticket bought will be added to a Prize that the winner of the Minigame can earn. The more tickets bought, the higher the Prize will be.
 
-Check the [Minigames page][minigames] for more info.
+Check the [Twitch minigames][twitch-minigames] and Youtube minigames pages for more info.
 
 [repo]: https://github.com/chaosleaguewiki/chaosleaguewiki.github.io
 
 [attacking-the-king]: mechanics/attacking-the-king.md
-[minigames]: minigames/index.md
+[twitch-minigames]: twitch-minigames/index.md

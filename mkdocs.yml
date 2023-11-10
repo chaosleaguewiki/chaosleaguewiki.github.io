@@ -13,19 +13,22 @@ repo_url: https://github.com/chaosleaguewiki/chaosleaguewiki.github.io
 
 nav:
   - index.md
-  - chat-commands.md
+  - Chat Commands:
+    - chat-commands/index.md
+    - chat-commands/twitch.md
+    #- chat-commands/youtube.md
   - Game Mechanics:
     - mechanics/index.md
     - mechanics/attacking-the-king.md
-  - Minigames:
-    - minigames/index.md
+  - Twitch Minigames:
+    - twitch-minigames/index.md
     - Common:
-      - minigames/common/bounce-house.md
-      - minigames/common/danger-zone.md
-      - minigames/common/how-low-can-you-go.md
-      - minigames/common/quip-battle.md
+      - twitch-minigames/common/bounce-house.md
+      - twitch-minigames/common/danger-zone.md
+      - twitch-minigames/common/how-low-can-you-go.md
+      - twitch-minigames/common/quip-battle.md
     - Rare:
-      - minigames/rare/stonks.md
+      - twitch-minigames/rare/stonks.md
 
 theme:
   name: material

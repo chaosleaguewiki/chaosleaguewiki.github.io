@@ -21,6 +21,8 @@ The following Minigames are available:
 
 ### Rare
 
+- [Stonks](rare/stonks.md)
+
 ### Epic
 
 ### Legendary
