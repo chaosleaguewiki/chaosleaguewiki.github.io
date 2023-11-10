@@ -1,13 +1,42 @@
-.info-table {
-    float: right;
-    clear: right;
-    padding-left: .3rem;
+.admonition.wiki thead {
+    display: none;
 }
 
-.info-table tr > td:first-child {
-    font-weight: 700;
+.admonition.wiki table {
+    border: 0 !important;
 }
 
-.info-table .md-typeset__scrollwrap {
-    margin-top: 0;
+.admonition.wiki tr,
+.admonition.wiki td {
+    border: 0 !important;
+    border-top: 0 !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.admonition.wiki img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+.md-typeset .admonition.wiki {
+    border-color: var(--md-typeset-table-color);
+}
+
+.md-typeset .wiki > .admonition-title,
+.md-typeset .wiki > summary {
+  background-color: #00000000;
+  text-align: center;
+  padding-left: .6rem;
+}
+
+.md-typeset .wiki > .admonition-title::before,
+.md-typeset .wiki > summary::before {
+  background-color: #00000000;
+  -webkit-mask-image: none;
+          mask-image: none;
+  top: 0;
+  width: 0;
 }

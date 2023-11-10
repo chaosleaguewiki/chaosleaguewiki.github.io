@@ -1,28 +1,17 @@
 # Bounce House
 
-<div class="info-table">
-<table>
-  <thead>
-    <tr>
-      <th collspan="2">Game Info</th>
-    <tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Type:</td>
-      <td>Automatic (No input required)</td>
-    </tr>
-    <tr>
-      <td>Timer:</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <td>Slots:</td>
-      <td>Guaranteed: 8<br>Raffle: 8</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+/// wiki | Minigame Info
+    attrs: {class: 'inline end'}
+
+|         |                               |
+|---------|-------------------------------|
+| Type:   | Automatic (No input required) |
+| Timer:  | None                          |
+| Rounds: | None                          |
+| Slots:  | Guaranteed: 8<br>Raffle: 8    |
+
+![bounce-house](../assets/images/minigames/bounce-house.jpg)
+///
 
 *Bounce House* is a game where players are released into the arena where they are thrown around, hitting different objects.
 

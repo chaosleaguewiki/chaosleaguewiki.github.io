@@ -1,28 +1,17 @@
 # Quip Battle
 
-<div class="info-table">
-<table>
-  <thead>
-    <tr>
-      <th collspan="2">Game Info</th>
-    <tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Type:</td>
-      <td>Text Input and Survey</td>
-    </tr>
-    <tr>
-      <td>Timer:</td>
-      <td>1 Minute</td>
-    </tr>
-    <tr>
-      <td>Slots:</td>
-      <td>Guaranteed: 3<br>Raffle: 2</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+/// wiki | Minigame Info
+    attrs: {class: 'inline end'}
+
+|         |                               |
+|---------|-------------------------------|
+| Type:   | Automatic (No input required) |
+| Timer:  | 1 Minute                      |
+| Rounds: | None                          |
+| Slots:  | Guaranteed: 3<br>Raffle: 2    |
+
+![quip-battle](../assets/images/minigames/quip-battle.jpg)
+///
 
 *Quip Battle* is a Game where the players provide an answer to a random question or complete a random sentence.
 

@@ -1,28 +1,17 @@
 # How Low Can You Go
 
-<div class="info-table">
-<table>
-  <thead>
-    <tr>
-      <th collspan="2">Game Info</th>
-    <tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Type:</td>
-      <td>Automatic (No input required)</td>
-    </tr>
-    <tr>
-      <td>Timer:</td>
-      <td>None</td>
-    </tr>
-    <tr>
-      <td>Slots:</td>
-      <td>Guaranteed: 8<br>Raffle: 4</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+/// wiki | Minigame Info
+    attrs: {class: 'inline end'}
+
+|         |                                |
+|---------|--------------------------------|
+| Type:   | Automatic (No input required)  |
+| Timer:  | None                           |
+| Rounds: | None                           |
+| Slots:  | Guaranteed: 8<br>Raffle: 4     |
+
+![how-low-can-you-go](../assets/images/minigames/how-low-can-you-go.jpg)
+///
 
 *How Low Can You Go* is an automatic Game, where players are put into the Arena and fall down.
 

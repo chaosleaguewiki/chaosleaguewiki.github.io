@@ -18,6 +18,7 @@ nav:
     - minigames/how-low-can-you-go.md
     - minigames/quip-battle.md
     - minigames/bounce-house.md
+    - minigames/danger-zone.md
 
 theme:
   name: material
@@ -63,6 +64,10 @@ extra_css:
 watch:
   - .snippets
 
+plugins:
+  - search
+  - glightbox
+
 markdown_extensions:
   - attr_list
   - toc:
@@ -95,6 +100,7 @@ markdown_extensions:
         - bug
         - example
         - quote
+        - wiki
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
       alternate_style: true
