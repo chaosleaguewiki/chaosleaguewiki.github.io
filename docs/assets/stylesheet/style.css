@@ -44,3 +44,7 @@
 .md-typeset img {
   max-width: 45%;
 }
+
+.md-nav__item--section > .md-nav > .md-nav__list {
+  margin-left: .5rem;
+}
