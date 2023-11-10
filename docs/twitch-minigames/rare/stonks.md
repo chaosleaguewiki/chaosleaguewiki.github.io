@@ -18,3 +18,9 @@
 ///
 
 **Stonks** is a minigame to be added in v0.6 Alpha. It has been sneaked on 10 November 2023.
+
+/// wiki | History
+|      |                                    |
+|------|------------------------------------|
+| v0.6 | Stonks added to the Rare Minigames |
+///
