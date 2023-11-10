@@ -12,6 +12,15 @@ There is always one Minigame running, while the other remains in Queue mode. Onc
 
 The following Minigames are available:
 
-- [How Low Can You Go](how-low-can-you-go.md)
-- [Quip Battle](quip-battle.md)
-- [Bounce House](bounce-house.md)
+### Common
+
+- [Bounce House](common/bounce-house.md)
+- [Danger Zone](common/danger-zone.md)
+- [How Low Can You Go](common/how-low-can-you-go.md)
+- [Quip Battle](common/quip-battle.md)
+
+### Rare
+
+### Epic
+
+### Legendary

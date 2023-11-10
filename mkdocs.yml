@@ -19,10 +19,11 @@ nav:
     - mechanics/attacking-the-king.md
   - Minigames:
     - minigames/index.md
-    - minigames/how-low-can-you-go.md
-    - minigames/quip-battle.md
-    - minigames/bounce-house.md
-    - minigames/danger-zone.md
+    - Common:
+      - minigames/common/bounce-house.md
+      - minigames/common/danger-zone.md
+      - minigames/common/how-low-can-you-go.md
+      - minigames/common/quip-battle.md
 
 theme:
   name: material
