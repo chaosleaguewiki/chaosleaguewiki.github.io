@@ -90,8 +90,9 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.snippets:
+      base_path: '.snippets'
       auto_append:
-        - '.snippets/game-terminology.md'
+        - 'game-terminology.md'
   - pymdownx.highlight
   - pymdownx.blocks.admonition:
       types:
