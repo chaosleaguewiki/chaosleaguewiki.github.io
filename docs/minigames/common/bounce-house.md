@@ -10,7 +10,7 @@
 | Rounds: | None                          |
 | Slots:  | Guaranteed: 8<br>Raffle: 8    |
 
-![bounce-house](../assets/images/minigames/bounce-house.jpg)
+![bounce-house](../../assets/images/minigames/bounce-house.jpg)
 ///
 
 *Bounce House* is a game where players are released into the arena where they are thrown around, hitting different objects.

@@ -10,7 +10,7 @@
 | Rounds: | 3                          |
 | Slots:  | Guaranteed: 3<br>Raffle: 2 |
 
-![aaaaa](../assets/images/minigames/danger-zone.jpg)
+![aaaaa](../../assets/images/minigames/danger-zone.jpg)
 ///
 
 *Danger Zone* is a game where players pull each other into one of 6 zones and maybe get eliminated.

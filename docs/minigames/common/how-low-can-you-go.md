@@ -10,7 +10,7 @@
 | Rounds: | None                           |
 | Slots:  | Guaranteed: 8<br>Raffle: 4     |
 
-![how-low-can-you-go](../assets/images/minigames/how-low-can-you-go.jpg)
+![how-low-can-you-go](../../assets/images/minigames/how-low-can-you-go.jpg)
 ///
 
 *How Low Can You Go* is an automatic Game, where players are put into the Arena and fall down.

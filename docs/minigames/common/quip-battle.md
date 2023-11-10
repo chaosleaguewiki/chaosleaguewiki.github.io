@@ -10,7 +10,7 @@
 | Rounds: | None                          |
 | Slots:  | Guaranteed: 3<br>Raffle: 2    |
 
-![quip-battle](../assets/images/minigames/quip-battle.jpg)
+![quip-battle](../../assets/images/minigames/quip-battle.jpg)
 ///
 
 *Quip Battle* is a Game where the players provide an answer to a random question or complete a random sentence.
