@@ -1,6 +1,6 @@
 # Quip Battle
 
-/// wiki | Minigame Info
+/// wiki | Quip Battle
     attrs: {class: 'inline end'}
 
 |         |                                                |

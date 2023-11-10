@@ -1,26 +1,30 @@
 # How Low Can You Go
 
-/// wiki | Minigame Info
+/// wiki | How Low Can You Go
     attrs: {class: 'inline end'}
 
-|         |                                |
-|---------|--------------------------------|
-| Rarity: | Common                         |
-| Input:  | None                           |
-| Timer:  | None                           |
-| Rounds: | None                           |
-| Slots:  | Guaranteed: 8<br>Raffle: 4     |
+|         |                             |
+|---------|-----------------------------|
+| Rarity: | Common                      |
+| Input:  | None                        |
+| Timer:  | None                        |
+| Rounds: | None                        |
+| Slots:  | Guaranteed: 8<br>Raffle: 4  |
+| Added:  | v0.1 Alpha                  |
 
 ![how-low-can-you-go](../../assets/images/minigames/how-low-can-you-go.jpg)
 ///
 
-*How Low Can You Go* is an automatic Game, where players are put into the Arena and fall down.
+*How Low Can You Go* is a common minigame added in version Alpha v0.1. It is based on a YouTube version's tile of the same name.
 
 ## Gameplay
 
-The arena has numbers of rows with gaps in them. Depending on the rarety of the game will there be less rows, but with much higher point values.  
-Some gaps are closed of at the bottom. Should the player's Marble end up in this gap will they be eliminated.
+The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps. 12 marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the game through the pipe at the top. If a marble falls into a closed hole, it loses given number of points, which are given to the king, and is eliminated from the game.
 
-Slots may display a number. If the player's Marble falls through such a slot will the number be added to their score. Once they fall through the gaps at the very bottom will they come back out at the pipe located at the top of the arena.
+The game ends when there's one marble left.
 
-The game is over once one player Marble is left.
+## Changelog
+v0.1 Alpha - The minigame was added.
+
+## See also
+- How Low Can You Go - YouTube version
