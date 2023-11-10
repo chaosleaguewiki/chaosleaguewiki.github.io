@@ -14,7 +14,7 @@ Chaos League is a Stream-interaction Game, meaning the viewers of the stream can
 ## The Goal
 
 The goal of the game is simple: Capture the Throne, that is visible in the middle of the screen at the top, and keep it as long as you can.  
-To capture the throne, you have to [`!attack`] the current "king" on the throne.
+To capture the throne, you have to [`!attack`](chat-commands.md#attack) the current "king" on the throne.
 
 However, the king is protected by a wall of blocks, each having certain point values to break.  
 To break these blocks and attack the king, you have to earn points, which will be used to break the blocks, substracting as many points from you as the block needs to be broken. If you have 0 points before reaching the king will you be eliminated.
@@ -47,6 +47,6 @@ Once the game is about to start will players be selected from the raffle at rand
 
 There are various Minigames, each with their own sets of rarity. Visit the [Minigames] section for more info.
 
-[repo]: https://github.com/Andre601/ChaosLeagueDocs
+[repo]: https://github.com/chaosleaguewiki/chaosleaguewiki.github.io
 
 [minigames]: minigames/index.md
