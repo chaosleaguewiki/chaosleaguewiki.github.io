@@ -5,6 +5,7 @@
 
 |         |                            |
 |---------|----------------------------|
+| Rarity: | Common                     |
 | Type:   | Command Input required     |
 | Timer:  | 20 Seconds                 |
 | Rounds: | 3                          |

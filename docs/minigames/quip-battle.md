@@ -3,12 +3,13 @@
 /// wiki | Minigame Info
     attrs: {class: 'inline end'}
 
-|         |                               |
-|---------|-------------------------------|
-| Type:   | Automatic (No input required) |
-| Timer:  | 1 Minute                      |
-| Rounds: | None                          |
-| Slots:  | Guaranteed: 3<br>Raffle: 2    |
+|         |                                                |
+|---------|------------------------------------------------|
+| Rarity: | Common                                         |
+| Type:   | Semi-automatic (text input and voting enabled) |
+| Timer:  | 1 Minute                                       |
+| Rounds: | None                                           |
+| Slots:  | Guaranteed: 3<br>Raffle: 2                     |
 
 ![quip-battle](../assets/images/minigames/quip-battle.jpg)
 ///

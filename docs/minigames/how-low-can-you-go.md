@@ -5,6 +5,7 @@
 
 |         |                                |
 |---------|--------------------------------|
+| Rarity: | Common                         |
 | Type:   | Automatic (No input required)  |
 | Timer:  | None                           |
 | Rounds: | None                           |
