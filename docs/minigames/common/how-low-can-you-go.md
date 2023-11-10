@@ -6,7 +6,7 @@
 |         |                                |
 |---------|--------------------------------|
 | Rarity: | Common                         |
-| Type:   | Automatic (No input required)  |
+| Input:  | None                           |
 | Timer:  | None                           |
 | Rounds: | None                           |
 | Slots:  | Guaranteed: 8<br>Raffle: 4     |

@@ -6,7 +6,7 @@
 |         |                                                |
 |---------|------------------------------------------------|
 | Rarity: | Common                                         |
-| Type:   | Semi-automatic (text input and voting enabled) |
+| Input:  | Messages, Voting |
 | Timer:  | 1 Minute                                       |
 | Rounds: | None                                           |
 | Slots:  | Guaranteed: 3<br>Raffle: 2                     |
