@@ -9,6 +9,7 @@ on:
       - .snippets/**
       - docs/**
       - mkdocs.yml
+      - requirements.txt
 
 permissions:
   contents: read
