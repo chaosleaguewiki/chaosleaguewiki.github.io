@@ -1,2 +1,3 @@
-# ChaosLeagueDocs
-Unofficial docs for the Chaos League game made by DoodleChaos
+# Chaos League Wiki
+
+Unofficial wiki of the streaming-based game Chaos League, created by DoodleChaos.
