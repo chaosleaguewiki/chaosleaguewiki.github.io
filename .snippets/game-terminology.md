@@ -1,3 +1,5 @@
+*[DoodleChaos]: YouTuber and creator of the Chaos League Game.
+
 *[Marble]: Each player participating in a minigame is displayed as a marble.
 *[Marbles]: Each player participating in a minigame is displayed as a marble.
 *[marble]: Each player participating in a minigame is displayed as a marble.
