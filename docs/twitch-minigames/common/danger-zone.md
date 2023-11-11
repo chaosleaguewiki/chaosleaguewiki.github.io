@@ -21,7 +21,7 @@
 
 The tile consists of 6 chambers.
 
-At the beginning of each round, the participating players' marbles are distributed evenly between the chambers. For 20 seconds, the players gain the ability to pull other players' marbles to their marble by typing [`!pull @username`](../../chat-commands/twitch/#recruit). It is possible to pull several marbles at once.
+At the beginning of each round, the participating players' marbles are distributed evenly between the chambers. For 20 seconds, the players gain the ability to pull other players' marbles to their marble by typing `!pull @username`. It is possible to pull several marbles at once.
 
 When timer ends, the pulls are executed for 4 seconds. Marbles in green chamber are safe. Marbles in red chamber are eliminated. In the remeaning chambers, a needle is spinned. If it points at the red area, the marbles are eliminated, otherwise they are safe.
 
