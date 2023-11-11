@@ -26,3 +26,5 @@ The following Minigames are available:
 ### Epic
 
 ### Legendary
+
+- [Hole In One](legendary/hole-in-one.md)
