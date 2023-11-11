@@ -19,12 +19,9 @@
 
 ## Gameplay
 
-The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps. 12 marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the game through the pipe at the top. If a marble falls into a closed hole, it loses given number of points, which are given to the king, and is eliminated from the game.
+The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps. Marbles of the participating players are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the game through the pipe at the top. If a marble falls into a closed hole, it loses given number of points, which are given to the king, and is eliminated from the game.
 
 The game ends when there's one marble left.
-
-## Changelog
-v0.1 Alpha - The minigame was added.
 
 ## See also
 - How Low Can You Go - YouTube version

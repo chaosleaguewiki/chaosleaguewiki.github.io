@@ -9,7 +9,7 @@
 | Input:  | Command                    |
 | Timer:  | 20 Seconds                 |
 | Rounds: | 3                          |
-| Slots:  | Guaranteed: 3<br>Raffle: 2 |
+| Slots:  | Guaranteed: 3<br>Raffle: 4 |
 
 ![aaaaa](../../assets/images/minigames/danger-zone.jpg)
 ///

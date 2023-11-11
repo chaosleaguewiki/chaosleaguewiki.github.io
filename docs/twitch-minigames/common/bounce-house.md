@@ -18,8 +18,8 @@
 
 ## Gameplay
 
-Once released, the player's marble will be thrown around by two moving tiles at the bottom. At the same time is a block with a point value and a "bowl" with a point value rotation around the center of the arena.  
-Should the player hit the block, will the point value on it be added to their score. Should they hit the bowl, will the displayed point value be added to their score and their marble gets eliminated.
+Once released, the player's marble will be thrown around by two moving tiles at the bottom. At the same time is a block with a point value of 5 and a bowl with a point value of -1 rotating around the center of the tile.  
+Should the player hit the block, will the point value on it be added to their score. Should they hit the bowl, will the displayed point value be removed from their score and their marble gets eliminated.
 
 At the bottom-center of the arena is a Gap. Said gap has a point value too, which when the player falls through it, will be added to their score. Should the Player's marble fall through the gap, will they re-appear at the pipe located at the top of the arena.
 

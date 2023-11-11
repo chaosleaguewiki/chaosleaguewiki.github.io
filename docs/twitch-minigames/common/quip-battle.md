@@ -21,9 +21,9 @@ The game only starts when at least 2 players are participating, at which point a
 ## Gameplay
 
 Each player can provide an answer to a randomly selected sentence or question, which will be displayed next to their marble.  
-At the same time will a Poll be started in the Stream chat with each player as a selectable answer. Every viewer can then select the player with the best answer.
+At the same time will a Poll be started in the Stream chat with each participating player as a selectable answer. Every viewer can then select the player with the best answer.
 
-Once the time is up will the player with the most votes be selected as the winner. There can be multiple 1st place.
+Once the time is up will the player with the most votes be selected as the winner. Multiple players can get 1st place.
 
 /// note
 The game will display the last message a player send in chat, meaning if the player sends a new message will it be displayed in the game.
