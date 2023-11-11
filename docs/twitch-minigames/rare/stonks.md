@@ -25,6 +25,8 @@ The Player Marbles are droped into the tile, where they can fall through differe
 
 If a player lands in a closed gap will they be eliminated and the displayed value removed from their score. After this the value will be increased.
 
+2 closed gaps are slowly moving diagonally on the tile.
+
 The game is over once all but one player got eliminated.
 
 /// wiki | History
