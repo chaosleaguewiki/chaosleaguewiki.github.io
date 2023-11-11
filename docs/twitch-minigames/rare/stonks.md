@@ -6,29 +6,27 @@
 |         |                            |
 |---------|----------------------------|
 | Rarity: | Rare                       |
-| Input:  | N/A                        |
-| Timer:  | N/A                        |
-| Rounds: | N/A                        |
+| Input:  | None                       |
+| Timer:  | None                       |
+| Rounds: | None                       |
 | Slots:  | Guaranteed: 5<br>Raffle: 4 |
 | Added:  | v0.6 Alpha                 |
 
-![stonks](../../assets/images/minigames/stonks.jpg)
+![stonks](../../assets/images/minigames/stonks.png)
 ///
 
-**Stonks** is a minigame added in v0.6 Alpha of Chaos League.
+**Stonks** is a rare minigame added in version v0.6 Alpha.
 
 ## Gameplay
 
-The Player Marbles are droped into the tile, where they can fall through different gaps with point values assigned. Gaps which aren't closed at the bottom will add their displayed value to the player's score after which they increase their own value by a specific number.
+The tile consists of a row of small rotating squares, below which there is a series of gaps. Above and below it there are 2 closed gaps moving diagonally.
 
-If a player lands in a closed gap will they be eliminated and the displayed value removed from their score. After this the value will be increased.
+The participating players' marbles are dropped and begin to collect points by falling through the gaps. After passing through the gap, it's point value is doubled. If a marble falls to the bottom of the tile, it appears back in the game through the pipe at the top. If a marble falls into a closed gap, it is eliminated from the game, and the given number of points is transfered to the king's balance. The negative value of closed gaps in the bottom-right corner is doubled after a marble falls into one of them.
 
-2 closed gaps are slowly moving diagonally on the tile.
-
-The game is over once all but one player got eliminated.
+When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
 
 /// wiki | History
-|            |                                    |
-|------------|------------------------------------|
-| v0.6 Alpha | Stonks added to the Rare Minigames |
+|            |                |
+|------------|----------------|
+| v0.6 Alpha | Minigame added |
 ///

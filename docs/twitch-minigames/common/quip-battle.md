@@ -3,28 +3,28 @@
 /// wiki | Quip Battle
     attrs: {class: 'inline end'}
 
-|         |                                                |
-|---------|------------------------------------------------|
-| Rarity: | Common                                         |
-| Input:  | Messages, Voting |
-| Timer:  | 1 Minute                                       |
-| Rounds: | None                                           |
-| Slots:  | Guaranteed: 3<br>Raffle: 2                     |
+|         |                             |
+|---------|-----------------------------|
+| Rarity: | Common                      |
+| Input:  | Messages, Voting            |
+| Timer:  | 1 Minute                    |
+| Rounds: | None                        |
+| Slots:  | Guaranteed: 3<br>Raffle: 2  |
+| Added:  | v0.1 Alpha                  |
 
-![quip-battle](../../assets/images/minigames/quip-battle.jpg)
+![quip-battle](../../assets/images/minigames/quip-battle.png)
 ///
 
-**Quip Battle** is a Game where the players provide an answer to a random question or complete a random sentence.
-
-The game only starts when at least 2 players are participating, at which point a 15 second timer starts until the Game itself will begin.
+**Quip Battle** is a common minigame added in version v0.1 Alpha.
 
 ## Gameplay
 
-Each player can provide an answer to a randomly selected sentence or question, which will be displayed next to their marble.  
-At the same time will a Poll be started in the Stream chat with each participating player as a selectable answer. Every viewer can then select the player with the best answer.
+The participating players are given a random question. They can send messages with their answer, which is displayed next to their marble. A new message overrides previous one. The remeaning players can vote for the answer they find the funniest.
 
-Once the time is up will the player with the most votes be selected as the winner. Multiple players can get 1st place.
+After 60 seconds the game ends, and the players are ranked by number of votes they got. The player with the most votes wins. It is possible for several players to get the same rank.
 
-/// note
-The game will display the last message a player send in chat, meaning if the player sends a new message will it be displayed in the game.
+/// wiki | History
+|            |                |
+|------------|----------------|
+| v0.1 Alpha | Minigame added |
 ///

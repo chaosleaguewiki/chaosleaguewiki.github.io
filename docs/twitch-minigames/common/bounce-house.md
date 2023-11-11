@@ -10,17 +10,26 @@
 | Timer:  | None                          |
 | Rounds: | None                          |
 | Slots:  | Guaranteed: 8<br>Raffle: 8    |
+| Added:  | v0.1 Alpha                    |
 
-![bounce-house](../../assets/images/minigames/bounce-house.jpg)
+![bounce-house](../../assets/images/minigames/bounce-house.png)
 ///
 
-**Bounce House** is a game where players are released into the arena where they are thrown around, hitting different objects.
+**Bounce House** is a common minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.
 
 ## Gameplay
 
-Once released, the player's marble will be thrown around by two moving tiles at the bottom. At the same time is a block with a point value of 5 and a bowl with a point value of -1 rotating around the center of the tile.  
-Should the player hit the block, will the point value on it be added to their score. Should they hit the bowl, will the displayed point value be removed from their score and their marble gets eliminated.
+The tile consists of a 5 points block and an elimination bowl rotating around it's center and 2 moving structures with a 5 points gap between them. Just under the pipe, there's a small, rotating rectangle.
 
-At the bottom-center of the arena is a Gap. Said gap has a point value too, which when the player falls through it, will be added to their score. Should the Player's marble fall through the gap, will they re-appear at the pipe located at the top of the arena.
+The participating players' marbles are dropped and begin to fly around the tile, launched by the moving structures. If a marble touches the green block, 5 points are added to it's balance. If a marble falls through, 5 points are added to it's balance and it appears back in the game through the pipe at the top. If a marble gets into the rotating bowl, it is eliminated from the game, and 1 point is transfered to the king's balance.
 
-The game is over once one player marble is left.
+When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
+
+## See also
+- Bounce House - YouTube version
+
+/// wiki | History
+|            |                |
+|------------|----------------|
+| v0.1 Alpha | Minigame added |
+///

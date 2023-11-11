@@ -3,7 +3,7 @@
 /// wiki | Attacking the King
     attrs: {class: 'inline end'}
 
-![attack](../assets/images/throne.jpg)
+![attack](../assets/images/throne.png)
 ///
 
 A core mechanic (And the main goal) of Chaos League is to attack the king and capture the throne.

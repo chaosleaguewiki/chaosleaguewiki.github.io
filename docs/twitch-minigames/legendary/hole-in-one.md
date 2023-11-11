@@ -1,6 +1,6 @@
-# Hole in one
+# Hole In One
 
-/// wiki | Hole in one
+/// wiki | Hole In One
     attrs: {class: 'inline end'}
 
 |         |                               |
@@ -10,15 +10,26 @@
 | Timer:  | None                          |
 | Rounds: | None                          |
 | Slots:  | Guaranteed: 8<br>Raffle: 8    |
+| Added:  | v0.1 Alpha                    |
+
+![hole-in-one](../../assets/images/minigames/hole-in-one.png)
 ///
 
-**Hole in one** is a Game similar to [How Low Can You Go](../common/how-low-can-you-go.md) with the difference, that the tile only has one row of gaps at the very bottom.
+**Hole In One** is a legendary minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.
 
 ## Gameplay
 
-Player Marbles are released into the tile, falling down towards the gaps. The center gap is giving each player passing through it 10,000 points while every other open gap won't give any points.  
-There are also closed gaps with negative values of 100 and 200 points. Should a Marble land in one will the points be removed from the players score and the marble eliminated.
+The tile consists of 2 rows of small rotating squares, below which there is one row of gaps.
 
-Falling through any gap will spawn the Marble back at the top of the tile.
+The participating players' marbles are dropped. Points can only be obtained by falling in the middle gap, which adds 10000 of them to player's balance. The two gaps neighboring the middle one are closed. If a marble falls into either of them, it is eliminated from the game, and the 200 points are transfered to the king's balance. The remeaning gaps have no effect on the marble. If a marble falls through one of them or through the middle gap, it appears back in the game through the pipe at the top.
 
-The game is over once all but one player Marble got eliminated.
+When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
+
+## See also
+- Hole In One - YouTube version
+
+/// wiki | History
+|            |                |
+|------------|----------------|
+| v0.1 Alpha | Minigame added |
+///
