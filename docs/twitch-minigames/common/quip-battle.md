@@ -21,7 +21,9 @@
 
 The participating players are given a random question. They can send messages with their answer, which is displayed next to their marble. A new message overrides previous one. The remeaning players can vote for the answer they find the funniest.
 
-After 60 seconds the game ends, and the players are ranked by number of votes they got. The player with the most votes wins. It is possible for several players to get the same rank.
+After 60 seconds the game ends, and the players are ranked by number of votes they got. The player with the most votes wins.
+
+--8<-- "multi-winner.md"
 
 /// wiki | History
 |            |                |

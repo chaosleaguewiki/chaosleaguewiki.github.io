@@ -26,6 +26,7 @@ The participating players' marbles are dropped and begin to fly around the tile,
 When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
 
 ## See also
+
 - Bounce House - YouTube version
 
 /// wiki | History

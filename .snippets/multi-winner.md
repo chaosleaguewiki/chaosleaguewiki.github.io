@@ -1,0 +1,1 @@
+It is possible for several players to get the same rank.
