@@ -1,7 +1,7 @@
 # Welcome
 
 /// warning | Work in Progress
-These Wiki is a work in progress and may not contain outdated and/or incomplete information.  
+This Wiki is a work in progress and may contain outdated and/or incomplete information.  
 If you can, consider [contributing to the wiki on GitHub][repo].
 ///
 
