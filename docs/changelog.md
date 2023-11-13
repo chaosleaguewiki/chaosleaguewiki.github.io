@@ -9,8 +9,8 @@ This page lists the recent updates for the past iterations of the Chaos League G
 |------------|--------------------------------------------------------------------------|
 | v0.6 Alpha | Added rare [Stonks].                                                     |
 |            | [Hole In One]: Closed Gaps on the edges and turned them into -100 loses. |
-| v0.1 Alpha | Added common [Bounce House].                                             |
-|            | Added common [Danger Zone].                                              |
+| v0.3 Alpha | Added common [Bounce House].                                             |
+| v0.1 Alpha | Added common [Danger Zone].                                              |
 |            | Added common [How Low Can You Go].                                       |
 |            | Added common [Quip Battle].                                              |
 |            | Added legendary [Hole In One].                                           |
