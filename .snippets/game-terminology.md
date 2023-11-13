@@ -17,4 +17,5 @@
 *[Tile]: A tile describes a Minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
 
 *[v0.1 Alpha]: 2 November 2023
+*[v0.3 Alpha]: 6 November 2023
 *[v0.6 Alpha]: 11 November 2023
