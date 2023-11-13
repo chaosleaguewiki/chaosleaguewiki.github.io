@@ -13,8 +13,8 @@
 *[ticket]: A ticket is a buyable item to participate in a minigame. Tickets can be bought using Channel points with 1 point being 1 ticket. Bits can also be used to buy tickets at the same rate.
 *[tickets]: A ticket is a buyable item to participate in a minigame. Tickets can be bought using Channel points with 1 point being 1 ticket. Bits can also be used to buy tickets at the same rate.
 
-*[tile]: A tile describes a Minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
-*[Tile]: A tile describes a Minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
+*[tile]: A tile describes a minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
+*[Tile]: A tile describes a minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
 
 *[v0.1 Alpha]: 2 November 2023
 *[v0.3 Alpha]: 6 November 2023
