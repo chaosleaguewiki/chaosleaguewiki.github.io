@@ -28,13 +28,9 @@ When there's one marble left, the game ends, and the players are ranked by their
 ## See also
 - Hole In One - YouTube version
 
-### heee
-
 /// wiki | History
-    attrs: {class: 'history'}
-
-|            |                |
-|------------|----------------|
-| v0.1 Alpha | Minigame added |
+|            |                     |
+|------------|---------------------|
+| v0.1 Alpha | Minigame added      |
 | v0.6 Alpha | Closed outside gaps |
 ///

@@ -31,6 +31,7 @@ nav:
       - twitch-minigames/rare/stonks.md
     - Legendary:
       - twitch-minigames/legendary/hole-in-one.md
+  - changelog.md
 
 theme:
   name: material
