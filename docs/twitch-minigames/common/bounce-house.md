@@ -10,12 +10,12 @@
 | Timer:  | None                          |
 | Rounds: | None                          |
 | Slots:  | Guaranteed: 8<br>Raffle: 8    |
-| Added:  | v0.1 Alpha                    |
+| Added:  | v0.3 Alpha                    |
 
 ![bounce-house](../../assets/images/minigames/bounce-house.png)
 ///
 
-**Bounce House** is a common minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.
+**Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's tile of the same name.
 
 ## Gameplay
 
@@ -32,5 +32,5 @@ When there's one marble left, the game ends, and the players are ranked by their
 /// wiki | History
 |            |                |
 |------------|----------------|
-| v0.1 Alpha | Minigame added |
+| v0.3 Alpha | Minigame added |
 ///
