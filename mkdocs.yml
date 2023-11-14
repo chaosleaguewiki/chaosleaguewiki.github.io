@@ -29,8 +29,8 @@ nav:
       - twitch-minigames/common/quip-battle.md
     - Rare:
       - twitch-minigames/rare/stonks.md
-    - Epic:
       - twitch-minigames/epic/royal-execution.md
+    - Epic:
     - Legendary:
       - twitch-minigames/legendary/hole-in-one.md
   - changelog.md
