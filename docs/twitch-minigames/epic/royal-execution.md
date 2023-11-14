@@ -1,3 +1,7 @@
+---
+description: Royal Execution is a epic minigame that will be added in a future alpha version.
+---
+
 # Royal Execution
 
 --8<-- "unreleased.md"

@@ -1,3 +1,7 @@
+---
+description: Past and current changes to the Chaos League Game
+---
+
 # Changelog
 
 This page lists the recent updates for the past iterations of the Chaos League Game.

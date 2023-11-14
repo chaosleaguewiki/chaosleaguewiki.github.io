@@ -1,3 +1,7 @@
+---
+description: Danger Zone is a common minigame added in version v0.1 Alpha.
+---
+
 # Danger Zone
 
 /// wiki | Danger Zone

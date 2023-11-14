@@ -37,6 +37,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: '.theme'
   icon:
     logo: 'fontawesome/solid/book'
     repo: 'octicons/mark-github-16'

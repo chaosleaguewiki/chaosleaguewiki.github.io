@@ -1,3 +1,7 @@
+---
+description: How attacking the king works.
+---
+
 # Attacking the King
 
 /// wiki | Attacking the King

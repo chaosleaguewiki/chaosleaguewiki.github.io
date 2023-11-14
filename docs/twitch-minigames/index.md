@@ -1,3 +1,7 @@
+---
+description: A list of all minigames (Also known as tiles) available in Chaos League to play.
+---
+
 # Minigames
 
 Chaos League offers various Minigames to participate in.  

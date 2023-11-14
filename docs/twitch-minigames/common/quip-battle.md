@@ -1,3 +1,7 @@
+---
+description: Quip Battle is a common minigame added in version v0.1 Alpha.
+---
+
 # Quip Battle
 
 /// wiki | Quip Battle

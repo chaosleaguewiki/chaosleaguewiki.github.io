@@ -1,3 +1,7 @@
+---
+description: Chat commands available for the Twitch version of Chaos League.
+---
+
 # Twitch Commands
 
 ## Global Commands
@@ -50,5 +54,10 @@ Skip to a new random song from [the playlist][song-playlist]
 
 Set a point fee that each player has to pay when entering gameplay on a tile.  
 `[amount]` can be a number between 0 and 15.
+
+### `!left` and `!right`
+
+These commands can only be executed while the minigame [Royal Execution](../twitch-minigames/epic/royal-execution.md) is playing.  
+Lowers a spike wall on the defined side of the tile, eliminating any player Marbles currently in it.
 
 [song-playlist]: https://open.spotify.com/playlist/5gdz9X9y9hpBOCjYo6TI31

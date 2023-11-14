@@ -1,3 +1,7 @@
+---
+description: Stonks is a rare minigame added in version v0.6 Alpha.
+---
+
 # Stonks
 
 /// wiki | Stonks

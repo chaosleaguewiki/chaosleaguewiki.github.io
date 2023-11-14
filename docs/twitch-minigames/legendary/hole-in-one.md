@@ -1,3 +1,7 @@
+---
+description: Hole In One is a legendary minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
+---
+
 # Hole In One
 
 /// wiki | Hole In One

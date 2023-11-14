@@ -1,3 +1,7 @@
+---
+description: How Low Can You Go is a common minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
+---
+
 # How Low Can You Go
 
 /// wiki | How Low Can You Go

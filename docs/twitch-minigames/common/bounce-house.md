@@ -1,3 +1,7 @@
+---
+description: Bounce House is a common minigame added in version v0.3 Alpha. It's based on the YouTuve version of the same name.
+---
+
 # Bounce House
 
 /// wiki | Bounce House
