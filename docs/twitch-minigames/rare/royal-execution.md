@@ -1,5 +1,5 @@
 ---
-description: is a a rare minigame added in version v0.8 Alpha.
+description: Royal Execution is a a rare minigame added in version v0.8 Alpha.
 ---
 
 # Royal Execution
