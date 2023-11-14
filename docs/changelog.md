@@ -75,7 +75,6 @@ This page lists the recent updates for the past iterations of the Chaos League G
 [Quip Battle]: twitch-minigames/common/quip-battle.md
 
 [Stonks]: twitch-minigames/rare/stonks.md
-
-[Royal Execution]: twitch-minigames/epic/royal-execution.md
+[Royal Execution]: twitch-minigames/rare/royal-execution.md
 
 [Hole In One]: twitch-minigames/legendary/hole-in-one.md
