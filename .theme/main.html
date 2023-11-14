@@ -24,17 +24,18 @@
   {% endif %}
   
   <meta name="theme-color" content="#000000">
-    
+  
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ page.canonical_url }}">
-  <!-- TODO: Add favicon stuff.
   <meta property="og:image" content="{{ config.site_url | url }}assets/images/favicons/android-chrome-512x512.png">
   <meta property="og:image:type" content="image/png">
-  -->
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:creator" content="Chaos League Wiki Team">
-  <!-- TODO: Add favicon stuff.
   <meta name="twitter:image" content="{{ config.site_url | url }}assets/images/favicons/android-chrome-512x512.png">
-  -->
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ config.site_url | url }}assets/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ config.site_url | url }}assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ config.site_url | url }}assets/images/favicons/favicon-16x16.png">
+  <link referrerpolicy="manifest" href="{{ config.site_url | url }}assets/web.manifest">
 {% endblock %}

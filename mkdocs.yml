@@ -37,6 +37,7 @@ nav:
 theme:
   name: material
   custom_dir: '.theme'
+  favicon: assets/images/favicons/android-chrome-512x512.png
   icon:
     logo: 'fontawesome/solid/book'
     repo: 'octicons/mark-github-16'
