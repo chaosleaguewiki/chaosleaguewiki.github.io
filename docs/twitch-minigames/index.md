@@ -26,10 +26,10 @@ The following Minigames are available:
 ### Rare
 
 - [Stonks](rare/stonks.md)
+- [Royal Execution](rare/royal-execution.md)
 
 ### Epic
 
-- [Royal Execution](epic/royal-execution.md)
 
 ### Legendary
 
