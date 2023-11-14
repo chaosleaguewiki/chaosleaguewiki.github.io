@@ -3,14 +3,15 @@
 /// wiki | Stonks
     attrs: {class: 'inline end'}
 
-|         |                            |
-|---------|----------------------------|
-| Rarity: | Rare                       |
-| Input:  | None                       |
-| Timer:  | None                       |
-| Rounds: | None                       |
-| Slots:  | Guaranteed: 5<br>Raffle: 4 |
-| Added:  | v0.6 Alpha                 |
+|         |               |
+|---------|---------------|
+| Rarity: | Rare          |
+| Input:  | None          |
+| Timer:  | None          |
+| Rounds: | None          |
+| Slots:  | Guaranteed: 5 |
+|         | Raffle: 4     |
+| Added:  | v0.6 Alpha    |
 
 ![stonks](../../assets/images/minigames/stonks.png)
 ///

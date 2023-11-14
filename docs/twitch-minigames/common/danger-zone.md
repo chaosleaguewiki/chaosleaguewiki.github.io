@@ -3,14 +3,15 @@
 /// wiki | Danger Zone
     attrs: {class: 'inline end'}
 
-|         |                            |
-|---------|----------------------------|
-| Rarity: | Common                     |
-| Input:  | Commands                   |
-| Timer:  | 20 Seconds                 |
-| Rounds: | 3                          |
-| Slots:  | Guaranteed: 8<br>Raffle: 4 |
-| Added:  | v0.1 Alpha                 |
+|         |               |
+|---------|---------------|
+| Rarity: | Common        |
+| Input:  | Commands      |
+| Timer:  | 20 Seconds    |
+| Rounds: | 3             |
+| Slots:  | Guaranteed: 8 |
+|         | Raffle: 4     |
+| Added:  | v0.1 Alpha    |
 
 ![danger-zone](../../assets/images/minigames/danger-zone.png)
 ///

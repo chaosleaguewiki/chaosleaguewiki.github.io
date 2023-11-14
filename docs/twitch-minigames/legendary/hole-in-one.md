@@ -3,14 +3,15 @@
 /// wiki | Hole In One
     attrs: {class: 'inline end'}
 
-|         |                               |
-|---------|-------------------------------|
-| Rarity: | Legendary                     |
-| Input:  | None                          |
-| Timer:  | None                          |
-| Rounds: | None                          |
-| Slots:  | Guaranteed: 8<br>Raffle: 8    |
-| Added:  | v0.1 Alpha                    |
+|         |               |
+|---------|---------------|
+| Rarity: | Legendary     |
+| Input:  | None          |
+| Timer:  | None          |
+| Rounds: | None          |
+| Slots:  | Guaranteed: 8 |
+|         | Raffle: 8     |
+| Added:  | v0.1 Alpha    |
 
 ![hole-in-one](../../assets/images/minigames/hole-in-one.png)
 ///

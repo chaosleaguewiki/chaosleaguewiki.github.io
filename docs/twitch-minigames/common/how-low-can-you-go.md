@@ -3,14 +3,15 @@
 /// wiki | How Low Can You Go
     attrs: {class: 'inline end'}
 
-|         |                            |
-|---------|----------------------------|
-| Rarity: | Common                     |
-| Input:  | None                       |
-| Timer:  | None                       |
-| Rounds: | None                       |
-| Slots:  | Guaranteed: 8<br>Raffle: 4 |
-| Added:  | v0.1 Alpha                 |
+|         |               |
+|---------|---------------|
+| Rarity: | Common        |
+| Input:  | None          |
+| Timer:  | None          |
+| Rounds: | None          |
+| Slots:  | Guaranteed: 8 |
+|         | Raffle: 4     |
+| Added:  | v0.1 Alpha    |
 
 ![how-low-can-you-go](../../assets/images/minigames/how-low-can-you-go.png)
 ///

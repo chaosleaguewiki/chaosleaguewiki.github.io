@@ -25,6 +25,8 @@ The following Minigames are available:
 
 ### Epic
 
+- [Royal Execution](epic/royal-execution.md)
+
 ### Legendary
 
 - [Hole In One](legendary/hole-in-one.md)

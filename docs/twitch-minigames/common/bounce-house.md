@@ -3,14 +3,15 @@
 /// wiki | Bounce House
     attrs: {class: 'inline end'}
 
-|         |                               |
-|---------|-------------------------------|
-| Rarity: | Common                        |
-| Input:  | None                          |
-| Timer:  | None                          |
-| Rounds: | None                          |
-| Slots:  | Guaranteed: 8<br>Raffle: 8    |
-| Added:  | v0.3 Alpha                    |
+|         |               |
+|---------|---------------|
+| Rarity: | Common        |
+| Input:  | None          |
+| Timer:  | None          |
+| Rounds: | None          |
+| Slots:  | Guaranteed: 8 |
+|         | Raffle: 8     |
+| Added:  | v0.3 Alpha    |
 
 ![bounce-house](../../assets/images/minigames/bounce-house.png)
 ///
