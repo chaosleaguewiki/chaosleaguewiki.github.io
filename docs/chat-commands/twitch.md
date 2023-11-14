@@ -38,6 +38,10 @@ Spend `[amount]` of your points to spread across 10 obsidian defense bricks.
 
 Get statistics of the mentioned user.
 
+### `!playlist`
+
+Gives a link to the [Spotify Playlist][song-playlist] used for the music playing in the game.
+
 ## Throne Commands
 
 Only executable by the current king on the throne.
