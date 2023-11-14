@@ -1,6 +1,6 @@
 # Welcome
 
-/// warning | Work in Progress
+/// wip | Work in Progress
 This Wiki is a work in progress and may contain outdated and/or incomplete information.  
 If you can, consider [contributing to the wiki on GitHub][repo].
 ///
