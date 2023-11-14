@@ -17,7 +17,7 @@ description: Royal Execution is a epic minigame that will be added in a future a
 | Rounds: | None                    |
 | Slots:  | Guaranteed: 6           |
 |         | Raffle: 2               |
-| Added:  | TBD                     |
+| Added:  | v0.8 Alpha              |
 
 ![royal-execution](../../assets/images/minigames/royal-execution.png)
 ///
@@ -37,7 +37,7 @@ All marbles will show up back at the top and be re-funneled into the sides.
 The game is over once only one player remains.
 
 /// wiki | History
-|     |                    |
-|-----|--------------------|
-| TBD | Minigame was added |
+|            |                    |
+|------------|--------------------|
+| v0.8 Alpha | Minigame was added |
 ///
