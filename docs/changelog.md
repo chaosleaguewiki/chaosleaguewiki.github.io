@@ -19,7 +19,7 @@ This page lists the recent updates for the past iterations of the Chaos League G
 /// wiki | v0.8 Alpha
 |         |                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------|
-| Added   | Epic tile [Royal Execution].                                                                                     |
+| Added   | Rare tile [Royal Execution].                                                                                     |
 |         | Gold. Earned by the King every 15 seconds and when throne is captured. Value earned is equal to current viewers. |
 |         | [`!stats` command][stats-command] now displays Gold too.                                                         |
 | Changed | Refactored game tile prefab variants (backend improvements).                                                     |
