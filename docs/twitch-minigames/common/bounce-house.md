@@ -15,7 +15,7 @@
 ![bounce-house](../../assets/images/minigames/bounce-house.png)
 ///
 
-**Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's tile of the same name.
+**Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/bounce-house.md).
 
 ## Gameplay
 

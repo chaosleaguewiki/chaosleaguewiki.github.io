@@ -10,7 +10,7 @@
 | Timer:  | 188 seconds                   |
 | Added:  | v2.6                          |
 
-![bounce-house](../../assets/images/minigames/bounce-house.png)
+![bounce-house](../../assets/images/minigames/bounce-house-yt.png)
 ///
 
 **Bounce House** is a common minigame added in version v2.6. A [similar tile](../../twitch-minigames/common/bounce-house.md) has been later added in Twitch version.
