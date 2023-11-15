@@ -27,7 +27,7 @@ When there's one marble left, the game ends, and the players are ranked by their
 
 ## See also
 
-- Bounce House - YouTube version
+- [Bounce House](../../youtube-minigames/common/bounce-house.md) - YouTube version
 
 /// wiki | History
 |            |                |

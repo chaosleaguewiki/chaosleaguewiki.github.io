@@ -19,3 +19,6 @@
 *[v0.1 Alpha]: 2 November 2023
 *[v0.3 Alpha]: 6 November 2023
 *[v0.6 Alpha]: 11 November 2023
+
+*[v2.6]: 20 October 2023
+*[v2.7]: 23 October 2023
