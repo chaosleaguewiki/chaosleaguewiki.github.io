@@ -1,5 +1,5 @@
 ---
-description: Zero or Hero is a common minigame added in v0.9 Alpha. It is based on the YouTube version with the same name.
+description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is based on the YouTube version with the same name.
 ---
 
 # Zero or Hero
@@ -9,31 +9,28 @@ description: Zero or Hero is a common minigame added in v0.9 Alpha. It is based 
 /// wiki | Zero or Hero
     attrs: {class: 'inline end'}
 
-|         |                |
-|---------|----------------|
-| Rarity: | Common         |
-| Input:  | None           |
-| Timer:  | None           |
-| Rounds: | None           |
-| Slots:  | Guaranteed: 8  |
-|         | Raffle: Unknwn |
-| Added:  | v0.9 Alpha     |
+|         |                     |
+|---------|---------------------|
+| Rarity: | Common              |
+| Input:  | None                |
+| Timer:  | None                |
+| Rounds: | None                |
+| Slots:  | Guaranteed: Unknown |
+|         | Raffle: Unknown     |
+| Added:  | v0.9 Alpha          |
 
 ![zero-or-hero](../../assets/images/minigames/zero-or-hero.png)
 ///
 
-**Zero or Hero** is a common minigame added in v0.9 Alpha. It is based on the YouTube version with the same name.
+**Zero or Hero** is a common minigame to be added in v0.9 Alpha. It is based on the YouTube version with the same name.
 
 ## Gameplay
 
-The tile has two moving circles, followed by a row of gaps with point values, four moving circles and finally another row of gap, with all but two being closed of.
+The tile consists of 2 circles moving horizontally, a row of gaps with high point values, another 4 circles and another row of gaps.
 
-The player's Marble will be released from the top falling down to the first row of gaps. These gaps have point values of 500, 1,000 and 2,000 assigned. Passing one will give the player the displayed point value.
+The participating players' marbles are dropped and begin to collect points by falling through the gaps in the first row. If a marble falls through the outside gaps in the second row, it appears back in the game through the pipe at the top. If a marble falls into one of  closed gaps, it is eliminated from the game. If that gap had a skull icon, all of player's balance is transfered to the king. Otherwise, player transfers just 10 points.
 
-After passing these gaps will the Marble encounter a second row of gaps at the bottom. This row has more gaps, but at the same time are all but two gaps (one on each side) closed of. The closed gaps alternate between one with a skull icon and one with a number value of 10.  
-Should the player's Marble end in a gap with a skull icon will they be eliminated. Should they end in a gap with the number value will said number be transferred from their score to the current king's score.
-
-The game ends once only one Marble is left. The players will be ranked by time survived.
+When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
 
 ## See also
 
@@ -42,5 +39,5 @@ The game ends once only one Marble is left. The players will be ranked by time s
 /// wiki | History
 |            |                |
 |------------|----------------|
-| v0.9 Alpha | Minigame added |
+| v0.9 Alpha | Minigame to be added |
 ///
