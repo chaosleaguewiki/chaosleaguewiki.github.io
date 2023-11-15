@@ -33,6 +33,8 @@ nav:
       - twitch-minigames/rare/royal-execution.md
     - Legendary:
       - twitch-minigames/legendary/hole-in-one.md
+  - YouTube Minigames:
+    - twitch-minigames/index.md
   - changelog.md
 
 theme:

@@ -20,7 +20,7 @@ description: How Low Can You Go is a common minigame added in version v0.1 Alpha
 ![how-low-can-you-go](../../assets/images/minigames/how-low-can-you-go.png)
 ///
 
-**How Low Can You Go** is a common minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.
+**How Low Can You Go** is a common minigame added in version v0.1 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/how-low-can-you-go.md).
 
 ## Gameplay
 
@@ -32,7 +32,7 @@ When there's one marble left, the game ends, and the players are ranked by their
 
 ## See also
 
-- How Low Can You Go - YouTube version
+- [How Low Can You Go](../../youtube-minigames/common/how-low-can-you-go.md) - YouTube version
 
 /// wiki | History
 |            |                |

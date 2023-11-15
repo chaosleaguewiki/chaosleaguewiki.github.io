@@ -20,7 +20,7 @@ description: Bounce House is a common minigame added in version v0.3 Alpha. It's
 ![bounce-house](../../assets/images/minigames/bounce-house.png)
 ///
 
-**Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's tile of the same name.
+**Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/bounce-house.md).
 
 ## Gameplay
 
@@ -32,7 +32,7 @@ When there's one marble left, the game ends, and the players are ranked by their
 
 ## See also
 
-- Bounce House - YouTube version
+- [Bounce House](../../youtube-minigames/common/bounce-house.md) - YouTube version
 
 /// wiki | History
 |            |                |
