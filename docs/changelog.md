@@ -16,6 +16,12 @@ This page lists the recent updates for the past iterations of the Chaos League G
 
 ## CL 3
 
+/// wiki | v0.9 Alpha
+|       |                                                                                                                  |
+|-------|------------------------------------------------------------------------------------------------------------------|
+| Added | Common tile [Zero or Hero].                                                                                      |
+///
+
 /// wiki | v0.8 Alpha
 |         |                                                                                                                  |
 |---------|------------------------------------------------------------------------------------------------------------------|
@@ -73,6 +79,7 @@ This page lists the recent updates for the past iterations of the Chaos League G
 [Danger Zone]: twitch-minigames/common/danger-zone.md
 [How Low Can You Go]: twitch-minigames/common/how-low-can-you-go.md
 [Quip Battle]: twitch-minigames/common/quip-battle.md
+[Zero or Hero]: twitch-minigames/common/zero-or-hero.md
 
 [Stonks]: twitch-minigames/rare/stonks.md
 [Royal Execution]: twitch-minigames/rare/royal-execution.md

@@ -22,6 +22,7 @@ The following Minigames are available:
 - [Danger Zone](common/danger-zone.md)
 - [How Low Can You Go](common/how-low-can-you-go.md)
 - [Quip Battle](common/quip-battle.md)
+- [Zero or Hero](common/zero-or-hero.md)
 
 ### Rare
 
