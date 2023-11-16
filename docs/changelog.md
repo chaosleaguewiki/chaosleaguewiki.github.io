@@ -17,14 +17,14 @@ This page lists the recent updates for the past iterations of the Chaos League G
 ## CL 3
 
 /// wiki | v0.9 Alpha
-|         |                                                                                                                  |
-|---------|------------------------------------------------------------------------------------------------------------------|
-| Added   | Common tile [Zero or Hero].                                                                                      |
+|         |                                                                                                                                                                               |
+|---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Added   | Common tile [Zero or Hero].                                                                                                                                                   |
 |         | Lava release Bucket added. Used with [`!lava [bits]`][lava-command] to fill a progress bar. Once full releases a bucket of lava. Players killed by it lose half their points. |
 |         | Water release Bucket. Extinguishes lava. Used with [`!water [bits]`][water-command] to fill a progress bar. Once full releases a bucket of water extinguishing lava.          |
 |         | Animation to king tile fluid buckets to rotate oppossite from bidding queue.                                                                                                  |
-| Changed | [Bounce House]: Point Bucket now increases in value every time a playes passes through.                                                                                       |
-|         | [Bounce House]: Spinning point opstacle now increases by one every time it is hit. Values have been changed to 1 for block and -2 for bucket.                                 |
+| Changed | [Bounce House]: Gap increases own value by 5 every time a player passes through.                                                                                              |
+|         | [Bounce House]: Spinning block is now 1 point and increases by 1 every time a player hits it.                                                                                 |
 |         | Multiple TTS messages at once are now possible. Announcements are still queued.                                                                                               |
 | Fixed   | Twitch Access API Token refresh bug causing connection to duplicate after 4 hours refresh.                                                                                    |
 |         | Bug causing points displayed on player in podium to not match the player's actual points.                                                                                     |
