@@ -61,7 +61,7 @@ Set a point fee that each player has to pay when entering gameplay on a tile.
 
 ### `!left` and `!right`
 
-These commands can only be executed while the minigame [Royal Execution](../twitch-minigames/epic/royal-execution.md) is playing.  
+These commands can only be executed while the minigame [Royal Execution](../twitch-minigames/rare/royal-execution.md) is playing.  
 Lowers a spike wall on the defined side of the tile, eliminating any player Marbles currently in it.
 
 [song-playlist]: https://open.spotify.com/playlist/5gdz9X9y9hpBOCjYo6TI31

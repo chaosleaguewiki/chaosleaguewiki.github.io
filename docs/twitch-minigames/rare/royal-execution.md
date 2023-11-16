@@ -18,7 +18,7 @@ description: Royal Execution is a a rare minigame added in version v0.8 Alpha.
 |         | Raffle: 2               |
 | Added:  | v0.8 Alpha              |
 
-![royal-execution](../../assets/images/minigames/royal-execution.png)
+![royal-execution](../../assets/images/minigames/twitch/royal-execution.png)
 ///
 
 **Royal Execution** is a a rare minigame added in version v0.8 Alpha.
