@@ -17,8 +17,6 @@ youtube_variant: common/bounce-house/
 | Slots:    | Guaranteed: 8                                             |
 |           | Raffle: 8                                                 |
 | Added:    | v0.3 Alpha                                                |
-| Variants: | Twitch                                                    |
-|           | [YouTube](../../youtube-minigames/common/bounce-house.md) |
 
 ![bounce-house](../../assets/images/minigames/twitch/bounce-house.png)
 ///
