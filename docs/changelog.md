@@ -24,7 +24,7 @@ This page lists the recent updates for the past iterations of the Chaos League G
 |         | Water release Bucket. Extinguishes lava. Used with [`!water [bits]`][water-command] to fill a progress bar. Once full releases a bucket of water extinguishing lava.          |
 |         | Animation to king tile fluid buckets to rotate oppossite from bidding queue.                                                                                                  |
 | Changed | [Bounce House]: Point Bucket now increases in value every time a playes passes through.                                                                                       |
-|         | [Bounce House]: Spinning point opstacle now increases by one every time it is hit.                                                                                            |
+|         | [Bounce House]: Spinning point opstacle now increases by one every time it is hit. Values have been changed to 1 for block and -2 for bucket.                                 |
 |         | Multiple TTS messages at once are now possible. Announcements are still queued.                                                                                               |
 | Fixed   | Twitch Access API Token refresh bug causing connection to duplicate after 4 hours refresh.                                                                                    |
 |         | Bug causing points displayed on player in podium to not match the player's actual points.                                                                                     |

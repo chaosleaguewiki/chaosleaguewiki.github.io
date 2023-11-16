@@ -35,7 +35,8 @@ When there's one marble left, the game ends, and the players are ranked by their
 - [Bounce House](../../youtube-minigames/common/bounce-house.md) - YouTube version
 
 /// wiki | History
-|            |                |
-|------------|----------------|
-| v0.3 Alpha | Minigame added |
+|            |                                                                                                                               |
+|------------|-------------------------------------------------------------------------------------------------------------------------------|
+| v0.3 Alpha | Minigame added                                                                                                                |
+| v0.9 Alpha | Spinning point opstacle now increases by one every time it is hit. Values have been changed to 1 for block and -2 for bucket. |
 ///
