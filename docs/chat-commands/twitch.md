@@ -42,6 +42,14 @@ Get statistics of the mentioned user.
 
 Gives a link to the [Spotify Playlist][song-playlist] used for the music playing in the game.
 
+### `!lava [bits]`
+
+Adds `[bits]` amount of bits to the lava progress bar. Once full will a bucket of lava be released. Players killed by the lava will lose half their points.
+
+### `!water [bits]`
+
+Adds `[bits]` amount of bits to the water progress bar. Once full will a bucket of water be released. It will extinguish existing lava previously spread through the [`!lava [bits]` command](#lava-bits).
+
 ## Throne Commands
 
 Only executable by the current king on the throne.
