@@ -20,6 +20,8 @@ nav:
   - Game Mechanics:
     - mechanics/index.md
     - mechanics/attacking-the-king.md
+    - mechanics/recruiting.md
+    - mechanics/water-and-lava-bucket.md
   - Twitch Minigames:
     - twitch-minigames/index.md
     - Common:
