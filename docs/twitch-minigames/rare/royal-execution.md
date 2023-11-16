@@ -12,7 +12,7 @@ description: Royal Execution is a a rare minigame added in version v0.8 Alpha.
 |---------|-------------------------|
 | Rarity: | Rare                    |
 | Input:  | King commands           |
-| Timer:  | 20 Seconds              |
+| Timer:  | 30 Seconds              |
 | Rounds: | Up to 3                 |
 | Slots:  | Guaranteed: 6           |
 |         | Raffle: 2               |
@@ -32,7 +32,8 @@ Above one of the chambers there is a spiked platform. For 20 seconds, the king g
 When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank, however, only one person can win.
 
 /// wiki | History
-|            |                    |
-|------------|--------------------|
-| v0.8 Alpha | Minigame was added |
+|            |                               |
+|------------|-------------------------------|
+| v0.8 Alpha | Minigame was added            |
+| v0.9 Alpha | Timer increased to 30 seconds |
 ///

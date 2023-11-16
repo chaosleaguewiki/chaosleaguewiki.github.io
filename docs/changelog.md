@@ -25,6 +25,7 @@ This page lists the recent updates for the past iterations of the Chaos League G
 |         | Animation to king tile fluid buckets to rotate oppossite from bidding queue.                                                                                                  |
 | Changed | [Bounce House]: Gap increases own value by 5 every time a player passes through.                                                                                              |
 |         | [Bounce House]: Spinning block is now 1 point and increases by 1 every time a player hits it.                                                                                 |
+|         | [Royal Execution]: Timer is now 30 seconds.                                                                                                                                   |
 |         | Multiple TTS messages at once are now possible. Announcements are still queued.                                                                                               |
 | Fixed   | Twitch Access API Token refresh bug causing connection to duplicate after 4 hours refresh.                                                                                    |
 |         | Bug causing points displayed on player in podium to not match the player's actual points.                                                                                     |

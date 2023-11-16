@@ -37,7 +37,7 @@ When there's one marble left, the game ends, and the players are ranked by their
 /// wiki | History
 |            |                                                                                                                             |
 |------------|-----------------------------------------------------------------------------------------------------------------------------|
+| v0.3 Alpha | Minigame added                                                                                                              |
 | v0.9 Alpha | Changed values. Spinning block is now 1 point, spinning bucket is -2 points and gap is 10 points.                           |
 |            | Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a player passes through it. |
-| v0.3 Alpha | Minigame added                                                                                                              |
 ///
