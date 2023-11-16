@@ -8,15 +8,15 @@ youtube_variant: common/bounce-house/
 /// wiki | Bounce House
     attrs: {class: 'inline end'}
 
-|           |                                                           |
-|-----------|-----------------------------------------------------------|
-| Rarity:   | Common                                                    |
-| Input:    | None                                                      |
-| Timer:    | None                                                      |
-| Rounds:   | None                                                      |
-| Slots:    | Guaranteed: 8                                             |
-|           | Raffle: 8                                                 |
-| Added:    | v0.3 Alpha                                                |
+|           |               |
+|-----------|---------------|
+| Rarity:   | Common        |
+| Input:    | None          |
+| Timer:    | None          |
+| Rounds:   | None          |
+| Slots:    | Guaranteed: 8 |
+|           | Raffle: 8     |
+| Added:    | v0.3 Alpha    |
 
 ![bounce-house](../../assets/images/minigames/twitch/bounce-house.png)
 ///
