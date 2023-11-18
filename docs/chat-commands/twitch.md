@@ -42,6 +42,14 @@ Get statistics of the mentioned user.
 
 Gives a link to the [Spotify Playlist][song-playlist] used for the music playing in the game.
 
+### `!lava [bits]`
+
+Adds `[bits]` amount of bits to the lava progress bar. Once full will a bucket of lava be released. Players killed by the lava will lose half their points.
+
+### `!water [bits]`
+
+Adds `[bits]` amount of bits to the water progress bar. Once full will a bucket of water be released. It will extinguish existing lava previously spread through the [`!lava [bits]` command](#lava-bits).
+
 ## Throne Commands
 
 Only executable by the current king on the throne.
@@ -59,9 +67,16 @@ Skip to a new random song from [the playlist][song-playlist]
 Set a point fee that each player has to pay when entering gameplay on a tile.  
 `[amount]` can be a number between 0 and 15.
 
-### `!left` and `!right`
+### `!left`
 
-These commands can only be executed while the minigame [Royal Execution](../twitch-minigames/rare/royal-execution.md) is playing.  
-Lowers a spike wall on the defined side of the tile, eliminating any player Marbles currently in it.
+This command can only be executed while the minigame [Royal Execution](../twitch-minigames/rare/royal-execution.md) is playing.
+
+Moves the spike crusher to the left side of the tile.
+
+### `!right`
+
+This command can only be executed while the minigame [Royal Execution](../twitch-minigames/rare/royal-execution.md) is playing.
+
+Moves the spike crusher to the right side of the tile.
 
 [song-playlist]: https://open.spotify.com/playlist/5gdz9X9y9hpBOCjYo6TI31
