@@ -16,6 +16,27 @@ This page lists the recent updates for the past iterations of the Chaos League G
 
 ## CL 3
 
+/// wiki | v0.10 Alpha
+|         |                                                                                                                                                                       |
+|---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Added   | Ticket option to fill Water and Lava Bucket with.                                                                                                                     |
+|         | Announcement for Lava and Water Bucket activation.                                                                                                                    |
+|         | SFX for lava and water bit contributions.                                                                                                                             |
+|         | Button to reconnect API in settings.                                                                                                                                  |
+|         | Button to refresh API token in settings.                                                                                                                              |
+|         | [Quip Battle]: Error Handling and Timeout to not get stuck if reading the poll from API fails.                                                                        |
+|         | Bot feedback for when a player uses the [`!lava`][lava-command] or [`!water` command][water-command] without any bits.                                                |
+|         | [Zero or Hero]: Sign at the bottom to further hint that you can lose all your points.                                                                                 |
+| Changed | Lava price reduced to 750 bits.                                                                                                                                       |
+|         | Bot now replies with "You must hold the throne to use that command" when using the [`!left`][left-command] or [`!right`][right-command] while not holding the throne. |
+|         | Speed of the [`!givepoints`][givepoints-command] traveling indicator was slowed down.                                                                                 |
+| Fixed   | Bug causing the Lava and Water Bucket display to sometimes overlap with the raffle box.                                                                               |
+|         | Spike crusher moving through the podium.                                                                                                                              |
+|         | Bug causing [`!givepoints`][givepoints-command] to popup subtraction text twice.                                                                                      |
+|         | Bug showing recruitment Profile picture icon in front of the throne holder.                                                                                           |
+|         | Bug causing recruitment Profile picture icon to not load properly if the player is spawned in while recruited.                                                        |
+///
+
 /// wiki | v0.9 Alpha
 |         |                                                                                                                                                                               |
 |---------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -84,6 +105,9 @@ This page lists the recent updates for the past iterations of the Chaos League G
 [stats-command]: chat-commands/twitch.md#stats-user
 [lava-command]: chat-commands/twitch.md#lava-bits
 [water-command]: chat-commands/twitch.md#water-bits
+[left-command]: chat-commands/twitch.md#left
+[right-command]: chat-commands/twitch.md#right
+[givepoints-command]: chat-commands/twitch.md#givepoints-amount-user
 
 <!-- minigame links -->
 [Bounce House]: twitch-minigames/common/bounce-house.md

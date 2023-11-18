@@ -4,8 +4,6 @@ description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is 
 
 # Zero or Hero
 
---8<-- "unreleased.md"
-
 /// wiki | Zero or Hero
     attrs: {class: 'inline end'}
 
@@ -37,7 +35,8 @@ When there's one marble left, the game ends, and the players are ranked by their
 - Zero or Hero - YouTube version
 
 /// wiki | History
-|            |                |
-|------------|----------------|
-| v0.9 Alpha | Minigame to be added |
+|             |                                                                                                 |
+|-------------|-------------------------------------------------------------------------------------------------|
+| v0.9 Alpha  | Minigame added.                                                                                 |
+| v0.10 Alpha | Added danger sign at the bottom to further hint at the possible risk of losing all your points. | 
 ///

@@ -67,9 +67,16 @@ Skip to a new random song from [the playlist][song-playlist]
 Set a point fee that each player has to pay when entering gameplay on a tile.  
 `[amount]` can be a number between 0 and 15.
 
-### `!left` and `!right`
+### `!left`
 
-These commands can only be executed while the minigame [Royal Execution](../twitch-minigames/epic/royal-execution.md) is playing.  
-Lowers a spike wall on the defined side of the tile, eliminating any player Marbles currently in it.
+This command can only be executed while the minigame [Royal Execution](../twitch-minigames/rare/royal-execution.md) is playing.
+
+Moves the spike crusher to the left side of the tile.
+
+### `!right`
+
+This command can only be executed while the minigame [Royal Execution](../twitch-minigames/rare/royal-execution.md) is playing.
+
+Moves the spike crusher to the right side of the tile.
 
 [song-playlist]: https://open.spotify.com/playlist/5gdz9X9y9hpBOCjYo6TI31
