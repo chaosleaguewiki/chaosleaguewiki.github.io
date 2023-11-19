@@ -17,7 +17,7 @@ description: Quip Battle is a common minigame added in version v0.1 Alpha.
 |         | Raffle: 2        |
 | Added:  | v0.1 Alpha       |
 
-![quip-battle](../../assets/images/minigames/quip-battle.png)
+![quip-battle](../../assets/images/minigames/twitch/quip-battle.png)
 ///
 
 **Quip Battle** is a common minigame added in version v0.1 Alpha.

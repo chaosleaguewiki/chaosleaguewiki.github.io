@@ -17,7 +17,7 @@ description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is 
 |         | Raffle: Unknown     |
 | Added:  | v0.9 Alpha          |
 
-![zero-or-hero](../../assets/images/minigames/zero-or-hero.png)
+![zero-or-hero](../../assets/images/minigames/twitch/zero-or-hero.png)
 ///
 
 **Zero or Hero** is a common minigame to be added in v0.9 Alpha. It is based on the YouTube version with the same name.

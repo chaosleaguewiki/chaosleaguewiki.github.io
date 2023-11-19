@@ -17,7 +17,7 @@ description: Stonks is a rare minigame added in version v0.6 Alpha.
 |         | Raffle: 4     |
 | Added:  | v0.6 Alpha    |
 
-![stonks](../../assets/images/minigames/stonks.png)
+![stonks](../../assets/images/minigames/twitch/stonks.png)
 ///
 
 **Stonks** is a rare minigame added in version v0.6 Alpha.

@@ -17,7 +17,7 @@ description: Hole In One is a legendary minigame added in version v0.1 Alpha. It
 |         | Raffle: 8     |
 | Added:  | v0.1 Alpha    |
 
-![hole-in-one](../../assets/images/minigames/hole-in-one.png)
+![hole-in-one](../../assets/images/minigames/twitch/hole-in-one.png)
 ///
 
 **Hole In One** is a legendary minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.

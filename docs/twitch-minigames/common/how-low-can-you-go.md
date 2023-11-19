@@ -1,5 +1,6 @@
 ---
 description: How Low Can You Go is a common minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
+youtube_variant: common/how-low-can-you-go/
 ---
 
 # How Low Can You Go
@@ -17,7 +18,7 @@ description: How Low Can You Go is a common minigame added in version v0.1 Alpha
 |         | Raffle: 4     |
 | Added:  | v0.1 Alpha    |
 
-![how-low-can-you-go](../../assets/images/minigames/how-low-can-you-go.png)
+![how-low-can-you-go](../../assets/images/minigames/twitch/how-low-can-you-go.png)
 ///
 
 **How Low Can You Go** is a common minigame added in version v0.1 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/how-low-can-you-go.md).

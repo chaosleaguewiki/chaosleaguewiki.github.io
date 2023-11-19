@@ -1,5 +1,6 @@
 ---
 description: Bounce House is a common minigame added in version v0.3 Alpha. It's based on the YouTuve version of the same name.
+youtube_variant: common/bounce-house/
 ---
 
 # Bounce House
@@ -17,7 +18,7 @@ description: Bounce House is a common minigame added in version v0.3 Alpha. It's
 |         | Raffle: 8     |
 | Added:  | v0.3 Alpha    |
 
-![bounce-house](../../assets/images/minigames/bounce-house.png)
+![bounce-house](../../assets/images/minigames/twitch/bounce-house.png)
 ///
 
 **Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/bounce-house.md).

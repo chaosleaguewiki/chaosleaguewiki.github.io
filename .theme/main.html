@@ -39,3 +39,37 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ config.site_url | url }}assets/images/favicons/favicon-16x16.png">
   <link referrerpolicy="manifest" href="{{ config.site_url | url }}assets/web.manifest">
 {% endblock %}
+
+{% block announce %}
+  {% if page.meta and (page.meta.youtube_variant or page.meta.twitch_variant) %}
+    <div class="variant_info">
+      {% if page.meta.youtube_variant %}
+        You are viewing the
+        <span class="twemoji">
+          {% include ".icons/simple/twitch.svg" %}
+        </span>
+        <strong>Twitch</strong> version of this minigame.<br>
+        <a href="{{ config.site_url | url }}youtube-minigames/{{ page.meta.youtube_variant }}">
+          Switch to the
+          <span class="twemoji">
+            {% include ".icons/simple/youtube.svg" %}
+          </span>
+          <strong>YouTube</strong> version.
+        </a>
+      {% else %}
+        You are viewing the
+        <span class="twemoji">
+          {% include ".icons/simple/youtube.svg" %}
+        </span>
+        <strong>YouTube</strong> version of this minigame.<br>
+        <a href="{{ config.site_url | url }}twitch-minigames/{{ page.meta.twitch_variant }}">
+          Switch to the
+          <span class="twemoji">
+            {% include ".icons/simple/twitch.svg" %}
+          </span>
+          <strong>Twitch</strong> version.
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}

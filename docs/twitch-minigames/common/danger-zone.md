@@ -17,7 +17,7 @@ description: Danger Zone is a common minigame added in version v0.1 Alpha.
 |         | Raffle: 4     |
 | Added:  | v0.1 Alpha    |
 
-![danger-zone](../../assets/images/minigames/danger-zone.png)
+![danger-zone](../../assets/images/minigames/twitch/danger-zone.png)
 ///
 
 **Danger Zone** is a common minigame added in version v0.1 Alpha.

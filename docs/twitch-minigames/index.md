@@ -2,7 +2,7 @@
 description: A list of all minigames (Also known as tiles) available in Chaos League to play.
 ---
 
-# Minigames
+# Twitch Minigames
 
 Chaos League offers various minigames to participate in.  
 Each minigame will make the player earn points.
