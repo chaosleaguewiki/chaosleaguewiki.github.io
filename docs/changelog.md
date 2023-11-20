@@ -16,6 +16,14 @@ This page lists the recent updates for the past iterations of the Chaos League G
 
 ## CL 3
 
+/// wiki | v0.11 Alpha
+|         |                                                                                 |
+|---------|---------------------------------------------------------------------------------|
+| Added   | [Quip Battle]: New prompts.                                                     |
+| Fixed   | [Quip Battle]: Voices not being high-pitched.                                   |
+|         | Bug causing speech bubbles to flash incorrect size one frame before growing in. |
+///
+
 /// wiki | v0.10 Alpha
 |         |                                                                                                                                                                       |
 |---------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|

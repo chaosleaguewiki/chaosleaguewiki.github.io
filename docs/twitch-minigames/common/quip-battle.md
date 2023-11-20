@@ -29,7 +29,9 @@ The participating players are given a random question. They can send messages wi
 After 60 seconds the game ends, and the players are ranked by number of votes they got. The player with the most votes wins. It is possible for several players to get the same rank.
 
 /// wiki | History
-|            |                |
-|------------|----------------|
-| v0.1 Alpha | Minigame added |
+|            |                                         |
+|------------|-----------------------------------------|
+| v0.1 Alpha | Minigame added                          |
+| v0.11 Alpha | New battle prompts added               |
+|             | TTS voice not being high-pitched fixed |
 ///
