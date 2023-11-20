@@ -42,7 +42,13 @@
 
 {% block announce %}
   {% if page.meta and (page.meta.youtube_variant or page.meta.twitch_variant) %}
-    <div class="variant_info">
+    {% set classes = "variant_info" %}
+    {% if page.meta.youtube_variant %}
+      {% set classes = classes ~ " twitch" %}
+    {% else %}
+      {% set classes = classes ~ " youtube" %}
+    {% endif %}
+    <div class="{{ classes }}">
       {% if page.meta.youtube_variant %}
         You are viewing the
         <span class="twemoji">
