@@ -75,6 +75,13 @@
   margin: 0 auto;
 }
 
+.announcement {
+  margin: .5em auto;
+  padding: .3em 0;
+  text-align: center;
+  color: var(--md-typeset-color);
+}
+
 .variant_info {
   margin: .5em auto;
   padding: .3em 0;
