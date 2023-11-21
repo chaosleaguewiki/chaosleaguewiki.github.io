@@ -27,6 +27,27 @@
   <h1>{{ page.title | d(config.site_name, true)}}</h1>
 {% endif %}
 {{ page.content }}
+{% if page.meta and page.meta.history %}
+  <div class="admonition wiki">
+    <p class="admonition-title">History</p>
+    <table>
+      <tbody>
+        {% for version, entries in page.meta.history.items() %}
+          <tr>
+            <td rowspan="{{ entries | length() }}">{{ version }}</td>
+            {% for entry in entries %}
+              {% if not loop.first %}
+                </tr>
+                <tr>
+              {% endif %}
+              <td>{{ entry }}</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}
 {% if page.meta and (
   page.meta.git_revision_date_localized or
   page.meta.revision_date

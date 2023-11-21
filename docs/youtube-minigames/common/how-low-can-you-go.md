@@ -1,6 +1,10 @@
 ---
 description: is a common minigame added in version v0.1 Alpha. A similar title has been later added in the Twitch version.
 twitch_variant: common/how-low-can-you-go/
+
+history:
+  'v2.0 Alpha #1':
+    - Minigame added
 ---
 
 # How Low Can You Go
@@ -29,9 +33,3 @@ The participating players' marbles are dropped and begin to collect points by fa
 ## See also
 
 - [How Low Can You Go](../../twitch-minigames/common/how-low-can-you-go.md) - Twitch version
-
-/// wiki | History
-|               |                |
-|---------------|----------------|
-| v2.0 Alpha #1 | Minigame added |
-///

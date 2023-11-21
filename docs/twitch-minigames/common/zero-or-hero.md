@@ -1,5 +1,11 @@
 ---
 description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is based on the YouTube version with the same name.
+
+history:
+  'v0.9 Alpha':
+    - Minigame added
+  'v0.10 Alpha':
+    - Danger Sign added to further hint at the possible risk of losing all your points.
 ---
 
 # Zero or Hero
@@ -33,10 +39,3 @@ When there's one marble left, the game ends, and the players are ranked by their
 ## See also
 
 - Zero or Hero - YouTube version
-
-/// wiki | History
-|             |                                                                                                 |
-|-------------|-------------------------------------------------------------------------------------------------|
-| v0.9 Alpha  | Minigame added.                                                                                 |
-| v0.10 Alpha | Added danger sign at the bottom to further hint at the possible risk of losing all your points. | 
-///

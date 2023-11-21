@@ -1,5 +1,11 @@
 ---
 description: Hole In One is a legendary minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
+
+history:
+  'v0.1 Alpha':
+    - Minigame added
+  'v0.6 Alpha':
+    - Closed outside gaps make them -100 points
 ---
 
 # Hole In One
@@ -32,10 +38,3 @@ When there's one marble left, the game ends, and the players are ranked by their
 
 ## See also
 - Hole In One - YouTube version
-
-/// wiki | History
-|            |                     |
-|------------|---------------------|
-| v0.1 Alpha | Minigame added      |
-| v0.6 Alpha | Closed outside gaps |
-///

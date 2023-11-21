@@ -1,6 +1,12 @@
 ---
 description: Bounce House is a common minigame added in version v2.6. A similar title has been later added in the Twitch version.
 twitch_variant: common/bounce-house/
+
+history:
+  'v2.6':
+    - Minigame added
+  'v2.7':
+    - 2 points block and skeleton added
 ---
 
 # Bounce House
@@ -29,10 +35,3 @@ The participating players' marbles are dropped and begin to fly around the tile,
 ## See also
 
 - [Bounce House](../../twitch-minigames/common/bounce-house.md) - Twitch version
-
-/// wiki | History
-|      |                                            |
-|------|--------------------------------------------|
-| v2.6 | Minigame added                             |
-| v2.7 | 2 points block and the skeleton were added |
-///
