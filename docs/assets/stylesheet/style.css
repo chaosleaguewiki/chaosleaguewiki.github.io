@@ -96,3 +96,7 @@
   border: .1rem solid #FF0000;
   background-color: #FF00001A;
 }
+
+.md-banner__inner hr {
+  margin-top: .75em;
+}

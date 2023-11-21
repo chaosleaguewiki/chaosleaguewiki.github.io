@@ -41,41 +41,51 @@
 {% endblock %}
 
 {% block announce %}
-  {% if page.meta and (page.meta.youtube_variant or page.meta.twitch_variant) %}
-    {% set classes = "variant_info" %}
-    {% if page.meta.youtube_variant %}
-      {% set classes = classes ~ " twitch" %}
-    {% else %}
-      {% set classes = classes ~ " youtube" %}
+  {% if page and (page.meta or config.extra.announcement) %}
+    {% if config.extra.announcement %}
+      <div class="variant_info">
+        {{ config.extra.announcement }}
+      </div>
     {% endif %}
-    <div class="{{ classes }}">
+    {% if config.extra.announcement and (page.meta.youtube_variant or page.meta.twitch_variant) %}
+      <hr>
+    {% endif %}
+    {% if page.meta.youtube_variant or page.meta.twitch_variant %}
+      {% set classes = "variant_info" %}
       {% if page.meta.youtube_variant %}
-        You are viewing the
-        <span class="twemoji">
-          {% include ".icons/simple/twitch.svg" %}
-        </span>
-        <strong>Twitch</strong> version of this minigame.<br>
-        <a href="{{ config.site_url | url }}youtube-minigames/{{ page.meta.youtube_variant }}">
-          Switch to the
-          <span class="twemoji">
-            {% include ".icons/simple/youtube.svg" %}
-          </span>
-          <strong>YouTube</strong> version.
-        </a>
+        {% set classes = classes ~ " twitch" %}
       {% else %}
-        You are viewing the
-        <span class="twemoji">
-          {% include ".icons/simple/youtube.svg" %}
-        </span>
-        <strong>YouTube</strong> version of this minigame.<br>
-        <a href="{{ config.site_url | url }}twitch-minigames/{{ page.meta.twitch_variant }}">
-          Switch to the
+        {% set classes = classes ~ " youtube" %}
+      {% endif %}
+      <div class="{{ classes }}">
+        {% if page.meta.youtube_variant %}
+          You are viewing the
           <span class="twemoji">
             {% include ".icons/simple/twitch.svg" %}
           </span>
-          <strong>Twitch</strong> version.
-        </a>
-      {% endif %}
-    </div>
+          <strong>Twitch</strong> version of this minigame.<br>
+          <a href="{{ config.site_url | url }}youtube-minigames/{{ page.meta.youtube_variant }}">
+            Switch to the
+            <span class="twemoji">
+              {% include ".icons/simple/youtube.svg" %}
+            </span>
+            <strong>YouTube</strong> version.
+          </a>
+        {% else %}
+          You are viewing the
+          <span class="twemoji">
+            {% include ".icons/simple/youtube.svg" %}
+          </span>
+          <strong>YouTube</strong> version of this minigame.<br>
+          <a href="{{ config.site_url | url }}twitch-minigames/{{ page.meta.twitch_variant }}">
+            Switch to the
+            <span class="twemoji">
+              {% include ".icons/simple/twitch.svg" %}
+            </span>
+            <strong>Twitch</strong> version.
+          </a>
+        {% endif %}
+      </div>
+    {% endif %}
   {% endif %}
 {% endblock %}
