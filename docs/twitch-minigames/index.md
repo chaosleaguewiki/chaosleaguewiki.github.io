@@ -31,6 +31,7 @@ The following minigames are available:
 
 ### Epic
 
+- [Trail Shop](epic/trail-shop.md)
 
 ### Legendary
 
