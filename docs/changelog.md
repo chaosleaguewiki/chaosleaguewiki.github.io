@@ -16,12 +16,27 @@ This page lists the recent updates for the past iterations of the Chaos League G
 
 ## CL 3
 
+/// wiki | v0.12 Alpha
+|         |                                                                                                                       |
+|---------|-----------------------------------------------------------------------------------------------------------------------|
+| Added   | [Trail Shop]: Allows spending gold on trail colors. Said colors will be random each time the tile appears.            |
+|         | `!givegold` command to give a player some of your gold.                                                               |
+|         | `!cancelbid` command to cancel your current bid tickets or bits and removes you from queue. Won't refund them to you. |
+|         | `!wiki` command sharing a link to this very wiki you're reading.                                                      |
+|         | Total number of tickets spent to stats.                                                                               |
+| Changed | Auction discs no longer turn gray when a player moves to their bidding position.                                      |
+|         | [Quip Battle]: Messages starting with `!` are no longer read by the TTS system.                                       |
+|         | Reduced physics timestep by 50%. Physics accuracy increased x2 (Should match Gen 2 physics now).                      |
+| Fixed   | Lava getting stuck on invisible blocks in default defense.                                                            |
+|         | Bug caused by longer usernames causing the twitch prediction api call to error.                                       |
+///
+
 /// wiki | v0.11 Alpha
-|         |                                                                                 |
-|---------|---------------------------------------------------------------------------------|
-| Added   | [Quip Battle]: New prompts.                                                     |
-| Fixed   | [Quip Battle]: Voices not being high-pitched.                                   |
-|         | Bug causing speech bubbles to flash incorrect size one frame before growing in. |
+|       |                                                                                 |
+|-------|---------------------------------------------------------------------------------|
+| Added | [Quip Battle]: New prompts.                                                     |
+| Fixed | [Quip Battle]: Voices not being high-pitched.                                   |
+|       | Bug causing speech bubbles to flash incorrect size one frame before growing in. |
 ///
 
 /// wiki | v0.10 Alpha
