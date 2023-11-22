@@ -28,19 +28,29 @@
 {% endif %}
 {{ page.content }}
 {% if page.meta and page.meta.history %}
-  <div class="admonition wiki">
+  <div class="admonition wiki history">
     <p class="admonition-title">History</p>
     <table>
       <tbody>
+        {% set loop_ns = namespace(last=false) %}
         {% for version, entries in page.meta.history.items() %}
           <tr>
-            <td rowspan="{{ entries | length() }}">{{ version }}</td>
+            {% if loop.last %}
+              {% set loop_ns.last = true %}
+              <td rowspan="{{ entries | length() }}" class="game_version last">{{ version }}</td>
+            {% else %}
+              <td rowspan="{{ entries | length() }}" class="game_version">{{ version }}</td>
+            {% endif %}
             {% for entry in entries %}
               {% if not loop.first %}
                 </tr>
                 <tr>
               {% endif %}
-              <td>{{ entry }}</td>
+              {% if loop.last and loop_ns.last %}
+                <td class="last">{{ entry }}</td>
+              {% else %}
+                <td>{{ entry }}</td>
+              {% endif %}
             {% endfor %}
           </tr>
         {% endfor %}
