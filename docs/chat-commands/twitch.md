@@ -80,7 +80,7 @@ Set a point fee that each player has to pay when entering gameplay on a tile.
 
 ## Tile commands
 
-Only executable by players participating in a tile.
+Only executable by players participating in a tile, or by the king while a certain tile is being played.
 
 ### `!buy<number>`
 
@@ -90,13 +90,13 @@ Usable in the minigame [Trail Shop][trail-shop] to buy one of three available Tr
 
 ### `!left`
 
-Usable in the minigame [Royal Execution][royal-execution].
+Usable in the minigame [Royal Execution][royal-execution] by the current king.
 
 Moves the spikes at the top of the tile to the left side.
 
 ### `!right`
 
-Usable in the minigame [Royal Execution][royal-execution].
+Usable in the minigame [Royal Execution][royal-execution] by the current king.
 
 Moves the spikes at the top of the tile to the right side.
 
