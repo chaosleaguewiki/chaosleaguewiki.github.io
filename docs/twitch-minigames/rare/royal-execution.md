@@ -35,4 +35,4 @@ The tile consists of 2 chambers separated vertically and a segregator below the 
 
 Above one of the chambers there is a spiked platform. For 20 seconds, the king gains the ability to move the platform between the chambers using [`!left` and `!right`](../../chat-commands/twitch.md#left-and-right) commands. When the timer is up, the platform is dropped, the marbles underneath transfer 4 points to the king's balance and are eliminated from the game.
 
-When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank, however, only one person can win.
+When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank, however, only one person can win.

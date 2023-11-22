@@ -5,7 +5,7 @@ history:
   'v0.1 Alpha':
     - Minigame added
   'v0.6 Alpha':
-    - Closed outside gaps make them -100 points
+    - Closed outside gaps and made them remove 100 points
 ---
 
 # Hole In One
@@ -35,6 +35,3 @@ The tile consists of 2 rows of small rotating squares, below which there is one 
 The participating players' marbles are dropped. Points can only be obtained by falling in the middle gap, which adds 10000 of them to player's balance. The two gaps neighboring the middle one, as well as the outside gaps, are closed. If a marble falls into either of them, it is eliminated from the game, and the 100 or 200 points are transfered to the king's balance. There are 2 gaps that have no effect on the marble. If a marble falls through one of them or through the middle gap, it appears back in the game through the pipe at the top.
 
 When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
-
-## See also
-- Hole In One - YouTube version

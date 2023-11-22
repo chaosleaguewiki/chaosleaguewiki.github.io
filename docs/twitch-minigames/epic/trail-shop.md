@@ -30,7 +30,7 @@ history:
 
 The tile is split up into three sections, each showing a preview of a trail the player can buy.
 
-From top to bottom do the trails increase in prize while also being larger in length and having more colors with the top having only one color and being the shortest, and the bottom one having three colors and being the longest trail.
+From top to bottom do the trails increase in prize while also being larger in length and having more colors with the top having only one color and being the shortest and the bottom one having three colors and being the longest trail.
 
 Once the game starts can each player use the [`!buy<number>` command][buy-command] where `<number>` is a number between 1 and 3, matching one of the displayed trails. If the player has enough gold to purchase the trail, will their marble be moved to the trail before moving towards the bottom center of the screen with the new trail applied.
 
