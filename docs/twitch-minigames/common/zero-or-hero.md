@@ -13,15 +13,15 @@ history:
 /// wiki | Zero or Hero
     attrs: {class: 'inline end'}
 
-|         |                     |
-|---------|---------------------|
-| Rarity: | Common              |
-| Input:  | None                |
-| Timer:  | None                |
-| Rounds: | None                |
-| Slots:  | Guaranteed: Unknown |
-|         | Raffle: Unknown     |
-| Added:  | v0.9 Alpha          |
+|         |               |
+|---------|---------------|
+| Rarity: | Common        |
+| Input:  | None          |
+| Timer:  | None          |
+| Rounds: | None          |
+| Slots:  | Guaranteed: 8 |
+|         | Raffle: 2     |
+| Added:  | v0.9 Alpha    |
 
 ![zero-or-hero](../../assets/images/minigames/twitch/zero-or-hero.png)
 ///

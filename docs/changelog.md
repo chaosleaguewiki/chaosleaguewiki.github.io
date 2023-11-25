@@ -91,7 +91,7 @@ This page lists the recent updates for the past iterations of the Chaos League G
 |         |                                                                                                      |
 |---------|------------------------------------------------------------------------------------------------------|
 | Added   | Bidding while your Marble is spawned automatically queues you for the next time after elimination.   |
-|         | [`!playlist` command][playlist-command]                                                              |
+|         | [`!playlist` command][playlist-command] to get a link to the spotify playlist used in the game.      |
 |         | Bid Bonus for subs and gifted subs, multiplied by tier.                                              |
 | Changed | Moved player names above marbles on z-layer to not be obscured by each other.                        |
 |         | [Stonks]: Tile survival rate got buffed.                                                             |
@@ -122,29 +122,3 @@ This page lists the recent updates for the past iterations of the Chaos League G
 |       | Common tile [Quip Battle].        |
 |       | Legendary tile [Hole In One].     |
 ///
-
-<!-- other links -->
-[playlist-command]: chat-commands/twitch.md#playlist
-[stats-command]: chat-commands/twitch.md#stats-user
-[lava-command]: chat-commands/twitch.md#lava-bits
-[water-command]: chat-commands/twitch.md#water-bits
-[left-command]: chat-commands/twitch.md#left
-[right-command]: chat-commands/twitch.md#right
-[givepoints-command]: chat-commands/twitch.md#givepoints-amount-user
-[givegold-command]: chat-commands/twitch.md#givegold-amount-user
-[cancelbid-command]: chat-commands/twitch.md#cancelbid
-[wiki-command]: chat-commands/twitch.md#wiki
-
-<!-- minigame links -->
-[Bounce House]: twitch-minigames/common/bounce-house.md
-[Danger Zone]: twitch-minigames/common/danger-zone.md
-[How Low Can You Go]: twitch-minigames/common/how-low-can-you-go.md
-[Quip Battle]: twitch-minigames/common/quip-battle.md
-[Zero or Hero]: twitch-minigames/common/zero-or-hero.md
-
-[Stonks]: twitch-minigames/rare/stonks.md
-[Royal Execution]: twitch-minigames/rare/royal-execution.md
-
-[Trail Shop]: twitch-minigames/epic/trail-shop.md
-
-[Hole In One]: twitch-minigames/legendary/hole-in-one.md

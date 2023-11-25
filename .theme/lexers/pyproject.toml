@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chatcommandlexer"
+description = "A custom RegexLexer for Chat command highlighting"
+version = "1.0.0"
+authors = [
+    { name = "Andre601" }
+]
+dependencies = ["pygments"]
+
+[project.entry-points."pygments.lexers"]
+chatcommandlexer = "chatcommandlexer.chat_command_lexer:ChatCommandLexer"

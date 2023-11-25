@@ -13,15 +13,16 @@ history:
 /// wiki | Quip Battle
     attrs: {class: 'inline end'}
 
-|         |                  |
-|---------|------------------|
-| Rarity: | Common           |
-| Input:  | Messages, Voting |
-| Timer:  | 1 Minute         |
-| Rounds: | None             |
-| Slots:  | Guaranteed: 3    |
-|         | Raffle: 2        |
-| Added:  | v0.1 Alpha       |
+|         |                    |
+|---------|--------------------|
+| Rarity: | Common             |
+| Input:  | Messages           |
+|         | Twitch-poll voting |
+| Timer:  | 1 Minute           |
+| Rounds: | None               |
+| Slots:  | Guaranteed: 3      |
+|         | Raffle: 2          |
+| Added:  | v0.1 Alpha         |
 
 ![quip-battle](../../assets/images/minigames/twitch/quip-battle.png)
 ///

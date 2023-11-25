@@ -96,6 +96,10 @@ watch:
   - .snippets
   - .theme
 
+validation:
+  links:
+    absolute_links: ignore # Ignore Absolute links being used.
+
 plugins:
   - search
   - glightbox
@@ -118,7 +122,10 @@ markdown_extensions:
       base_path: '.snippets'
       auto_append:
         - 'game-terminology.md'
+        - 'games.md'
+        - 'commands.md'
   - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.blocks.admonition:
       types:
         - note
