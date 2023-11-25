@@ -1,0 +1,39 @@
+{% extends "main.html" %}
+
+{% block content %}
+{% if page.meta and page.meta.changelog %}
+  <h2 id="cl-3">CL 3<a class="headerlink" href="#cl-3" title="Permanent link">¶</a></h2>
+  {% for version, changes in page.meta.changelog.items() %}
+    <div class="admonition wiki history">
+      <p class="admonition-title">{{ version }}</p>
+      <table>
+        <tbody>
+          {% set loop_ns = namespace(last=false) %}
+          {% for type, entries in changes.items() %}
+            <tr>
+              {% if loop.last %}
+                {% set loop_ns.last = true %}
+                <td rowspan="{{ entries | length() }}" class="game_version last">{{ type }}</td>
+              {% else %}
+                <td rowspan="{{ entries | length() }}" class="game_version">{{ type }}</td>
+              {% endif %}
+              {% for entry in entries %}
+                {% if not loop.first %}
+                  </tr>
+                  <tr>
+                {% endif %}
+                {% if loop.last and loop_ns.last %}
+                  <td class="last">{{ entry }}</td>
+                {% else %}
+                  <td>{{ entry }}</td>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+{% endif %}
+{% include "partials/content.html" %}
+{% endblock %}

@@ -39,3 +39,11 @@
   <link rel="icon" type="image/png" sizes="16x16" href="{{ config.site_url | url }}assets/images/favicons/favicon-16x16.png">
   <link referrerpolicy="manifest" href="{{ config.site_url | url }}assets/web.manifest">
 {% endblock %}
+
+{% block announce %}
+  {% if page and config.extra and config.extra.announcement %}
+    <div class="announcement">
+      {{ config.extra.announcement }}
+    </div>
+  {% endif %}
+{% endblock %}

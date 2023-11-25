@@ -1,0 +1,68 @@
+{% if "material/tags" in config.plugins and tags %}
+  {% include "partials/tags.html" %}
+{% endif %}
+{% include "partials/actions.html" %}
+{% if page and page.meta and (page.meta.youtube_variant or page.meta.twitch_variant) %}
+  {% set type = "" %}
+  {% set variant_type = "" %}
+  {% set page_meta = "" %}
+  
+  {% if page.meta.youtube_variant %}
+    {% set type = "Twitch" %}
+    {% set variant_type = "YouTube" %}
+    {% set page_meta = page.meta.youtube_variant %}
+  {% else %}
+    {% set type = "YouTube" %}
+    {% set variant_type = "Twitch" %}
+    {% set page_meta = page.meta.twitch_variant %}
+  {% endif %}
+  <div class="variant_info {{ type | lower() }}">
+    You are viewing the <span class="twemoji">{% include ".icons/simple/" ~ type|lower() ~ ".svg" %}</span> <strong>{{ type }}</strong> version of this Minigame.<br>
+    <a href="{{ config.site_url | url }}{{ variant_type | lower() }}-minigames/{{ page_meta }}">
+      Switch to <span class="twemoji">{% include ".icons/simple/" ~ variant_type|lower() ~ ".svg" %}</span> <strong>{{ variant_type }}</strong> version.
+    </a>
+  </div>
+{% endif %}
+{% if "\x3ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% if page.meta and page.meta.history %}
+  <div class="admonition wiki history">
+    <p class="admonition-title">History</p>
+    <table>
+      <tbody>
+        {% set loop_ns = namespace(last=false) %}
+        {% for version, entries in page.meta.history.items() %}
+          <tr>
+            {% if loop.last %}
+              {% set loop_ns.last = true %}
+              <td rowspan="{{ entries | length() }}" class="game_version last">{{ version }}</td>
+            {% else %}
+              <td rowspan="{{ entries | length() }}" class="game_version">{{ version }}</td>
+            {% endif %}
+            {% for entry in entries %}
+              {% if not loop.first %}
+                </tr>
+                <tr>
+              {% endif %}
+              {% if loop.last and loop_ns.last %}
+                <td class="last">{{ entry }}</td>
+              {% else %}
+                <td>{{ entry }}</td>
+              {% endif %}
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+{% endif %}
+{% if page.meta and (
+  page.meta.git_revision_date_localized or
+  page.meta.revision_date
+) %}
+  {% include "partials/source-file.html" %}
+{% endif %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}
