@@ -4,6 +4,8 @@ description: Trail Shop is a special tile in that it is not a minigame in the us
 history:
   'v0.12 Alpha':
     - Minigame added
+  'v0.13 Alpha':
+    - King can complete purchases in shop tiles now without leaving the throne
 ---
 
 # Trail Shop
