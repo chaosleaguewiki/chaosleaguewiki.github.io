@@ -25,7 +25,7 @@ This page lists the recent updates for the past iterations of the Chaos League G
 | Changed | King can complete purchases in shop tiles now without leaving the throne.                                                                                                      |
 |         | Win prize is now the sum of all bids made, including raffle.                                                                                                                   |
 |         | [Danger Zone]: Additional points are rewarded for every round a player survives.                                                                                               |
-|         | [Quip Battle]: Each vote is now worth 1/10th pf the total win prize of the tile.                                                                                               |
+|         | [Quip Battle]: Each vote is now worth 1/10th of the total win prize of the tile.                                                                                               |
 |         | Text size increased on point buckets.                                                                                                                                          |
 |         | Players who already started participating in the game can no longer be recruited. Only players who haven't joined the current game or have been inactive for a while may work. |
 |         | Removed transparency on ticket particles in effort to reduce bitrate drops on twitch.                                                                                          |
