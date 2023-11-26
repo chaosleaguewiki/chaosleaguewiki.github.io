@@ -4,12 +4,14 @@ history:
   'v0.1 Alpha':
     - Minigame added
   'v0.10 Alpha':
-    - Error handling and Timeout got added to not get stuck if reading the poll from API fails.
+    - Error handling and Timeout got added to not get stuck if reading the poll from API fails
   'v0.11 Alpha':
     - New battle prompts added
     - Fixed TTS voice not being high-pitched
   'v0.12 Alpha':
-    - Messages starting with <code>!</code> are no longer read by the TTS system.
+    - Messages starting with <code>!</code> are no longer read by the TTS system
+  'v0.13 Alpha':
+    - Each vote is now worth 1/10th of the total win prize of the tile
 ---
 
 # Quip Battle

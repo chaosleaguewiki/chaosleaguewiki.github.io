@@ -4,6 +4,8 @@ description: Danger Zone is a common minigame added in version v0.1 Alpha.
 history:
   'v0.1 Alpha':
     - Minigame added
+  'v0.13 Alpha':
+    - Additional points are rewarded to players who survive a round
 ---
 
 # Danger Zone
