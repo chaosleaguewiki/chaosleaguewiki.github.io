@@ -41,7 +41,21 @@ nav:
       - Common:
         - youtube-minigames/common/bounce-house.md
         - youtube-minigames/common/how-low-can-you-go.md
-  - changelog.md
+  - Changelog:
+      - changelog/index.md
+      - changelog/cl3/v0.13-alpha.md
+      - changelog/cl3/v0.12-alpha.md
+      - changelog/cl3/v0.11-alpha.md
+      - changelog/cl3/v0.10-alpha.md
+      - changelog/cl3/v0.9-alpha.md
+      - changelog/cl3/v0.8-alpha.md
+      - changelog/cl3/v0.7-alpha.md
+      - changelog/cl3/v0.6-alpha.md
+      - changelog/cl3/v0.5-alpha.md
+      - changelog/cl3/v0.4-alpha.md
+      - changelog/cl3/v0.3-alpha.md
+      - changelog/cl3/v0.2-alpha.md
+      - changelog/cl3/v0.1-alpha.md
 
 theme:
   name: material
