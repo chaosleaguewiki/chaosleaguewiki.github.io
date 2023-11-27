@@ -16,4 +16,5 @@ Rebellion is an upcoming game mechanic where people can double the points earned
 
 ## How it works
 
-Players can use the `!rebellions` command alongside a bits amount to start a rebellion. Once a rebellion starts will every player participating in minigames earn twice the points they usually do for the time the rebellion is active.
+Players can use the [`!rebel [bits]`][rebel-command] command where `[bits]` is a cheer of at least 100 bits to start a rebellion. Once a rebellion starts will a multiplier activate that increases the points earned by a player by a certain factor.  
+For each 100 bits given is the multiplier increased by 1.
