@@ -6,6 +6,8 @@ history:
     - Minigame added
   'v0.13 Alpha':
     - Additional points are rewarded to players who survive a round
+  'v0.14 Alpha':
+    - Round number resets now after it rolls up again
 ---
 
 # Danger Zone

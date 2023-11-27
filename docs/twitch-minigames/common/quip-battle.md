@@ -12,6 +12,8 @@ history:
     - Messages starting with <code>!</code> are no longer read by the TTS system
   'v0.13 Alpha':
     - Each vote is now worth 1/10th of the total win prize of the tile
+  'v0.14 Alpha':
+    - Prompts doubled, thanks to contributions by Maildropfolder
 ---
 
 # Quip Battle

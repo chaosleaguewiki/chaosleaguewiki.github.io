@@ -6,6 +6,8 @@ history:
     - Minigame added
   'v0.9 Alpha':
     - Time increased to 30 seconds
+  'v0.14 Alpha':
+    - Bug causing commands from king to not be registered
 ---
 
 # Royal Execution
