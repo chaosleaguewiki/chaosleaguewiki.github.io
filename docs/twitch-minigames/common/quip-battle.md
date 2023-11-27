@@ -54,7 +54,7 @@ Below is a current list of all available prompts in the game.
   <table>
     <thead>
       <tr>
-        <th><small>Auto-generated from <a href="https://github.com/tree/main/docs/assets/extra_quips.json" target="_blank" rel="nofollow">extra_quips.json</a></small></th>
+        <th><small>Auto-generated from <a href="https://github.com/chaosleaguewiki/chaosleaguewiki.github.io/blob/main/docs/assets/extra_quips.json" target="_blank" rel="nofollow">extra_quips.json</a></small></th>
       </tr>
     </thead>
     <tbody>
