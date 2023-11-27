@@ -42,3 +42,30 @@ history:
 The participating players are given a random question. They can send messages with their answer, which is displayed next to their marble. A new message overrides previous one. At the same time is a poll started in the twitch chat where the name of each participating player is given as an answer. The viewers of the stream can vote for the player whos answer they find the funniest.
 
 After 60 seconds the game ends and the players are ranked by number of votes they got. The player with the most votes wins. It is possible for several players to get the same rank.
+
+## Prompts
+
+Below is a current list of all available prompts in the game.  
+
+/// details | Click to open/close
+    type: info
+
+{% if json and json.prompts %}
+  <table>
+    <thead>
+      <tr>
+        <th><small>Auto-generated from <a href="https://github.com/tree/main/docs/assets/extra_quips.json" target="_blank" rel="nofollow">extra_quips.json</a></small></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for entry in json.prompts %}
+        <tr>
+          <td>{{ entry }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% else %}
+  No prompts available to display.
+{% endif %}
+///
