@@ -4,6 +4,8 @@ description: Trail Shop is a special tile in that it is not a minigame in the us
 history:
   'v0.12 Alpha':
     - Minigame added
+  'v0.13 Alpha':
+    - King can complete purchases in shop tiles now without leaving the throne
 ---
 
 # Trail Shop
@@ -18,7 +20,7 @@ history:
 | Timer:  | 29 Seconds                    |
 | Rounds: | N/A                           |
 | Slots:  | Guaranteed: 8                 |
-|         | Raffle: N/A                   |
+|         | Raffle: 4                     |
 | Added:  | v0.12 Alpha                   |
 
 ![trail-shop](../../assets/images/minigames/twitch/trail-shop.png)
@@ -35,5 +37,3 @@ From top to bottom do the trails increase in prize while also being larger in le
 Once the game starts can each player use the [`!buy<number>` command][buy-command] where `<number>` is a number between 1 and 3, matching one of the displayed trails. If the player has enough gold to purchase the trail, will their marble be moved to the trail before moving towards the bottom center of the screen with the new trail applied.
 
 The colors a trail can have are randomly chosen whenever the tile is being selected. Previously purchased tiles can't be re-equipped again.
-
-[buy-command]: ../../chat-commands/twitch.md#buynumber

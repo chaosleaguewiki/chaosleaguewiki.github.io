@@ -45,7 +45,22 @@ nav:
       - Common:
         - youtube-minigames/common/bounce-house.md
         - youtube-minigames/common/how-low-can-you-go.md
-  - changelog.md
+  - Changelog:
+      - changelog/index.md
+      - changelog/cl3/v0.14-alpha.md
+      - changelog/cl3/v0.13-alpha.md
+      - changelog/cl3/v0.12-alpha.md
+      - changelog/cl3/v0.11-alpha.md
+      - changelog/cl3/v0.10-alpha.md
+      - changelog/cl3/v0.9-alpha.md
+      - changelog/cl3/v0.8-alpha.md
+      - changelog/cl3/v0.7-alpha.md
+      - changelog/cl3/v0.6-alpha.md
+      - changelog/cl3/v0.5-alpha.md
+      - changelog/cl3/v0.4-alpha.md
+      - changelog/cl3/v0.3-alpha.md
+      - changelog/cl3/v0.2-alpha.md
+      - changelog/cl3/v0.1-alpha.md
 
 theme:
   name: material
@@ -100,6 +115,10 @@ watch:
   - .snippets
   - .theme
 
+validation:
+  links:
+    absolute_links: ignore # Ignore Absolute links being used.
+
 plugins:
   - search
   - glightbox
@@ -122,7 +141,10 @@ markdown_extensions:
       base_path: '.snippets'
       auto_append:
         - 'game-terminology.md'
+        - 'games.md'
+        - 'commands.md'
   - pymdownx.highlight
+  - pymdownx.inlinehilite
   - pymdownx.blocks.admonition:
       types:
         - note
