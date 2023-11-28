@@ -20,6 +20,13 @@ The default multiplier starts at 2, but increases by one with every addition 100
 
 ## Effects
 
+/// wiki | 
+    attrs: {class: 'inline end' }
+
+![rebellion-effect](../assets/images/rebellion-effect.png)  
+<small>Image showing the effect the rebellion has on gaps in [How Low Can You Go].</small>
+///
+
 The circle around the rebellion starter has specific effects on players, tiles and other mechanics, depending on the situation. Players need to be inside the circle to receive the effects.
 
 ### Bidding spawn tickets
