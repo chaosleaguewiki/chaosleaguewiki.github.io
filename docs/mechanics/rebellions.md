@@ -16,5 +16,6 @@ Rebellion is an upcoming game mechanic where people can double the points earned
 
 ## How it works
 
-Players can use the [`!rebel [bits]`][rebel-command] command where `[bits]` is a cheer of at least 100 bits to start a rebellion. Once a rebellion starts will a circle appear around the player's marble. Every other player marble that is inside this circle will receive their points multiplied by a factor of at least 2.  
-For each 100 bits given is the multiplier increased by 1.
+Players can use the [`!rebel [bits]`][rebel-command] command where `[bits]` is a cheer of at least 100 bits to start a rebellion. Once a rebellion starts will a circle appear around the player's marble. Every other player marble that is inside this circle will receive their points and spawn tickets multiplied by the number displayed within the circle.
+
+The default multiplier starts at 2, but increases by one with every addition 100 bits added. In addition is the duration of the rebellion also increased.
