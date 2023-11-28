@@ -16,6 +16,8 @@
 *[tile]: A tile describes a minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
 *[Tile]: A tile describes a minigame that is visible on the left and right side of the screen and where players can participate in to earn poins.
 
+*[bits]: Bits are a virtual product on Twitch that can be bought with real money. They are used for cheering in chat using 'cheer[bits]'
+
 *[v0.1 Alpha]: 2 November 2023
 *[v0.3 Alpha]: 6 November 2023
 *[v0.6 Alpha]: 11 November 2023

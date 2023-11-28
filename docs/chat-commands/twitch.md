@@ -61,6 +61,12 @@ Cancels the current bid tickets or bits and removes the player from the queue. T
 
 Gives a link to this wiki you're currently reading.
 
+### `!rebel [bits]` { #rebel }
+
+Uses `[bits]` amount of bits to start a rebellion. At least 100 bits are required to start one and each additional 100 bits increases the multiplier by one.
+
+Read more about the Rebellion mechanic on its [mechanics page](../mechanics/rebellions.md).
+
 ## Throne Commands
 
 Only executable by the current king on the throne.
