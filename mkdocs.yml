@@ -126,9 +126,6 @@ plugins:
       module_name: .hooks/macros
       include_dir: .snippets/macros
 
-hooks:
-  - .hooks/quip_prompts.py
-
 markdown_extensions:
   - attr_list
   - toc:

@@ -50,6 +50,7 @@ Below is a current list of all available prompts in the game.
 /// details | Click to open/close
     type: info
 
+{% set json = read_json_file("assets/extra_quips.json") %}
 {% if json and json.prompts %}
   <table>
     <thead>

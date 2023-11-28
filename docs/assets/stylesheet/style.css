@@ -18,6 +18,11 @@
   display: none;
 }
 
+.md-typeset .admonition.wiki tbody {
+  display: table;
+  width: 100%;
+}
+
 .md-typeset .admonition.wiki table {
   border: 0;
 }
@@ -35,12 +40,17 @@
   padding-right: 0;
 }
 
-.md-typeset .admonition.wiki.history td {
-  padding-right: 1.25em;
+.md-typeset .admonition.wiki td.draw_line--down {
+  border-bottom: 1px solid var(--md-typeset-table-color);
 }
 
-.md-typeset .admonition.wiki.history td:not(.last) {
-  border-bottom: 1px solid var(--md-typeset-table-color);
+.md-typeset .admonition.wiki td.draw_line--right {
+  border-right: 1px solid var(--md-typeset-table-color);
+  padding-right: .5rem;
+}
+
+.md-typeset .admonition.wiki.history td {
+  padding-right: 1.25em;
 }
 
 .md-typeset .admonition.wiki.history td:not(.game_version) {

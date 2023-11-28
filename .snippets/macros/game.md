@@ -1,36 +1,96 @@
-{% macro info(title="", rarity="", inputs="", timer="", rounds="", slots_guaranteed="", slots_raffle="", added="", img_url="", img_alt="") -%}
+{% macro info(title=page.title, rarity="Common", inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=None) -%}
   <div class="admonition wiki inline end">
-    <p class="admonition-title">{{ title | d(env.page.title) }}</p>
+    <p class="admonition-title">{{ title | d(page.title) }}</p>
     <table>
       <tbody>
         <tr>
-          <td>Rarity</td>
-          <td>{{ rarity | d('Unknown') }}</td>
+          <td class="draw_line--down">Rarity</td>
+          <td class="draw_line--down">{{ rarity | d('Unknown') }}</td>
         </tr>
         <tr>
-          <td>Inputs</td>
-          <td>{{ inputs | d('None') }}</td>
+          <td class="draw_line--down">Inputs</td>
+          <td class="draw_line--down">{{ inputs | d('None') }}</td>
         </tr>
         <tr>
-          <td>Timer</td>
-          <td>{{ timer | d('None') }}</td>
+          <td class="draw_line--down">Timer</td>
+          <td class="draw_line--down">{{ timer | d('None') }}</td>
         </tr>
         <tr>
-          <td>Rounds</td>
-          <td>{{ rounds | d('None') }}</td>
+          <td class="draw_line--down">Rounds</td>
+          <td class="draw_line--down">{{ rounds | d('None') }}</td>
         </tr>
         <tr>
-          <td>Slots</td>
+          <td class="draw_line--down" rowspan="2">Slots</td>
           <td>Guaranteed: {{ slots_guaranteed | d('N/A') }}</td>
         </tr>
         <tr>
-          <td>Raffle: {{ slots_raffle | d('N/A') }}</td>
+          <td class="draw_line--down">Raffle: {{ slots_raffle | d('N/A') }}</td>
         </tr>
         <tr>
-          <td>Added</td>
-          <td>{{ added | d('Unknown') }}</td>
+          <td class="{{ 'draw_line--down' if img_url else '' }}">Added</td>
+          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ added | d('Unknown') }}</td>
         </tr>
       </tbody>
     </table>
+    {% if img_url %}
+      <p>
+        <img alt="{{ img_alt | d(page.title) }}" src="{{ img_url }}" loading="lazy">
+      </p>
+    {% endif %}
+  </div>
+{%- endmacro %}
+
+{% macro history(versions=[]) -%}
+  {% if versions -%}
+    <div class="admonition wiki history">
+      <p class="admonition-title">History</p>
+      <table>
+        <tbody>
+          {% set loop_ns = namespace(last_key=false) %}
+          {% for version, entries in versions.items() %}
+            <tr>
+              {% if loop.last %}
+                {% set loop_ns.last_key = true %}
+                <td rowspan="{{ entries | length() }}" class="game_version draw_line--right">{{ version }}</td>
+              {% else %}
+                <td rowspan="{{ entries | length() }}" class="game_version draw_line--down draw_line--right">{{ version }}</td>
+              {% endif %}
+              {% for entry in entries %}
+                {% if not loop.first %}
+                  </tr>
+                  <tr>
+                {% endif %}
+                {% if loop.last and loop_ns.last_key %}
+                  <td>{{ entry }}</td>
+                {% else %}
+                  <td class="draw_line--down">{{ entry }}</td>
+                {% endif %}
+              {% endfor %}
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {%- endif %}
+{%- endmacro %}
+
+{% macro yt_version(link) -%}
+  {% if link %}
+    {{ alternative_version(link, type="twitch", alt="youtube") }}
+  {% endif %}
+{%- endmacro %}
+
+{% macro twitch_version(link) -%}
+  {% if link %}
+    {{ alternative_version(link, type="youtube", alt="twitch") }}
+  {% endif %}
+{%- endmacro %}
+
+{% macro alternative_version(link, type, alt) -%}
+  <div class="variant_info {{ type }}">
+    You are viewing the <span class="twemoji">{% include "/.icons/simple/" ~ type ~ ".svg" %}</span> <strong>{{ type | capitalize() }}</strong> version of this Minigame.<br>
+    <a href="/{{ alt | lower() }}-minigames/{{ link }}">
+      Switch to <span class="twemoji">{% include "/.icons/simple/" ~ alt|lower() ~ ".svg" %}</span> <strong>{{ alt | capitalize() }}</strong> version.
+    </a>
   </div>
 {%- endmacro %}
