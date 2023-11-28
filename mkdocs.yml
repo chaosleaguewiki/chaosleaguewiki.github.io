@@ -20,6 +20,10 @@ nav:
   - Game Mechanics:
     - mechanics/index.md
     - mechanics/attacking-the-king.md
+    - mechanics/earning-gold.md
+    - mechanics/rebellions.md
+    - mechanics/recruiting.md
+    - mechanics/water-and-lava-bucket.md
   - Minigames:
     - Twitch:
       - twitch-minigames/index.md
