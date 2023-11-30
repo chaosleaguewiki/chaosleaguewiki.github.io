@@ -21,7 +21,7 @@ nav:
     - mechanics/index.md
     - mechanics/attacking-the-king.md
     - mechanics/earning-gold.md
-    - mechanics/rebellions.md
+    - mechanics/rebellion.md
     - mechanics/recruiting.md
     - mechanics/water-and-lava-bucket.md
   - Minigames:
@@ -47,6 +47,7 @@ nav:
         - youtube-minigames/common/how-low-can-you-go.md
   - Changelog:
       - changelog/index.md
+      - changelog/cl3/v0.15-alpha.md
       - changelog/cl3/v0.14-alpha.md
       - changelog/cl3/v0.13-alpha.md
       - changelog/cl3/v0.12-alpha.md
