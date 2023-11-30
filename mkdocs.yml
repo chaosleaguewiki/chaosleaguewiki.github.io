@@ -40,6 +40,8 @@ nav:
         - twitch-minigames/epic/trail-shop.md
       - Legendary:
         - twitch-minigames/legendary/hole-in-one.md
+      - Uncategorized:
+        - twitch-minigames/uncategorized/forked-frenzy.md
     - YouTube:
       - youtube-minigames/index.md
       - Common:
@@ -47,6 +49,7 @@ nav:
         - youtube-minigames/common/how-low-can-you-go.md
   - Changelog:
       - changelog/index.md
+      - changelog/cl3/v0.16-alpha.md
       - changelog/cl3/v0.15-alpha.md
       - changelog/cl3/v0.14-alpha.md
       - changelog/cl3/v0.13-alpha.md
