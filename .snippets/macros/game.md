@@ -1,11 +1,11 @@
-{% macro info(title=page.title, rarity="Common", inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=None) -%}
+{% macro info(title=page.title, rarity="Common", inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=page.title) -%}
   <div class="admonition wiki inline end">
     <p class="admonition-title">{{ title | d(page.title) }}</p>
     <table>
       <tbody>
         <tr>
           <td class="draw_line--down">Rarity</td>
-          <td class="draw_line--down">{{ rarity | d('Unknown') }}</td>
+          <td class="draw_line--down">{{ rarity | d('Unknown') | capitalize() }}</td>
         </tr>
         <tr>
           <td class="draw_line--down">Inputs</td>
@@ -21,7 +21,7 @@
         </tr>
         <tr>
           <td class="draw_line--down" rowspan="2">Slots</td>
-          <td>Guaranteed: {{ slots_guaranteed | d('N/A') }}</td>
+          <td>Guaranteed: {{ slots_guaranteed }}</td>
         </tr>
         <tr>
           <td class="draw_line--down">Raffle: {{ slots_raffle | d('N/A') }}</td>
@@ -34,7 +34,7 @@
     </table>
     {% if img_url %}
       <p>
-        <img alt="{{ img_alt | d(page.title) }}" src="{{ img_url }}" loading="lazy">
+        <img alt="{{ img_alt }}" src="{{ img_url }}" loading="lazy">
       </p>
     {% endif %}
   </div>
@@ -75,22 +75,22 @@
 {%- endmacro %}
 
 {% macro yt_version(link) -%}
-  {% if link %}
+  {% if link -%}
     {{ alternative_version(link, type="twitch", alt="youtube") }}
-  {% endif %}
+  {%- endif %}
 {%- endmacro %}
 
 {% macro twitch_version(link) -%}
-  {% if link %}
+  {% if link -%}
     {{ alternative_version(link, type="youtube", alt="twitch") }}
-  {% endif %}
+  {%- endif %}
 {%- endmacro %}
 
 {% macro alternative_version(link, type, alt) -%}
   <div class="variant_info {{ type }}">
-    You are viewing the <span class="twemoji">{% include "/.icons/simple/" ~ type ~ ".svg" %}</span> <strong>{{ type | capitalize() }}</strong> version of this Minigame.<br>
+    You are viewing the <span class="twemoji">{% include ".icons/" ~ type ~ ".svg" %}</span> <strong>{{ type | capitalize() }}</strong> version of this Minigame.<br>
     <a href="/{{ alt | lower() }}-minigames/{{ link }}">
-      Switch to <span class="twemoji">{% include "/.icons/simple/" ~ alt|lower() ~ ".svg" %}</span> <strong>{{ alt | capitalize() }}</strong> version.
+      Switch to <span class="twemoji">{% include ".icons/" ~ alt ~ ".svg" %}</span> <strong>{{ alt | capitalize() }}</strong> version.
     </a>
   </div>
 {%- endmacro %}

@@ -1,21 +1,16 @@
 ---
 description: Bounce House is a common minigame added in version v0.3 Alpha. It's based on the YouTuve version of the same name.
-youtube_variant: common/bounce-house/
-
-history:
-  'v0.3 Alpha':
-    - Minigame Added
-  'v0.9 Alpha':
-    - Changed values. Spinning block is now 1 point, spinning bucket is -2 points and gap is 10 points.
-    - Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a player passes through it.
 ---
+
+{{ game.yt_version("common/bounce-house/") }}
 
 # Bounce House
 
 {{ game.info(
   slots_guaranteed = "8",
-  slots_raffle = "8",
-  added = "v0.3 Alpha",
+  slots_raffle     = "8",
+  added            = "v0.3 Alpha",
+  
   img_url = "../../../assets/images/minigames/twitch/bounce-house.png"
 ) }}
 
@@ -29,12 +24,14 @@ The participating players' marbles are dropped and begin to fly around the tile,
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
 
-{{ game.history(versions={
-  'v0.3 Alpha': [
-    'Minigame Added'
-  ],
-  'v0.9 Alpha': [
-    'Changed values. Spinning block is now 1 point, spinning bucket -2 points and gap is 10 points.',
-    'Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a marble passes through.'
-  ]
-}) }}
+{{ game.history(
+  versions = {
+    'v0.3 Alpha': [
+      'Minigame Added'
+    ],
+    'v0.9 Alpha': [
+      'Changed values. Spinning block is now 1 point, spinning bucket -2 points and gap is 10 points.',
+      'Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a marble passes through.'
+    ]
+  }
+) }}
