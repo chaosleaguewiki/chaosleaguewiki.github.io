@@ -12,9 +12,9 @@ description: Bounce House is a common minigame added in version v2.6. A similar 
 |                             |                                 |
 |-----------------------------|---------------------------------|
 | Rarity { .draw_line--down } | Common { .draw_line--down }     |
-| Pipes: { .draw_line--down } | 1 { .draw_line--down }          |
-| Timer: { .draw_line--down } | 188 seconds { .draw_line--down }|
-| Added: { .draw_line--down } | v2.6 { .draw_line--down }       |
+| Pipes  { .draw_line--down } | 1 { .draw_line--down }          |
+| Timer  { .draw_line--down } | 188 seconds { .draw_line--down }|
+| Added  { .draw_line--down } | v2.6 { .draw_line--down }       |
 
 ![bounce-house](../../assets/images/minigames/youtube/bounce-house.png)
 ///
