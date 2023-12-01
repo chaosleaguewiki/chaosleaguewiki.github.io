@@ -1,6 +1,5 @@
 ---
 description: How Low Can You Go is a common minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
-youtube_variant: common/how-low-can-you-go/
 ---
 
 {{ game.yt_version("common/how-low-can-you-go/") }}
@@ -29,6 +28,9 @@ When there's one marble left, the game ends and the players are ranked by their 
   versions = {
     'v0.1 Alpha': [
       'Minigame added'
+    ],
+    'v0.16 Alpha': [
+      '(Experimental) Gaps now increase in value every time a player passes through'
     ]
   }
 ) }}

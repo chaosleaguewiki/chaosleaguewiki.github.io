@@ -8,6 +8,9 @@ history:
     - Time increased to 30 seconds
   'v0.14 Alpha':
     - Bug causing commands from king to not be registered
+  'v0.16 Alpha':
+    - 'Increased points earned for surviving a round'
+    - 'Added label indicating how many points spike will take from the players'
 ---
 
 # Royal Execution

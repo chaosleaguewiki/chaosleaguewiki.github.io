@@ -70,6 +70,12 @@ Below is a current list of all available prompts in the game.
     ],
     'v0.14 Alpha': [
       'Prompts doubled, thanks to contributions by Maildropfolder'
+    ],
+    'v0.15 Alpha': [
+      'Fixed typos in prompts'
+    ],
+    'v0.16 Alpha': [
+      'Further typo corrections in prompts'
     ]
   }
 ) }}

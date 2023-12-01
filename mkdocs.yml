@@ -34,14 +34,13 @@ nav:
         - twitch-minigames/common/quip-battle.md
         - twitch-minigames/common/zero-or-hero.md
       - Rare:
+        - twitch-minigames/rare/forked-frenzy.md
         - twitch-minigames/rare/royal-execution.md
         - twitch-minigames/rare/stonks.md
       - Epic:
         - twitch-minigames/epic/trail-shop.md
       - Legendary:
         - twitch-minigames/legendary/hole-in-one.md
-      - Uncategorized:
-        - twitch-minigames/uncategorized/forked-frenzy.md
     - YouTube:
       - youtube-minigames/index.md
       - Common:
