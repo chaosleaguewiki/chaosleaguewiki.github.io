@@ -26,6 +26,7 @@ The following minigames are available:
 
 ### Rare
 
+- [Forked Frenzy](rare/forked-frenzy.md)
 - [Stonks](rare/stonks.md)
 - [Royal Execution](rare/royal-execution.md)
 
@@ -36,11 +37,3 @@ The following minigames are available:
 ### Legendary
 
 - [Hole In One](legendary/hole-in-one.md)
-
-### Uncategorized
-
-/// note
-Games listed here have yet not received any rarity to be put in.
-///
-
-- [Forked Frenzy](uncategorized/forked-frenzy.md)
