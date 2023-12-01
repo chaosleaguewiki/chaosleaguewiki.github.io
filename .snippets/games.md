@@ -6,6 +6,7 @@
 [Zero or Hero]: /twitch-minigames/common/zero-or-hero/
 
 <!-- Rare -->
+[Forked Frenzy]: /twitch-minigames/rare/forked-frenzy/
 [Royal Execution]: /twitch-minigames/rare/royal-execution/
 [Stonks]: /twitch-minigames/rare/stonks/
 
@@ -14,6 +15,3 @@
 
 <!-- Legendary -->
 [Hole in One]: /twitch-minigames/legendary/hole-in-one/
-
-<!-- Uncategorized -->
-[Forked Frenzy]: /twitch-minigames/uncategorized/forked-frenzy/

@@ -15,7 +15,7 @@ history:
 
 |         |                 |
 |---------|-----------------|
-| Rarity: | Unknown         |
+| Rarity: | Rare            |
 | Input:  | Unknown         |
 | Timer:  | Unknown         |
 | Rounds: | Unknown         |
