@@ -1,4 +1,6 @@
-{% macro info(title=page.title, rarity="Common", inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=page.title) -%}
+{% import 'image.md' as image with context %}
+
+{% macro info(title=page.title, rarity="Common", inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=page.title, img_caption="") -%}
   <div class="admonition wiki inline end">
     <p class="admonition-title">{{ title | d(page.title) }}</p>
     <table>
@@ -34,7 +36,7 @@
     </table>
     {% if img_url %}
       <p>
-        <img alt="{{ img_alt }}" src="{{ img_url }}" loading="lazy">
+        {{ image.img(url=img_url, alt=img_alt, caption=img_caption) }}
       </p>
     {% endif %}
   </div>

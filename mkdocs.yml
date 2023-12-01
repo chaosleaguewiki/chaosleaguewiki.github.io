@@ -65,6 +65,17 @@ nav:
       - changelog/cl3/v0.3-alpha.md
       - changelog/cl3/v0.2-alpha.md
       - changelog/cl3/v0.1-alpha.md
+  - Meta:
+    - meta/index.md
+    - Macros:
+      - meta/macros/image.md
+      - meta/macros/game.md
+      - meta/macros/misc.md
+    - Snippets:
+      - meta/snippets/commands.md
+      - meta/snippets/games.md
+      - meta/snippets/game-terminology.md
+      - meta/snippets/unreleased.md
 
 theme:
   name: material
