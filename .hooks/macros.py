@@ -1,5 +1,6 @@
 import posixpath
 import json
+import markdown
 
 def define_env(env):
     
@@ -20,6 +21,10 @@ def define_env(env):
         path = posixpath.sep.join([env.project_dir, file_path])
         with open(path, 'r', encoding='utf-8') as file:
             return file.readlines()
+    
+    @env.macro
+    def markdownify(text: str):
+        return markdown.markdown(text=text)
 
 def on_pre_page_macros(env):
     """

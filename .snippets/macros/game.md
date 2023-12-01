@@ -11,26 +11,26 @@
         </tr>
         <tr>
           <td class="draw_line--down">Inputs</td>
-          <td class="draw_line--down">{{ inputs | d('None') }}</td>
+          <td class="draw_line--down">{{ markdownify(inputs) }}</td>
         </tr>
         <tr>
           <td class="draw_line--down">Timer</td>
-          <td class="draw_line--down">{{ timer | d('None') }}</td>
+          <td class="draw_line--down">{{ timer }}</td>
         </tr>
         <tr>
           <td class="draw_line--down">Rounds</td>
-          <td class="draw_line--down">{{ rounds | d('None') }}</td>
+          <td class="draw_line--down">{{ rounds }}</td>
         </tr>
         <tr>
           <td class="draw_line--down" rowspan="2">Slots</td>
           <td>Guaranteed: {{ slots_guaranteed }}</td>
         </tr>
         <tr>
-          <td class="draw_line--down">Raffle: {{ slots_raffle | d('N/A') }}</td>
+          <td class="draw_line--down">Raffle: {{ slots_raffle }}</td>
         </tr>
         <tr>
           <td class="{{ 'draw_line--down' if img_url else '' }}">Added</td>
-          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ added | d('Unknown') }}</td>
+          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ added }}</td>
         </tr>
       </tbody>
     </table>

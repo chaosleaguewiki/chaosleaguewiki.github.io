@@ -6,7 +6,7 @@ description: Trail Shop is a special tile in that it is not a minigame in the us
 
 {{ game.info(
   rarity = "epic",
-  inputs = "!buy",
+  inputs = "[`!buy`](../../../chat-commands/twitch/#buy)",
   timer  = "29 Seconds",
   slots_guaranteed = "8",
   slots_raffle     = "4",

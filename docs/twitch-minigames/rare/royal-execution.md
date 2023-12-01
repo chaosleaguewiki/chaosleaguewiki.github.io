@@ -14,7 +14,7 @@ history:
 
 {{ game.info(
   rarity           = "rare",
-  inputs           = "King: !left, !right",
+  inputs           = "King: [`!left`](../../../chat-commands/twitch/#left), [`!right`](../../../chat-commands/twitch/#right)",
   timer            = "30 Seconds",
   rounds           = "1-3",
   slots_guaranteed = "6",
