@@ -14,6 +14,10 @@ history:
     - Each vote is now worth 1/10th of the total win prize of the tile
   'v0.14 Alpha':
     - Prompts doubled, thanks to contributions by Maildropfolder
+  'v0.15 Alpha':
+    - Fixed typos in prompts
+  'v0.16 Alpha':
+    - Further typo corrections in prompts
 ---
 
 # Quip Battle

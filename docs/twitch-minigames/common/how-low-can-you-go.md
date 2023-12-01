@@ -5,6 +5,8 @@ youtube_variant: common/how-low-can-you-go/
 history:
   'v0.1 Alpha':
     - Minigame added
+  'v0.16 Alpha':
+    - '(Experimental) Gaps now increase in value every time a player passes through'
 ---
 
 # How Low Can You Go
