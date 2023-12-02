@@ -4,11 +4,11 @@ description: Rebellion is a game mechanic where people can give bits to start a 
 
 # Rebellion
 
-/// wiki | Rebellions
-    attrs: {class: 'inline end'}
-
-![rebellion](../assets/images/rebellion.png)
-///
+{{ image.right(
+    url     = "../../assets/images/rebellion.png",
+    title   = "Rebellion",
+    caption = "An active rebellion showing a circle around the player who started it alongside its multuplier value."
+) }}
 
 Rebellion is a game mechanic where people can give bits to start a multiplier that increases points earned amongst other effects.
 
@@ -20,12 +20,10 @@ The default multiplier starts at 2, but increases by one with every addition 100
 
 ## Effects
 
-/// wiki | 
-    attrs: {class: 'inline end' }
-
-![rebellion-effect](../assets/images/rebellion-effect.png)  
-<small>Image showing the effect the rebellion has on gaps in [How Low Can You Go].</small>
-///
+{{ image.right(
+    url = "../../assets/images/rebellion-effect.png",
+    caption = "The rebellion circle affecting the gaps in its radius, changing their value"
+) }}
 
 The circle around the rebellion starter has specific effects on players, tiles and other mechanics, depending on the situation. Players need to be inside the circle to receive the effects.
 

@@ -35,8 +35,8 @@ nav:
         - twitch-minigames/common/zero-or-hero.md
       - Rare:
         - twitch-minigames/rare/forked-frenzy.md
-        - twitch-minigames/rare/stonks.md
         - twitch-minigames/rare/royal-execution.md
+        - twitch-minigames/rare/stonks.md
       - Epic:
         - twitch-minigames/epic/trail-shop.md
       - Legendary:
@@ -64,6 +64,18 @@ nav:
       - changelog/cl3/v0.3-alpha.md
       - changelog/cl3/v0.2-alpha.md
       - changelog/cl3/v0.1-alpha.md
+  - Meta:
+    - meta/index.md
+    - Macros:
+      - meta/macros/image.md
+      - meta/macros/game.md
+      - meta/macros/misc.md
+      - meta/macros/utils.md
+    - Snippets:
+      - meta/snippets/commands.md
+      - meta/snippets/games.md
+      - meta/snippets/game-terminology.md
+      - meta/snippets/unreleased.md
 
 theme:
   name: material
@@ -125,9 +137,9 @@ validation:
 plugins:
   - search
   - glightbox
-
-hooks:
-  - .hooks/quip_prompts.py
+  - macros:
+      module_name: .hooks/macros
+      include_dir: .snippets/macros
 
 markdown_extensions:
   - attr_list

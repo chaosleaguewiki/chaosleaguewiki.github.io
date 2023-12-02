@@ -18,6 +18,11 @@
   display: none;
 }
 
+.md-typeset .admonition.wiki tbody {
+  display: table;
+  width: 100%;
+}
+
 .md-typeset .admonition.wiki table {
   border: 0;
 }
@@ -35,12 +40,33 @@
   padding-right: 0;
 }
 
-.md-typeset .admonition.wiki.history td {
-  padding-right: 1.25em;
+.md-typeset .admonition.wiki td.draw_line--down {
+  border-bottom: 1px solid var(--md-typeset-table-color);
 }
 
-.md-typeset .admonition.wiki.history td:not(.last) {
+.md-typeset .admonition.wiki td.draw_line--right {
+  border-right: 1px solid var(--md-typeset-table-color);
+  padding-right: .5rem;
+}
+
+.draw_line--right{
+  border-right: 1px solid var(--md-typeset-table-color);
+}
+
+.draw_line--down {
   border-bottom: 1px solid var(--md-typeset-table-color);
+}
+
+.no-line--top {
+  border-top: 0 !important;
+}
+
+.no-color:hover {
+  background-color: transparent !important;
+}
+
+.md-typeset .admonition.wiki.history td {
+  padding-right: 1.25em;
 }
 
 .md-typeset .admonition.wiki.history td:not(.game_version) {
@@ -88,8 +114,19 @@
   max-width: 45%;
 }
 
+.md-typeset figcaption {
+  font-size: 85%;
+}
+
 .md-nav__item--section > .md-nav > .md-nav__list {
   margin-left: .5rem;
+}
+
+.md-nav--secondary li.md-nav__item > .md-nav__link {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
 }
 
 .md-banner__inner {
