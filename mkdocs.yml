@@ -48,6 +48,7 @@ nav:
         - youtube-minigames/common/how-low-can-you-go.md
   - Changelog:
       - changelog/index.md
+      - changelog/cl3/v0.17-alpha.md
       - changelog/cl3/v0.16-alpha.md
       - changelog/cl3/v0.15-alpha.md
       - changelog/cl3/v0.14-alpha.md

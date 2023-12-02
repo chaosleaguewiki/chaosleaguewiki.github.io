@@ -5,9 +5,9 @@ description: Rebellion is a game mechanic where people can give bits to start a 
 # Rebellion
 
 {{ image.right(
-    url     = "../../assets/images/rebellion.png",
+    url     = "../../assets/images/rebellion-animation.gif",
     title   = "Rebellion",
-    caption = "An active rebellion showing a circle around the player who started it alongside its multuplier value."
+    caption = "The animation played when someone starts a rebellion."
 ) }}
 
 Rebellion is a game mechanic where people can give bits to start a multiplier that increases points earned amongst other effects.
