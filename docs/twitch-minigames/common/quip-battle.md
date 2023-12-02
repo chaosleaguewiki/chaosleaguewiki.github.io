@@ -5,7 +5,7 @@ description: Quip Battle is a common minigame added in version v0.1 Alpha.
 # Quip Battle
 
 {{ game.info(
-  inputs           = "Players: Messages<br>Viewers: Twitch-poll Votes",
+  inputs           = "Players&#58; Messages<br>Viewers&#58; Twitch-poll Votes",
   timer            = "1 Minute",
   slots_guaranteed = "3",
   slots_raffle     = "2",
@@ -50,32 +50,30 @@ Below is a current list of all available prompts in the game.
 {%- endif %}
 ///
 
-{{ game.history(
-  versions = {
-    'v0.1 Alpha': [
-      'Minigame added'
-    ],
-    'v0.10 Alpha': [
-      'Error handling and Timeout got added to not get stuck if reading the poll from API fails'
-    ],
-    'v0.11 Alpha': [
-      'New battle prompts added',
-      'Fixed TTS voice not being high-pitched'
-    ],
-    'v0.12 Alpha': [
-      'Messages starting with <code>!</code> are no longer read by the TTS system'
-    ],
-    'v0.13 Alpha': [
-      'Each vote is now worth 1/10th of the total win prize of the tile'
-    ],
-    'v0.14 Alpha': [
-      'Prompts doubled, thanks to contributions by Maildropfolder'
-    ],
-    'v0.15 Alpha': [
-      'Fixed typos in prompts'
-    ],
-    'v0.16 Alpha': [
-      'Further typo corrections in prompts'
-    ]
-  }
-) }}
+{{ game.history({
+  'v0.1 Alpha': [
+    'Minigame added'
+  ],
+  'v0.10 Alpha': [
+    'Error handling and Timeout got added to not get stuck if reading the poll from API fails'
+  ],
+  'v0.11 Alpha': [
+    'New battle prompts added',
+    'Fixed TTS voice not being high-pitched'
+  ],
+  'v0.12 Alpha': [
+    'Messages starting with `!` are no longer read by the TTS system'
+  ],
+  'v0.13 Alpha': [
+    'Each vote is now worth 1/10th of the total win prize of the tile'
+  ],
+  'v0.14 Alpha': [
+    'Prompts doubled, thanks to contributions by Maildropfolder'
+  ],
+  'v0.15 Alpha': [
+    'Fixed typos in prompts'
+  ],
+  'v0.16 Alpha': [
+    'Further typo corrections in prompts'
+  ]
+}) }}

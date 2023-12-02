@@ -22,13 +22,11 @@ The participating players' marbles are dropped and begin to collect points by fa
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
 
-{{ game.history(
-  versions = {
-    'v0.9 Alpha': [
-      'Minigame added'
-    ],
-    'v0.10 Alpha': [
-      'Danger Sign added to further hint at the possible risk of losing all your points'
-    ]
-  }
-) }}
+{{ game.history({
+  'v0.9 Alpha': [
+    'Minigame added'
+  ],
+  'v0.10 Alpha': [
+    'Danger Sign added to further hint at the possible risk of losing all your points'
+  ]
+}) }}

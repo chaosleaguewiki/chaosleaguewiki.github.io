@@ -1,23 +1,12 @@
 ---
 description: Royal Execution is a a rare minigame added in version v0.8 Alpha.
-
-history:
-  'v0.8 Alpha':
-    - Minigame added
-  'v0.9 Alpha':
-    - Time increased to 30 seconds
-  'v0.14 Alpha':
-    - Bug causing commands from king to not be registered
-  'v0.16 Alpha':
-    - 'Increased points earned for surviving a round'
-    - 'Added label indicating how many points spike will take from the players'
 ---
 
 # Royal Execution
 
 {{ game.info(
   rarity           = "rare",
-  inputs           = "King: [`!left`](../../../chat-commands/twitch/#left), [`!right`](../../../chat-commands/twitch/#right)",
+  inputs           = "King&#58; [`!left`][left-command], [`!right`][right-command]",
   timer            = "30 Seconds",
   rounds           = "1-3",
   slots_guaranteed = "6",
@@ -37,16 +26,18 @@ Above one of the chambers there is a spiked platform. For 20 seconds, the king g
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank, however, only one person can win.
 
-{{ game.history(
-  versions = {
-    'v0.8 Alpha': [
-      'Minigame added'
-    ],
-    'v0.9 Alpha': [
-      'Timer increased to 30 seconds'
-    ],
-    'v0.14 Alpha': [
-      'Fixed Bug causing commands from king to not be registered'
-    ]
-  }
-) }}
+## Trivia
+
+- It is actually possible to die to the spikes when exiting the forking pipe, if your marble happens to have the right velocity.
+
+{{ game.history({
+  'v0.8 Alpha': [
+    'Minigame added'
+  ],
+  'v0.9 Alpha': [
+    'Timer increased to 30 seconds'
+  ],
+  'v0.14 Alpha': [
+    'Fixed Bug causing commands from king to not be registered'
+  ]
+}) }}

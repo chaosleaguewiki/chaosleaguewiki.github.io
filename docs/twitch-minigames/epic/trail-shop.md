@@ -6,7 +6,7 @@ description: Trail Shop is a special tile in that it is not a minigame in the us
 
 {{ game.info(
   rarity = "epic",
-  inputs = "[`!buy`](../../../chat-commands/twitch/#buy)",
+  inputs = "[`!buy`][buy-command]",
   timer  = "29 Seconds",
   slots_guaranteed = "8",
   slots_raffle     = "4",
@@ -27,13 +27,11 @@ Once the game starts can each player use the [`!buy<number>` command][buy-comman
 
 The colors a trail can have are randomly chosen whenever the tile is being selected. Previously purchased trails can't be re-equipped again.
 
-{{ game.history(
-  versions = {
-    'v0.12 Alpha': [
-      'Minigame added'
-    ],
-    'v0.13 Alpha': [
-      'King can complete purchases in shop tiles without leaving the throne'
-    ]
-  }
-) }}
+{{ game.history({
+  'v0.12 Alpha': [
+    'Minigame added'
+  ],
+  'v0.13 Alpha': [
+    'King can complete purchases in shop tiles without leaving the throne'
+  ]
+}) }}

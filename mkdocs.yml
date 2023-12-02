@@ -70,6 +70,7 @@ nav:
       - meta/macros/image.md
       - meta/macros/game.md
       - meta/macros/misc.md
+      - meta/macros/utils.md
     - Snippets:
       - meta/snippets/commands.md
       - meta/snippets/games.md

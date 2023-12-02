@@ -20,17 +20,16 @@ description: How Low Can You Go is a common minigame added in version v0.1 Alpha
 
 The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps.
 
-The participating players' marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the game through the pipe at the top. If a marble falls into a closed gap, it is eliminated from the game and a given number of points is transfered to the king's balance.
+The participating players' marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the game through the pipe at the top. If a marble falls into a closed gap, it is eliminated from the game and a given number of points is transfered to the king's balance.  
+With the exception of closed gaps does every gap increase its point value by one for every marble falling through it.
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
 
-{{ game.history(
-  versions = {
-    'v0.1 Alpha': [
-      'Minigame added'
-    ],
-    'v0.16 Alpha': [
-      '(Experimental) Gaps now increase in value every time a player passes through'
-    ]
-  }
-) }}
+{{ game.history({
+  'v0.1 Alpha': [
+    'Minigame added'
+  ],
+  'v0.16 Alpha': [
+    '(Experimental) Gaps now increase in value every time a player passes through'
+  ]
+}) }}

@@ -23,6 +23,8 @@ Macros are used to inject customizable content into the page or for other things
 - [Miscellaneous](macros/misc.md)
     - [`read_json_file`](macros/misc.md#read_json_file)
     - [`read_file`](macros/misc.md#read_file)
+- [Utils](macros/utils.md)
+    - [`utils.table`](macros/utils.md#utils.table)
 
 ## Snippets
 

@@ -5,7 +5,7 @@ description: Danger Zone is a common minigame added in version v0.1 Alpha.
 # Danger Zone
 
 {{ game.info(
-  inputs           = "[`!pull @user`](../../../chat-commands/twitch/#pull)",
+  inputs           = "[`!pull @user`][pull-command]",
   timer            = "20 Seconds",
   rounds           = "3",
   slots_guaranteed = "8",
@@ -27,16 +27,14 @@ When the timer is up, the pulls are executed for 4 seconds. Marbles in green cha
 
 When there's no marbles or one marble left, or after 3 rounds, the game ends and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank.
 
-{{ game.history(
-  versions = {
-    'v0.1 Alpha': [
-      'Minigame added'
-    ],
-    'v0.13 Alpha': [
-      'Additional points are rewarded for players surviving a round'
-    ],
-    'v0.14 Alpha': [
-      'Round number resets now after it rolls up again'
-    ]
-  }
-) }}
+{{ game.history({
+  'v0.1 Alpha': [
+    'Minigame added'
+  ],
+  'v0.13 Alpha': [
+    'Additional points are rewarded for players surviving a round'
+  ],
+  'v0.14 Alpha': [
+    'Round number resets now after it rolls up again'
+  ]
+}) }}

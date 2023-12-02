@@ -17,6 +17,8 @@ There currently exist 4 variants.
 - [`{{ game.twitch_version(path) }}`](#game.twitch_version)
 {% endraw %}
 
+----
+
 {% raw %}
 ## `{{ game.info(title, rarity, inputs, timer, rounds, slots_guaranteed, slots_raffle, added, img_url, img_alt, img_caption) }}` { #game.info }
 {% endraw %}
@@ -161,33 +163,29 @@ Do note that the `versions` option can/should be treated like JSON with each str
 /// tab | Raw
 {% raw %}
 ```
-{{ game.history(
-    versions = {
-        'v0.1 Alpha': [
-            'Minigame added'
-        ],
-        'v0.2 Alpha': [
-            'Fixed a bug',
-            'Added something'
-        ]
-    }
-) }}
+{{ game.history({
+    'v0.1 Alpha': [
+        'Minigame added'
+    ],
+    'v0.2 Alpha': [
+        'Fixed a bug',
+        'Added something'
+    ]
+}) }}
 ```
 {% endraw %}
 ///
 
 /// tab | Result
-{{ game.history(
-    versions = {
-        'v0.1 Alpha': [
-            'Minigame added'
-        ],
-        'v0.2 Alpha': [
-            'Fixed a bug',
-            'Added something'
-        ]
-    }
-) }}
+{{ game.history({
+    'v0.1 Alpha': [
+        'Minigame added'
+    ],
+    'v0.2 Alpha': [
+        'Fixed a bug',
+        'Added something'
+    ]
+}) }}
 ///
 
 ----

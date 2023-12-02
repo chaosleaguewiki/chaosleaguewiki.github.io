@@ -49,6 +49,22 @@
   padding-right: .5rem;
 }
 
+.draw_line--right{
+  border-right: 1px solid var(--md-typeset-table-color);
+}
+
+.draw_line--down {
+  border-bottom: 1px solid var(--md-typeset-table-color);
+}
+
+.no-line--top {
+  border-top: 0 !important;
+}
+
+.no-color:hover {
+  background-color: transparent !important;
+}
+
 .md-typeset .admonition.wiki.history td {
   padding-right: 1.25em;
 }

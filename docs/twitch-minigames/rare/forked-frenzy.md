@@ -1,30 +1,17 @@
 ---
 description: Forked Frenzy is an upcoming game where players fall through multiple sets of forking pipes.
-
-history:
-  'v0.16 Alpha':
-    - 'Minigame added'
 ---
 
 # Forked Frenzy
 
---8<-- "unreleased.md"
-
-/// wiki | Forked Frenzy
-    attrs: {class: 'inline end' }
-
-|         |                 |
-|---------|-----------------|
-| Rarity: | Rare            |
-| Input:  | Unknown         |
-| Timer:  | Unknown         |
-| Rounds: | Unknown         |
-| Slots:  | Guaranteed: N/A |
-|         | Raffle: N/A     |
-| Added:  | Unknown         |
-
-![bounce-house](../../assets/images/minigames/twitch/forked-frenzy.png)
-///
+{{ game.info(
+  rarity = "Rare",
+  slots_guaranteed="8",
+  slots_raffle = "3",
+  added = "v0.16 Alpha",
+  
+  img_url = "../../../assets/images/minigames/twitch/forked-frenzy.png"
+) }}
 
 **Forked Frenzy** is an upcoming game where players fall through multiple sets of forking pipes.
 
@@ -36,3 +23,9 @@ Players ending up on the left side will enter another forking pipe where they wi
 The right side is the same, but mirrored, meaning players on the right get eliminated while players on the left move on.
 
 The final set of pipes drops the player's marble through a gap, giving them points no matter what side they exit from. Once the marble reaches the bottom will they reappear at the top, repeating the cicle.
+
+{{ game.history({
+  'v0.16 Alpha': [
+    'Minigame added'
+  ]
+}) }}

@@ -117,10 +117,11 @@ This macro parses the provided text using the standard Markdown parser used by M
 /// tab | Raw
 {% raw %}
 ```
-<p>{{ markdownify([Link](#markdownify)) }}</p>
+<p>{{ markdownify("[Link](#markdownify)") }}</p>
 ```
+{% endraw %}
 ///
 
 /// tab | Result
-<p>{{ markdownify([Link](#markdownify)) }}</p>
+<p>{{ markdownify("[Link](#markdownify)") }}</p>
 ///

@@ -24,11 +24,16 @@ def define_env(env):
     
     @env.macro
     def markdownify(text: str):
-        return markdown.markdown(text=text)
+        md = markdown.Markdown(
+            extensions=env.conf['markdown_extensions'],
+            extension_configs=env.conf['mdx_configs'] or {}
+        )
+        # markdown adds <p> tags, which we don't need here.
+        return md.convert(text).replace('<p>', '').replace('</p>', '')
 
 def on_pre_page_macros(env):
     """
     Injects an import statement at the top to add game-page related macros.
     """
-    header = "{% import 'game.md' as game with context %}\n{% import 'image.md' as image with context %}\n\n" + env.markdown
+    header = "{% import 'game.md' as game with context %}\n{% import 'image.md' as image with context %}\n{% import 'utils.md' as utils with context %}\n\n" + env.markdown
     env.markdown = header

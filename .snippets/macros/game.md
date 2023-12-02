@@ -30,7 +30,7 @@
         </tr>
         <tr>
           <td class="{{ 'draw_line--down' if img_url else '' }}">Added</td>
-          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ added }}</td>
+          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ markdownify(added) }}</td>
         </tr>
       </tbody>
     </table>
@@ -63,9 +63,9 @@
                   <tr>
                 {% endif %}
                 {% if loop.last and loop_ns.last_key %}
-                  <td>{{ entry }}</td>
+                  <td>{{ markdownify(entry) }}</td>
                 {% else %}
-                  <td class="draw_line--down">{{ entry }}</td>
+                  <td class="draw_line--down">{{ markdownify(entry) }}</td>
                 {% endif %}
               {% endfor %}
             </tr>
@@ -90,9 +90,6 @@
 
 {% macro alternative_version(link, type, alt) -%}
   <div class="variant_info {{ type }}">
-    You are viewing the <span class="twemoji">{% include ".icons/" ~ type ~ ".svg" %}</span> <strong>{{ type | capitalize() }}</strong> version of this Minigame.<br>
-    <a href="/{{ alt | lower() }}-minigames/{{ link }}">
-      Switch to <span class="twemoji">{% include ".icons/" ~ alt ~ ".svg" %}</span> <strong>{{ alt | capitalize() }}</strong> version.
-    </a>
+    {{ markdownify("You are viewing the :simple-" ~ type|lower() ~ ": **" ~ type|capitalize() ~ "** version of this Minigame.<br>[Switch to :simple-" ~ alt|lower() ~ ": **" ~ alt|capitalize() ~ "** version.](/" ~ alt|lower() ~ "-minigames/" ~ link ~ ")") }}
   </div>
 {%- endmacro %}

@@ -24,14 +24,12 @@ The participating players' marbles are dropped and begin to fly around the tile,
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
 
-{{ game.history(
-  versions = {
-    'v0.3 Alpha': [
-      'Minigame Added'
-    ],
-    'v0.9 Alpha': [
-      'Changed values. Spinning block is now 1 point, spinning bucket -2 points and gap is 10 points.',
-      'Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a marble passes through.'
-    ]
-  }
-) }}
+{{ game.history({
+  'v0.3 Alpha': [
+    'Minigame Added'
+  ],
+  'v0.9 Alpha': [
+    'Changed values. Spinning block is now 1 point, spinning bucket -2 points and gap is 10 points.',
+    'Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a marble passes through.'
+  ]
+}) }}
