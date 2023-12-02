@@ -19,5 +19,9 @@ Once completed will the recruitment be announced in the stream.
 
 A player's alliance with another player will be indicated by a small avatar of the recruiter next to the player's Marble.
 
-Note that a player can only join one other player per stream.  
 A recruiter can have multiple recruits.
+
+## Requirements
+
+In order for a player to be recruited, they need to not be active in the stream for a certain time. Additionally can they only join one player per stream.  
+Should they try joining another player while already being recruited or being considered active by the game will the recruiting fail.
