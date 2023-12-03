@@ -36,5 +36,8 @@ When there's no marbles or one marble left, or after 3 rounds, the game ends and
   ],
   'v0.14 Alpha': [
     'Round number resets now after it rolls up again'
+  ],
+  'v0.17 Alpha': [
+    'Surviving a round now equals 1 instead of 0'
   ]
 }) }}

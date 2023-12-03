@@ -77,6 +77,8 @@ nav:
       - meta/snippets/games.md
       - meta/snippets/game-terminology.md
       - meta/snippets/unreleased.md
+    - Terminology:
+      - meta/terminology/index.md
 
 theme:
   name: material

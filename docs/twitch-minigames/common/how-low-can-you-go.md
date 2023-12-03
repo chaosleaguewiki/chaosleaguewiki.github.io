@@ -31,5 +31,8 @@ When there's one marble left, the game ends and the players are ranked by their 
   ],
   'v0.16 Alpha': [
     '(Experimental) Gaps now increase in value every time a player passes through'
+  ],
+  'v0.17 Alpha': [
+    'Nerfed survival Rate'
   ]
 }) }}
