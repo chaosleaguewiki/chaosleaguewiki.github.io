@@ -21,6 +21,7 @@ The following minigames are available:
 - [Bounce House](common/bounce-house.md)
 - [Danger Zone](common/danger-zone.md)
 - [How Low Can You Go](common/how-low-can-you-go.md)
+- [Ouroboros](common/ouroboros.md)
 - [Quip Battle](common/quip-battle.md)
 - [Zero or Hero](common/zero-or-hero.md)
 
