@@ -2,6 +2,7 @@
 [Bounce House]: /twitch-minigames/common/bounce-house/
 [Danger Zone]: /twitch-minigames/common/danger-zone/
 [How Low Can You Go]: /twitch-minigames/common/how-low-can-you-go/
+[Ouroboros]: /twitch-minigames/common/ouroboros/
 [Quip Battle]: /twitch-minigames/common/quip-battle/
 [Zero or Hero]: /twitch-minigames/common/zero-or-hero/
 
