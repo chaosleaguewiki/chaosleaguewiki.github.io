@@ -8,6 +8,7 @@ Chaos League has different types of Game Mechanics available.
 
 - [Attacking the king](attacking-the-king.md)
 - [Earning Gold](earning-gold.md)
+- [Gold Tile](gold-tile.md)
 - [Queue System](queue-system.md)
 - [Rebellion](rebellion.md)
 - [Recruiting](recruiting.md)
