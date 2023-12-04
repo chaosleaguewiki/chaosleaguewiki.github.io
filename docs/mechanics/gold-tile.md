@@ -17,6 +17,9 @@ Any tickets spent on this tile will be increased by a factor of 10, meaning 10 t
 
 Should a [Rebellion multiplier](rebellion.md) be used will it and the x10 multiplier of the golden tile be added together, meaning a player inside a x5 rebellion multiplier in a Golden Tile will receive a x15 multiplier on any points they earn or lose.
 
+An exception to the aforementioned mechanics are gold tile versions of [Bubble Color Shop] and [Trail Shop].  
+Should either of these receive the gold tile will they not get a x10 multiplier, but instead have their prices be reduced by 25%.
+
 {{ game.history({
     'v0.13 Alpha': [
         'Game mechanic added'
