@@ -13,3 +13,9 @@ Currently can they only buy colored trails from the [`Trail Shop` tile](../twitc
 
 To earn Gold, a player needs to [capture the throne](attacking-the-king.md). Once they managed to capture the throne will they receive some gold. After this will they passively earn Gold every 15 seconds for being the king.  
 The amount of Gold earned is based on the current viewer count with 1 viewer being equal to 1 Gold.
+
+{{ game.history({
+    'v0.8 Alpha': [
+        'Gameplay mechanic added'
+    ]
+}) }}

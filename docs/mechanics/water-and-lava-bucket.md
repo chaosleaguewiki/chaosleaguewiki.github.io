@@ -24,12 +24,14 @@ Activating said water bucket will spread water across the attack tile, removing 
 - Water drops can't hurt a player's marble, but stop them from touching a block and reducing its value.
 - Lava and Water Buckets have existed in a previous iteration of Chaos league.
 
-/// wiki | History
-|             |                                                                    |
-|-------------|--------------------------------------------------------------------|
-| v0.9 Alpha  | Mechanic added to the game.                                        |
-| v0.10 Alpha | Option to buy a Bucket through Tickets was added.                  |
-|             | SFX added for filling Lava or Water progress bar.                  |
-|             | Announcement added when releasing Lava or Water Bucket.            |
-|             | Price for Lava Bucket has been reduced from 1000 Bits to 750 Bits. |
-///
+{{ game.history({
+    'v0.9 Alpha': [
+        'Gameplay mechanic added'
+    ],
+    'v0.10 Alpha': [
+        'Option to buy a Bucket through tickets added',
+        'SFW added for filling Lava or Water progress bar',
+        'Announcement added for releasing Lava or Water Bucket',
+        'Price for Lava Bucket changed from 1000 Bits to 750 Bits'
+    ]
+}) }}

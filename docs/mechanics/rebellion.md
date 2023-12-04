@@ -38,3 +38,12 @@ Should the rebellion leader not be king and not participate will their effect ar
 Gaps giving or taking points have their values multiplied while in the effect area of the rebellion leader.
 
 Skull gaps in [Zero or Hero] also turn into Angel gaps. These gaps do not take away any points from the player while still eliminating them.
+
+{{ game.history({
+    'v0.15 Alpha': [
+        'Gameplay mechanic added'
+    ],
+    'v0.18 Alpha': [
+        'Duration buffed to 40 sec/dollar'
+    ]
+}) }}

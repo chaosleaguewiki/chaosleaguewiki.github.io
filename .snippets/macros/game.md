@@ -44,35 +44,37 @@
 
 {% macro history(versions=[]) -%}
   {% if versions -%}
-    <div class="admonition wiki history">
-      <p class="admonition-title">History</p>
-      <table>
-        <tbody>
-          {% set loop_ns = namespace(last_key=false) %}
-          {% for version, entries in versions.items() %}
-            <tr>
-              {% if loop.last %}
-                {% set loop_ns.last_key = true %}
-                <td rowspan="{{ entries | length() }}" class="game_version draw_line--right">{{ version }}</td>
-              {% else %}
-                <td rowspan="{{ entries | length() }}" class="game_version draw_line--down draw_line--right">{{ version }}</td>
+  <hr>
+  
+  <div class="admonition wiki history">
+    <p class="admonition-title">History</p>
+    <table>
+      <tbody>
+        {% set loop_ns = namespace(last_key=false) %}
+        {% for version, entries in versions.items() %}
+          <tr>
+            {% if loop.last %}
+              {% set loop_ns.last_key = true %}
+              <td rowspan="{{ entries | length() }}" class="game_version draw_line--right">{{ version }}</td>
+            {% else %}
+              <td rowspan="{{ entries | length() }}" class="game_version draw_line--down draw_line--right">{{ version }}</td>
+            {% endif %}
+            {% for entry in entries %}
+              {% if not loop.first %}
+                </tr>
+                <tr>
               {% endif %}
-              {% for entry in entries %}
-                {% if not loop.first %}
-                  </tr>
-                  <tr>
-                {% endif %}
-                {% if loop.last and loop_ns.last_key %}
-                  <td>{{ markdownify(entry) }}</td>
-                {% else %}
-                  <td class="draw_line--down">{{ markdownify(entry) }}</td>
-                {% endif %}
-              {% endfor %}
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
+              {% if loop.last and loop_ns.last_key %}
+                <td>{{ markdownify(entry) }}</td>
+              {% else %}
+                <td class="draw_line--down">{{ markdownify(entry) }}</td>
+              {% endif %}
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
   {%- endif %}
 {%- endmacro %}
 

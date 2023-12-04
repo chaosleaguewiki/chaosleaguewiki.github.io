@@ -22,3 +22,9 @@ Each block the Player's marble touches will decrease in value while also decreas
 Broken blocks remain broken until a player has captured the throne, at which point the wall will be regenerated.
 
 Should the throne be captured before 30 seconds pass since the last capture will the block values get doubled.
+
+{{ game.history({
+    'v0.1 Alpha': [
+        'Gameplay mechanic added'
+    ]
+}) }}

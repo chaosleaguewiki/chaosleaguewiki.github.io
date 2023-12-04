@@ -25,3 +25,9 @@ A recruiter can have multiple recruits.
 
 In order for a player to be recruited, they need to not be active in the stream for a certain time. Additionally can they only join one player per stream.  
 Should they try joining another player while already being recruited or being considered active by the game will the recruiting fail.
+
+{{ game.history({
+    'v0.1 Alpha': [
+        'Gameplay mechanic added'
+    ]
+}) }}
