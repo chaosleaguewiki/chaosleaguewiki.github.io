@@ -12,6 +12,7 @@
 [Stonks]: /twitch-minigames/rare/stonks/
 
 <!-- Epic -->
+[Bubble Color Shop]: /twitch-minigames/epic/bubble-color-shop/
 [Trail Shop]: /twitch-minigames/epic/trail-shop/
 
 <!-- Legendary -->

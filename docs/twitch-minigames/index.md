@@ -33,6 +33,7 @@ The following minigames are available:
 
 ### Epic
 
+- [Bubble Color Shop](epic/bubble-color-shop.md)
 - [Trail Shop](epic/trail-shop.md)
 
 ### Legendary
