@@ -29,5 +29,8 @@ When there's one marble left, the game ends, and the players are ranked by their
   ],
   'v0.6 Alpha': [
     'Closed outside gaps and made them remove 100 points'
+  ],
+  'v0.20 Alpha': [
+    'Buffed point distribution'
   ]
 }) }}

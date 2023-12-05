@@ -39,5 +39,9 @@ When there's no marbles or one marble left, or after 3 rounds, the game ends and
   ],
   'v0.17 Alpha': [
     'Surviving a round now equals 1 instead of 0'
+  ],
+  'v0.20 Alpha': [
+    '[`!pull`][pull-command] command removed. You can now just mention a user to pull them',
+    'Fixed arrow going off-screen'
   ]
 }) }}

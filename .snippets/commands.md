@@ -11,6 +11,7 @@
 [water-command]: /chat-commands/twitch/#water
 [cancelbid-command]: /chat-commands/twitch/#cancelbid
 [wiki-command]: /chat-commands/twitch/#wiki
+[patreon-command]: /chat-commands/twitch/#patreon
 
 <!-- King commands -->
 [song-command]: /chat-commands/twitch/#song

@@ -1,11 +1,15 @@
 :root {
     --admonition-color-fg--wip: #FF9100;
+    --admonition-color-fg--removed: #FF5252;
     
     --admonition-color-icon--wip: #FF9100;
+    --admonition-color-icon--removed: #FF5252;
     
     --admonition-color-bg--wip: #FF91001A;
+    --admonition-color-bg--removed: #FF52521A;
     
     --admonition-icon--wip: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M4.75 2h14.5a.75.75 0 0 1 0 1.5h-.75v2.982a4.75 4.75 0 0 1-2.215 4.017l-2.044 1.29a.25.25 0 0 0 0 .422l2.044 1.29a4.75 4.75 0 0 1 2.215 4.017V20.5h.75a.75.75 0 0 1 0 1.5H4.75a.75.75 0 0 1 0-1.5h.75v-2.982a4.75 4.75 0 0 1 2.215-4.017l2.044-1.29a.25.25 0 0 0 0-.422l-2.044-1.29A4.75 4.75 0 0 1 5.5 6.482V3.5h-.75a.75.75 0 0 1 0-1.5ZM17 3.5H7v2.982A3.25 3.25 0 0 0 8.516 9.23l2.044 1.29a1.75 1.75 0 0 1 0 2.96l-2.044 1.29A3.25 3.25 0 0 0 7 17.518V20.5h10v-2.982a3.25 3.25 0 0 0-1.516-2.748l-2.044-1.29a1.75 1.75 0 0 1 0-2.96l2.044-1.29A3.25 3.25 0 0 0 17 6.482Z"></path></svg>');
+    --admonition-icon--removed: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path d="M16 1.75V3h5.25a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1 0-1.5H8V1.75C8 .784 8.784 0 9.75 0h4.5C15.216 0 16 .784 16 1.75Zm-6.5 0V3h5V1.75a.25.25 0 0 0-.25-.25h-4.5a.25.25 0 0 0-.25.25ZM4.997 6.178a.75.75 0 1 0-1.493.144L4.916 20.92a1.75 1.75 0 0 0 1.742 1.58h10.684a1.75 1.75 0 0 0 1.742-1.581l1.413-14.597a.75.75 0 0 0-1.494-.144l-1.412 14.596a.25.25 0 0 1-.249.226H6.658a.25.25 0 0 1-.249-.226L4.997 6.178Z"></path><path d="M9.206 7.501a.75.75 0 0 1 .793.705l.5 8.5A.75.75 0 1 1 9 16.794l-.5-8.5a.75.75 0 0 1 .705-.793Zm6.293.793A.75.75 0 1 0 14 8.206l-.5 8.5a.75.75 0 0 0 1.498.088l.5-8.5Z"></path></svg>');
 }
 
 /* WIP Admonition */
@@ -24,4 +28,22 @@
   background-color: var(--admonition-color-icon--wip);
   -webkit-mask-image: var(--admonition-icon--wip);
           mask-image: var(--admonition-icon--wip);
+}
+
+/* Removed Admonition */
+.md-typeset .admonition.removed,
+.md-typeset details.removed {
+  border-color: var(--admonition-color-fg--removed);
+}
+
+.md-typeset .removed > .admonition-title,
+.md-typeset .removed > summary {
+  background-color: var(--admonition-color-bg--removed);
+}
+
+.md-typeset .removed > .admonition-title::before,
+.md-typeset .removed > summary::before {
+  background-color: var(--admonition-color-icon--removed);
+  -webkit-mask-image: var(--admonition-icon--removed);
+          mask-image: var(--admonition-icon--removed);
 }

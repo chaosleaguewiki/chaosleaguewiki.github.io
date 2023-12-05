@@ -75,5 +75,8 @@ Below is a current list of all available prompts in the game.
   ],
   'v0.16 Alpha': [
     'Further typo corrections in prompts'
+  ],
+  'v0.20 Alpha': [
+    'Minimum points earned from a vote is now 1 instead of 0'
   ]
 }) }}

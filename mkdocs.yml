@@ -44,7 +44,7 @@ nav:
         - twitch-minigames/rare/royal-execution.md
         - twitch-minigames/rare/stonks.md
       - Epic:
-        - twitch-minigames/epic/speech-bubble-color-shop.md
+        - twitch-minigames/epic/bubble-color-shop.md
         - twitch-minigames/epic/text-color-shop.md
         - twitch-minigames/epic/trail-shop.md
       - Legendary:
@@ -56,6 +56,7 @@ nav:
         - youtube-minigames/common/how-low-can-you-go.md
   - Changelog:
       - changelog/index.md
+      - changelog/cl3/v0.20-alpha.md
       - changelog/cl3/v0.19-alpha.md
       - changelog/cl3/v0.18-alpha.md
       - changelog/cl3/v0.17-alpha.md
@@ -203,6 +204,7 @@ markdown_extensions:
         - quote
         - wiki
         - wip
+        - removed
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
       alternate_style: true

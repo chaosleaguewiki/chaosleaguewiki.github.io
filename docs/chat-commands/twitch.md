@@ -8,14 +8,13 @@ description: Chat commands available for the Twitch version of Chaos League.
 
 ### `!attack`
 
+/// note | Command cannot be used while in a tile
+///
+
 Starts an attack against the current king by spawning you at the red pipe with the `!attack` text on it (bottom-center of the screen).  
 You will then move up and start your attack.
 
 You can read more about attacking the king on the [game mechanics page](../mechanics/index.md).
-
-/// note
-This command cannot be used while you're participating in a minigame.
-///
 
 ### `!recruit`
 
@@ -61,6 +60,10 @@ Cancels the current bid tickets or bits and removes the player from the queue. T
 
 Gives a link to this wiki you're currently reading.
 
+### `!patreon`
+
+Gives a Link to DoodleChaos' Patreon page.
+
 ## Throne Commands
 
 Only executable by the current king on the throne.
@@ -101,6 +104,9 @@ Usable in the minigame [Royal Execution] by the current king.
 Moves the spikes at the top of the tile to the right side.
 
 ### `!pull @user` { #pull }
+
+/// removed | Command removed in v0.20 Alpha
+///
 
 Usable in the minigame [Danger Zone].
 
