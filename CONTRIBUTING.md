@@ -3,6 +3,10 @@
 We are always happy for contributions towards this wiki, no matter how big or small they are.  
 This file was made to explain the basics of contributing and what we expect from you to do, to have your changes approved and merged into this repository.
 
+> [!NOTE]
+> This file is a work in progress. Changes may happen at any time and certain things may be missing.
+> Don't hesitate to contact us for questions... Tho we may not answer questions related to Git or GitHub itself.
+
 ## Terminology
 
 The following words and sentences will be used throughout this document.
