@@ -11,15 +11,15 @@ This file was made to explain the basics of contributing and what we expect from
 
 The following words and sentences will be used throughout this document.
 
-| Term             | Description                                                                                                                                  |
+| Term             | Description                                                                                                                                   |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
-| Git              | Open source, distributed version control system. See [git-scm.com][git] for more info.                                                       |
-| Fork             | A copy of this repository you made on GitHub. [Learn more about forking a repository][forking]                                               |
-| Local repository | Your fork cloned to your PC using the `git clone` command. [Learn more about cloning][cloning]                                               |
-| Branch           | Git term used to describe a separate "version" of the repository.                                                                            |
-| Commit           | Git term describing the addition of one or multiple changes to a repo's version history.                                                     |
-| Pull request     | Method used on GitHub to integrate changes made from a separate branch (and from a fork) into the repo. [About Pull requests][pull-requests] |
-| Pip              | Command included in Python to install and manage python libraries.                                                                           |
+| Git              | Open source, distributed version control system. See [git-scm.com][git] for more info.                                                        |
+| Fork             | A copy of this repository you made on GitHub. [Learn more about forking a repository][forking].                                               |
+| Local repository | Your fork cloned to your PC using the `git clone` command. [Learn more about cloning][cloning].                                               |
+| Branch           | Git term used to describe a separate "version" of the repository.                                                                             |
+| Commit           | Git term describing the addition of one or multiple changes to a repo's version history.                                                      |
+| Pull request     | Method used on GitHub to integrate changes made from a separate branch (and from a fork) into the repo. [About Pull requests][pull-requests]. |
+| Pip              | Command included in Python to install and manage python libraries.                                                                            |
 
 [git]: https://git-scm.com
 [forking]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
@@ -61,7 +61,7 @@ No matter the page, you need to make sure to include it in the `nav` list of the
 
 If your page covers a new minigame should you include specific Macros ([What is a Macro?][macro]).
 
-The first required macro is the [`game.info(...)`][game.inf] macro. It is used to display common minigame info on the Page itself.  
+The first required macro is the [`game.info(...)`][game.info] macro. It is used to display common minigame info on the Page itself.  
 The position is important: It has to be the first thing after the h1 header of the page.
 
 > [!NOTE]
