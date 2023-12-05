@@ -131,6 +131,13 @@ extra:
   announcement: |
     We are looking for contributors!<br>
     If you have experience with Chaos League, consider contributing to this wiki <a href="https://github.com/chaosleaguewiki/chaosleaguewiki.github.io" target="_blank" rel="nofollow">on GitHub!</a>
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our wiki and whether users find what
+      they're searching for. With your consent, you're helping us to make our
+      wiki better.
 
 extra_css:
   - assets/stylesheet/style.css
