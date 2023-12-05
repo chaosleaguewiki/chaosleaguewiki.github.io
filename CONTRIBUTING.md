@@ -11,17 +11,20 @@ This file was made to explain the basics of contributing and what we expect from
 
 The following words and sentences will be used throughout this document.
 
-| Term             | Description                                                                                             |
-|------------------|---------------------------------------------------------------------------------------------------------|
-| Git              | Open source, distributed version control system. See [git-scm.com][git] for more info.                  |
-| Fork             | A copy of this repository you made on GitHub.                                                           |
-| Local repository | Your forked cloned to your PC using the `git clone` command.                                            |
-| Branch           | Git term used to describe a separate "version" of the repository.                                       |
-| Commit           | Git term describing the addition of one or multiple changes to a repo's version history                 |
-| Pull request     | Method used on GitHub to integrate changes made from a separate branch (and from a fork) into the repo. |
-| Pip              | Command included in Python to install and manage python libraries.                                      |
+| Term             | Description                                                                                                                                  |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Git              | Open source, distributed version control system. See [git-scm.com][git] for more info.                                                       |
+| Fork             | A copy of this repository you made on GitHub. [Learn more about forking a repository][forking]                                               |
+| Local repository | Your fork cloned to your PC using the `git clone` command. [Learn more about cloning][cloning]                                               |
+| Branch           | Git term used to describe a separate "version" of the repository.                                                                            |
+| Commit           | Git term describing the addition of one or multiple changes to a repo's version history.                                                     |
+| Pull request     | Method used on GitHub to integrate changes made from a separate branch (and from a fork) into the repo. [About Pull requests][pull-requests] |
+| Pip              | Command included in Python to install and manage python libraries.                                                                           |
 
 [git]: https://git-scm.com
+[forking]: https://docs.github.com/en/get-started/quickstart/fork-a-repo
+[cloning]: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+[pull-requests]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests
 
 ## Requirements and Prerequisits
 
