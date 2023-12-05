@@ -5,7 +5,7 @@ description: Rebellion is a game mechanic where people can give bits to start a 
 # Rebellion
 
 {{ image.right(
-    url     = "../../assets/images/rebellion-animation.gif",
+    url     = "../../assets/images/rebellion-animation.webp",
     title   = "Rebellion",
     caption = "The animation played when someone starts a rebellion."
 ) }}
