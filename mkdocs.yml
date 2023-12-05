@@ -4,7 +4,10 @@ site_author: Andre_601
 
 site_url: 'https://chaosleaguewiki.github.io'
 
-copyright: 'Everything is licensed under <a href="https://github.com/chaosleaguewiki/chaosleaguewiki.github.io/blob/main/LICENSE" target="_blank" rel="nofollow">MIT</a> unless stated otherwise.'
+copyright: |-
+  Everything is licensed under <a href="https://github.com/chaosleaguewiki/chaosleaguewiki.github.io/blob/main/LICENSE" target="_blank" rel="nofollow">MIT</a> unless stated otherwise.<br>
+  <br>
+  <a href="#__consent">Manage Cookies</a>
 
 docs_dir: docs/
 
@@ -138,6 +141,10 @@ extra:
       as to measure the effectiveness of our wiki and whether users find what
       they're searching for. With your consent, you're helping us to make our
       wiki better.
+    actions:
+      - accept
+      - reject
+      - manage
 
 extra_css:
   - assets/stylesheet/style.css
