@@ -35,9 +35,9 @@ Gives the mentioned user `[amount]` of your gold.
 
 ### `!defend [amount]` { #defend }
 
-Spend `[amount]` of your points to spread across 10 obsidian defense bricks.
+Spend `[amount]` of your points to spread across the 10 obsidian defense blocks.
 
-### `!stats @user` { #stats }
+### `!stats @user` / `!mystats` { #stats }
 
 Get statistics of the mentioned user.
 
@@ -84,9 +84,9 @@ Only executable by players participating in a tile, or by the king while a certa
 
 ### `!buy<number>` { #buy }
 
-Usable in the minigame [Trail Shop] to buy one of three available Trails using Gold you've earned.
+Usable in the minigames [Speech bubble color Shop], [Speech bubble text color Shop] and [Trail Shop] to buy one of three available cosmetics using Gold you've earned.
 
-`buy1` buys the cheapest, `buy2` the second cheapest and `buy3` the most expensive trail.
+`buy1` buys the cheapest, `buy2` the second cheapest and `buy3` the most expensive option.
 
 ### `!left`
 

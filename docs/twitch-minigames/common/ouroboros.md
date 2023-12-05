@@ -26,5 +26,9 @@ All tiles with the exception of the 50 tile won't change their value. Said tile 
 {{ game.history({
   'v0.18 Alpha': [
     'Minigame Added'
+  ],
+  'v0.19 Alpha': [
+    'Increased death rate',
+    'Nerfed point earnings'
   ]
 }) }}
