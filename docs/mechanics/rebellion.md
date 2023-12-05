@@ -14,9 +14,10 @@ Rebellion is a game mechanic where people can give bits to start a multiplier th
 
 ## How it works
 
-Players can use the [`!rebel [bits]`][rebel-command] command where `[bits]` is a cheer of at least 200 bits to start a rebellion. Once a rebellion starts will a circle appear around the player that started it. This circle will have certain effects on tiles and other mechanics. See the [Effects section](#effects) for details.
+Players can cheer 200 or more bits to start a rebellion. When a rebellion is started will a circle appear around the marble of the player who started it. This circle will have certain effects on tiles and other mechanics tied to the multiplier value displayed. See the [Effects section](#effects) for details.
 
-The default multiplier starts at 2, but increases by one with every addition 100 bits added. In addition is the duration of the rebellion also increased.
+The default multiplier starts at 2, but increases by one with every addition 100 bits added. In addition is the duration of the rebellion also increased.  
+The duration is 40 seconds per dollar worth of bits spent.
 
 ## Effects
 
@@ -31,7 +32,7 @@ The circle around the rebellion starter has specific effects on players, tiles a
 
 When a player bids spawn tickets to participate while in the effect area of the rebellion leader will the tickets they spent be multiplied. This will also affect the prize a player can win on a tile.
 
-Should the rebellion leader not be king and not participate will their effect area be at the spawn pipe for the queue, affecting every bid made that spawns the player in the queue itself.
+Should the rebellion leader not be king and also not be in a tile's guaranteed slots will their effect area be located at the bottom of the queue, applying the multiplier to any tickets a player bids for this tile while not already being in the guaranteed slots (Outside the effect radius).
 
 ### Point gaps
 

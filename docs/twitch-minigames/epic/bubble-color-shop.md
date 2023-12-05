@@ -1,21 +1,21 @@
 ---
-description: Speech bubble color Shop is an epic Shop tile, meaning instead of playing a game, you can purchase colored Speech bubbles using Gold you earned as king.
+description: Bubble color Shop is an epic Shop tile, meaning instead of playing a game, you can purchase colored Speech bubbles using Gold you earned as king.
 ---
 
-# Speech bubble Color Shop
+# Bubble Color Shop
 
 {{ game.info(
   rarity = "epic",
   inputs = "[`!buy`][buy-command]",
-  timer  = "Unknown",
+  timer  = "29 Seconds",
   slots_guaranteed = "8",
   slots_raffle     = "4",
   added            = "v0.19 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/speech-bubble-shop.png"
+  img_url = "../../../assets/images/minigames/twitch/bubble-color-shop.png"
 ) }}
 
-**Speech bubble color Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase colored Speech bubbles using [Gold you earned as king](../../mechanics/earning-gold.md).
+**Bubble color Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase colored speech bubbles using [Gold you earned as king](../../mechanics/earning-gold.md).
 
 ## Gameplay
 

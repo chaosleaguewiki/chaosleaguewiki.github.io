@@ -13,7 +13,7 @@
 
 <!-- Epic -->
 [Speech bubble color Shop]: /twitch-minigames/epic/speech-bubble-color-shop/
-[Speech bubble text color Shop]: /twitch-minigames/epic/speech-bubble-text-color-shop/
+[Text Color Shop]: /twitch-minigames/epic/text-color-shop/
 [Trail Shop]: /twitch-minigames/epic/trail-shop/
 
 <!-- Legendary -->

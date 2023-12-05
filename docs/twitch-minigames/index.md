@@ -34,7 +34,7 @@ The following minigames are available:
 ### Epic
 
 - [Speech bubble Color Shop](epic/speech-bubble-color-shop.md)
-- [Speech bubble text color Shop](epic/speech-bubble-text-color-shop.md)
+- [Text Color Shop](epic/text-color-shop.md)
 - [Trail Shop](epic/trail-shop.md)
 
 ### Legendary
