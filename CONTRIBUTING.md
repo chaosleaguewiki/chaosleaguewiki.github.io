@@ -3,10 +3,6 @@
 We are always happy for contributions towards this wiki, no matter how big or small they are.  
 This file was made to explain the basics of contributing and what we expect from you to do, to have your changes approved and merged into this repository.
 
-> [!NOTE]
-> This file is a work in progress. Changes may happen at any time and certain things may be missing.
-> Don't hesitate to contact us for questions... Tho we may not answer questions related to Git or GitHub itself.
-
 ## Terminology
 
 The following words and sentences will be used throughout this document.
@@ -39,72 +35,324 @@ Before you start contributing should you make sure to have covered the following
   - MkDocs is the site generator we use for the wiki and it relies on Python 3.10 or newer
   - Knowledge of using the `pip` command including installing dependencies from a file is recommended.
 
-We do not have the resources nor the time to explain to you the basics of Git and GitHub, aswell as how to install Python. Countless tutorials exist explaining these things to you better than we could, so don't hesitate looking for them.
+While this document explains the basics of using GitHub, Git and MkDocs, is it still recommended to look up tutorials on these topics to get a better understanding of everything.
 
-In order for you to properly contribute is it recommended to have a fork of this repository on GitHub and have it copied to your PC for modifications. In addition should you make sure of the following:
+## 1. Forking the repository
 
-- You installed all necessary dependencies for this project.
-  The easiest way would be to run `pip install -r requirements.txt` on your local repository.
-- `mkdocs serve` can be used, namely the port it uses (8000) for the live-preview.
+To make contributions to this repository, you first have to make a Fork of it on your GitHub  Account.  
+To do this, navigate to the root of this repository and press the "Fork" button located at the top-right. Note that should you already have a fork, you can click the arrow instead to open a dropdown and select your fork from it.
 
-## Adding pages
+![fork repo](.github/contributing/fork-repo.png)
 
-This section explains what you need to look out for if you add new pages to the wiki.
+The default info on the fork page, including the checked "Copy the `main` branch only" option, should all be fine and you can just click "Create Fork".
 
-### For any kind of page
+![fork page](.github/contributing/fork-page.png)
 
-No matter the page, you need to make sure to include it in the `nav` list of the `mkdocs.yml` file. Otherwise will MkDocs not recognize the file as being part of the site's navigation and exclude it from it. The page itself will still be accessible, but it won't be shown in any navigation.
-
-### Minigame page
-
-#### Macros
-
-If your page covers a new minigame should you include specific Macros ([What is a Macro?][macro]).
-
-The first required macro is the [`game.info(...)`][game.info] macro. It is used to display common minigame info on the Page itself.  
-The position is important: It has to be the first thing after the h1 header of the page.
+### Syncing your fork
 
 > [!NOTE]
-> The `game.info` macro only covers the current (Gen 3) games and isn't suited for game pages of previous versions. Instead, you have to manually create the necessary content.
+> This is only required should you have an already existing fork that hasn't been updated in a while. For newly made forks is this not required.
 
-The second macro should be the [`game.history(...)`][game.history] macro. It displays all the changes made to this game, including its addition.  
-The position should be at the very bottom of the page.
+To sync your fork with this one, head to your fork and press the "Sync Fork" button which should be located near the green "Code" button.  
+Depending on the state of your repository will you see one of two possible messages:
 
-Finally, should the game have a version from YouTube (Given that it is a twitch version game) should you add the [`game.yt_version(Path)`][game.yt_version] macro at the very top of the page (Above the h1 header but below any YAML frontmatter).
+- "This branch is not behind the upstream `chaosleaguewiki/chaosleaguewiki.github.io:main`"  
+  This line means that your fork is up to date with the main repo and that no update is required.
+- "This branch is out-of-date"  
+  This means that there are changes in the main repo and that a sync is recommended to have the latest changes included in your fork. Confirm a syn by pressing the "Update branch" button.
 
-Here is an example of a possible minigame page:  
-```markdown
----
-description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
----
+### Creating a branch
 
-{{ game.yt_version("common/lorem-ipsum/") }}
+This is a recommended, but not required, step to do.  
+Creating a separate branch allows better organization while also keeping the main branch clean, avoiding possible merge conflicts in the future when syncing your fork.
 
-# Lorem Ipsum
+To create a branch, click the button displaying the branch name `main` to open a dropdown. In said dropdown, type in the name of the new branch you want to create in the text field. Any name may work, but recommended branch patterns are...
 
-{{ game.info() }}
+- `feature/description` for new features (i.e. added pages). Example: `feature/add-v1.0-changelog`
+- `fix/description` for fixes of any kinds, including typo corrections. Example: `fix/typo-in-links`
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+To now create a branch, click the text reading "**Create branch: [branch]** from 'main'" where `[branch]` is the name of the branch you typed.  
+This will create a new branch that is based on the current state of your main branch.
 
-{{ game.history({
-    'v0.1': [
-        'Minigame added'
-    ]
-}) }}
+## 2. Clone the Repository to PC
+
+> [!IMPORTANT]
+> This requires to have Git installed on your PC. Should you use Windows can you install [Git for Windows][git-for-windows].  
+> [Downloads for other platforms exist too!][git-download]
+
+[git-for-windows]: https://gitforwindows.org/
+[git-download]: https://git-scm.com/download/
+
+Cloning the repository onto your PC using Git is recommended, as it can allow faster editing of multiple files, as well as easier adding of new files.
+
+To clone the repository to your PC, first choose a folder where the repository would be copied into. Note that a new folder named after the repository will be created in it through the clone command.  
+To now clone your fork, open the Git Bash Terminal and execute the follwing command, after replacing `YOUR_NAME` with the Username where the fork exists on.
+```sh
+git clone https://github.com/YOUR_NAME/chaosleaguewiki.github.io.git
+```
+This should clone the repository into a new folder named `chaosleaguewiki.github.io`. If you want a different name can you add a folder name after the URL to use that.
+
+> [!NOTE]
+> Should you have made a separate branch will you need to switch to it before making any changes.  
+> To do this, run the following command in the Git Bash Terminal (Replace `<branch>` with your branch name):  
+> ```sh
+> git switch <branch>
+> ```
+
+## 3. Make and commit changes
+
+Now that you have cloned the repository to your PC (And maybe also switched or made a new branch for it) can you start making your changes...  
+The overall structure of the different pages on the wiki are explained in the [`Wiki Structure`][#wiki-structure] section further down in this document.
+
+Once you've made the changes you want, you have to commit them, creating proper records in the commit history of Git and GitHub.  
+Depending on your Git configuration will you first need to execute the following command:
+```
+git add <file>
+```
+`<file>` would be a file-path relative to the root of your local repository. You can use `.` here to tell git to add any changed file.
+
+If you're unsure if changes got added can you use `git status` which could give you an output similar to the following:
+```sh
+$ git status
+on branch your-branch-here
+Your branch is up to date with 'your-branch-here'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   CONTRIBUTING.md
 ```
 
-[macro]: https://chaosleaguewiki.github.io/meta/#macros
+Should your files be properly added can you commit them.  
+Committing them in git can be done using the `git commit` command. Just executing the command as-is will open the text editor set for git to use, prompting you to add a commit message to use. It is recommended to add a simple, yet informative message, telling us what was done.  
+Alternatively can you append the `-m` option followed by the commit message in single or double quotes to set a commit message without opening a text editor.
+
+Your changes should now be committed and only need to be pushed back to your fork on GitHub.
+
+## 4. Push to fork
+
+Now that you've made and committed your changes should you push them back to your fork on GitHub.  
+This is as easy as just executing `git push` in the Git Bash Terminal.
+
+> [!CAUTION]
+> There are issues with pushing changes from your local repo to one hosted on a organization account. GitHub may give insufficient permission errors, even when you have write permissions.  
+> A workaround is to use [GitHub Desktop][github-desktop] to do the pushes.
+>
+> On another note is there an issue with GitHub Desktop and commit signing. Should you have enabled commit signing with a GPG key can GitHub Desktop not perform any commits. You have to do them through the Git Bash Terminal.
+
+[github-desktop]: https://desktop.github.com/
+
+## 5. Create Pull request
+
+A final step you should do now is create a Pull request on our repository. GitHub should already inform you about unmerged changes with a button to create a Pull request. If no such prompt is such can you simply go to our Pull requests tab and press "New pull request".
+
+In the new window will you have a comparison between the target branch and changes you want to add. Make sure that `base repository` is set to `chaosleaguewiki/chaosleaguewiki.github.io` and that `base` is set to `main`.  
+Should there only be a `base` without any `base repository` dropdown are you currently viewing a comparison between branches of the same repository. To fix that, click the text reading "compare across forks".
+
+On the right side, make sure `head repository` is set to the fork you have and `compare` is set to the branch with the changes you made.  
+Should there be mergable changes between the branches will the "Create pull request" button light up and you can click it to start making a Pull request.
+
+In the Pull request window, add an easy to understand title and a informative description about the reasons for the changes and what changes you have made. Should the Pull request be made to fix an existing issue on our issue tracker can you add `closes #<id>` where `<id>` would be the Issue ID, to have the issue automatically closed when the Pull request gets merged.
+
+All that is left to do is press the green button to create your Pull request.
+
+Congratulations! You successfully made a contribution to the wiki!
+
+----
+
+## Wiki Structure
+
+The wiki contains various pages, each having their own specific structure you should follow when adding or editing pages for it. This section covers the most important things about each type of wiki page.
+
+### Using live preview
+
+> [!NOTE]
+> This requires to have Python 3.10+ installed and also all necessary dependencies.  
+> Once you have installed Python can you execute `pip install -r requirements.txt` in the root of your repository to download all required dependencies.
+
+MkDocs is used as the generator to create the static pages you can read. It comes with a live preview option, allowing to modify pages and see the changes being applied quickly.  
+To enable the live preview, open the root of your local repository in Git Bash Terminal and type `mkdocs serve`. This will start a live preview on `127.0.0.1:8000` that you can open in your browser to see.
+
+To stop the live preview press <kbd>Ctrl</kbd> + <kbd>C</kbd> in the Git Bash Terminal to stop the programm.
+
+### What you should do when adding pages
+
+Any Markdown page in the wiki that you add needs to also be included in the navigation.  
+To do that, open the `mkdocs.yml` file located in the root of this repository and head to the `nav` setting in it. This setting defines the navigation to use for MkDocs, as well as actually tell it what pages exist.
+
+Be sure to keep the format (indents) the same. Also, make sure that the pages themself are sorted alphabetically in their respective sub-section.  
+This means, if you add a new minigame page called `example.md` to the `commons` section while there are `bounce-house.md`, `danger-zone.md` and `quip-battle.md` would you add it after `bounce-house.md` and `danger-zone.md` but before `quip-battle.md` in the nav.
+
+The only exception to the above rule are `index.md` pages, which should **always** be the first entry in a sub-section.
+
+Also, please note that all pages need to be lowercased and only use alphanummeric characters and hyphens (`a-z`, `0-9` and `-`). Spaces are not allowed in file names.
+
+### Minigame pages
+
+Minigame pages can be found either in `twitch-minigames` or `youtube-minigames` where they are further split up into folders matching their rarity.  
+A bare-bone minigame page should have the following content:
+
+- YAML frontmatter containing a `description` property, holding the first line of the page content (Without any markdown formatting).
+- A H1 header as the very first line after the YAML frontmatter
+  - Only exception is when there is a YouTube or Twitch variant of this game in which case the [`{{ game.yt_variant(path) }}`][game.yt_version] or [`{{ game.twitch_version(path) }}`][game.twitch_version] would come first after the YAML frontmatter before the H1 header.
+- The [`{{ game.info(...) }}`][game.info] macro containing information about this game.
+  - Note: This macro is designed for Gen 3 minigames. Game pages, namely youtube versions, may not work with this macro and require manual implementation of the info box. Check an existing page for the design.
+- The page content itself, including a `Gameplay` H2 header explaining the game mechanics.
+- The [`{{ game.history(...) }}`][game.history] macro containing the changes to the game, including its initial addition to Chaos League.
+
+Should the game also not be released yet, are you required to add a `--8<-- "unreleased.md"` right after the H1 header to insert a banner informing about the displayed content not being released yet any any info most likely being inaccurate or outdated.
+
+Here is a complete example using a fictional game named `Example`:
+```markdown
+---
+description: Example is a common example minigame where players do stuff.
+---
+
+{{ game.yt_version("common/example/") }}
+
+# Example
+
+--8<-- "unreleased.md"
+
+{{ game.info(
+  slots_guaranteed = "8",
+  slots_raffle     = "8"
+) }}
+
+**Example** is a common example minigame where players do stuff.
+
+## Gameplay
+
+Players do stuff. The end.
+
+{{ game.history(
+  'v1.0': [
+    'Minigame Added'
+  ],
+  'v1.1': [
+    'Some bug fixes'
+  ]
+) }}
+```
+
+You also need to add the link to this page to the `games.md` file located in the `.snippets` folder. The pattern is always `[<name>]: /twitch-minigames/<rarity>/<page>/` where `<name>` is the actual name of the game, including capitalization, spaces, etc., `<rarity>` is the rarity (folder) the page is located in and `<page>` is the file name without the `.md` extension.
+
 [game.info]: https://chaosleaguewiki.github.io/meta/macros/game/#game.info
 [game.history]: https://chaosleaguewiki.github.io/meta/macros/game/#game.history
 [game.yt_version]: https://chaosleaguewiki.github.io/meta/macros/game/#game.yt_version
+[game.twitch_version]: https://chaosleaguewiki.github.io/meta/macros/game/#game.twitch_version
 
-### Changelog page
+### Game Mechanics
 
-The [CL3 Changelog page][changelog] is, for the most part, automatically generated. It pulls content from other files to display.  
-As such should any new changelog be added as a separate file in the `changelog/cl3/` folder. This page itself uses the [`utils.table(...)`][utils.table] macro to generate the Table used for the changelog.
+Game mechanics pages have a simpler structure than Game pages. With that said do they also follow a specific structure and include additional macros.  
+One macro used is [`{{ image.right(...) }}`][image.right] which adds an image to the right side of the page with an optional title, caption and alt text.
 
-A `.template.md` file exists that allows you to just copy it and modify it for the new changelog. What is important here is to set a proper `weight` YAML frontmatter. It is used to sort the pages in proper order.  
-Should the changelog be a new version not yet added to the wiki can you just check the weight of the previous changelog entry and add one to it for yours, meaning if previous changelog has weight 16, should yours be weight 17.
+It is recommended to put this macro after a header of where it should be.
 
-[changelog]: https://chaosleaguewiki.github.io/changelog
+The [`{{ game.history(...) }}`][game.history] macro is also used here and also put at the very bottom of the page.
+
+[image.right]: https://chaosleaguewiki.github.io/meta/macros/image/#image.right
+
+### Commands
+
+Commands for the twitch version are all located in one file: `chat-commands/twitch.md`
+
+This means that instead of adding a new page, you simply add a new section with the command. Make sure that said section is in the right category (Currently "Global Commands", "Throne Commands" or "Tile Commands").  
+The header (which should be a H3 one) should contain the complete syntax of the command, meaning if the command syntax is `!cmd @user [points]` then the header would be the same. Should there be any arguments in the command, meaning it isn't just `!cmd`, you have to a `{ #<id> }` at the end of the header with `<id>` being the command name without the `!`.
+
+Example:
+```markdown
+### `!cmd @user [points]` { #cmd }
+```
+
+Should a command be removed from Chaos League should you **not** remove it. Instead, add the following right after the header:
+```markdown
+/// removed | Command removed in <version where it got removed>
+///
+```
+
+This will add a banner informing about the removal.
+
+You also should add the command to the `commands.md` file located in the `.snippets` folder. The format is always `[<name>-command]: /chat-commands/twitch/#<name>` where `<name>` is the Header ID used.
+
+### Changelogs
+
+The changelog page is special in that the displayed changelogs are from separate files. This helps us to keep things organized.
+
+The changelog files themself are located in `changelog/cl3/` and always named after the version they are about (i.e. `v0.1-alpha.md` for the `v0.1 Alpha` release).  
+There is also a `.template.md` file available that can be used to make a new changelog entry. It contains all necessary content and looks like this:
+```markdown
+---
+weight: 100 # Change this number to the currently highest one +1.
+
+title: v0.100 Alpha # Change this to the actual version this changelog is about.
+---
+
+`v0.100 Alpha` was released January 1st, 2100
+
+----
+
+{{ utils.table({
+  'Added': [
+    '',
+    ''
+  ],
+  'Changed': [
+    '',
+    ''
+  ],
+  'Fixed': [
+    '',
+    ''
+  ],
+  'Removed': [
+    '',
+    ''
+  ]
+}) }}
+```
+
+To use the file, simply copy it, rename it to the version you want to add and change the following values:
+
+- `weight` should be changed to the highest value not used yet. This means if the latest release in the changelog list uses weight 10, yours should be 11.
+- `title` and `v0.100 Alpha` in the page content should be changed to the current changelog version.
+- `January 1st, 2100` should be changed to the date on when the changelog has been published by DoodleChaos on Discord (Which is usually followed by a stream of this version). The timezone for the date is CET/CEST.
+
+The [`{{ utils.table(...) }}`][utils.table] macro is used to generate a table, not unlike the one used in the [`{{ game.history(...) }}`][game.history] macro.  
+When adding entries to the different parts, make sure to escape any single quotes in the text, meaning something like `you're` becomes `you\'re`. If you don't escape these, will errors appear.
+
+Also, make sure to remove any unused entries and sections.  
+This means that this:
+```
+{{ utils.table({
+  'Added': [
+    'Something.',
+    'Added'
+  ],
+  'Changed': [
+    '',
+    ''
+  ],
+  'Fixed': [
+    'Critical Bug',
+    ''
+  ],
+  'Removed': [
+    '',
+    ''
+  ]
+}) }}
+```
+turns into this:
+```
+{{ utils.table({
+  'Added': [
+    'Something.',
+    'Added'
+  ],
+  'Fixed': [
+    'Critical Bug'
+  ]
+}) }}
+```
+
 [utils.table]: https://chaosleaguewiki.github.io/meta/macros/utils/#utils.table
