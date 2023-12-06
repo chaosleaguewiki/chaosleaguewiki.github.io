@@ -195,11 +195,11 @@ A bare-bone minigame page should have the following content:
 - A H1 header as the very first line after the YAML frontmatter
   - Only exception is when there is a YouTube or Twitch variant of this game in which case the [`{{ game.yt_variant(path) }}`][game.yt_version] or [`{{ game.twitch_version(path) }}`][game.twitch_version] would come first after the YAML frontmatter before the H1 header.
 - The [`{{ game.info(...) }}`][game.info] macro containing information about this game.
-  - Note: This macro is designed for Gen 3 minigames. Game pages, namely youtube versions, may not work with this macro and require manual implementation of the info box. Check an existing page for the design.
+  - Note: This macro is designed for Gen 3 minigames. Old game pages, namely youtube versions, may not work with this macro and require manual implementation of the info box. Check an existing page for the design.
 - The page content itself, including a `Gameplay` H2 header explaining the game mechanics.
 - The [`{{ game.history(...) }}`][game.history] macro containing the changes to the game, including its initial addition to Chaos League.
 
-Should the game also not be released yet, are you required to add a `--8<-- "unreleased.md"` right after the H1 header to insert a banner informing about the displayed content not being released yet any any info most likely being inaccurate or outdated.
+Should the game also not be released yet, are you required to add a `--8<-- "unreleased.md"` right after the H1 header to insert a banner informing about the displayed content not being released yet and any info most likely being inaccurate or outdated.
 
 Here is a complete example using a fictional game named `Example`:
 ```markdown
