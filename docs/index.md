@@ -28,3 +28,49 @@ Check the [Twitch minigames][twitch-minigames] and Youtube minigames pages for m
 
 [attacking-the-king]: mechanics/attacking-the-king.md
 [twitch-minigames]: twitch-minigames/index.md
+
+## Wiki Sections
+
+<div class="grid cards" markdown>
+
+-   **Chat Commands**
+    
+    ----
+    
+    List of all available Chat commands.
+    
+    [:octicons-chevron-right-24: Go to Page](chat-commands/index.md)
+
+-   **Game Mechanics**
+    
+    ----
+    
+    Currently available Game mechanics.
+    
+    [:octicons-chevron-right-24: Go to Page](mechanics/index.md)
+
+-   **Minigames**
+    
+    ----
+    
+    A list of all minigames (Also known as tiles) available in Chaos League to play.
+    
+    [:octicons-chevron-right-24: Go to Page](twitch-minigames/index.md)
+
+-   **Changelog**
+    
+    ----
+    
+    Past and current changes to the Chaos League Game.
+    
+    [:octicons-chevron-right-24: Go to Page](changelog/index.md)
+
+-   **Meta**
+    
+    ----
+    
+    Information about the wiki itself such as templates, snippets, etc.
+    
+    [:octicons-chevron-right-24: Go to Page](meta/index.md)
+
+</div>

@@ -80,11 +80,13 @@ nav:
   - Meta:
     - meta/index.md
     - Macros:
+      - meta/macros/index.md
       - meta/macros/image.md
       - meta/macros/game.md
       - meta/macros/misc.md
       - meta/macros/utils.md
     - Snippets:
+      - meta/snippets/index.md
       - meta/snippets/commands.md
       - meta/snippets/games.md
       - meta/snippets/game-terminology.md
@@ -131,6 +133,7 @@ theme:
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
+    - content.tooltips
 
 extra:
   announcement: |
@@ -166,6 +169,13 @@ plugins:
   - macros:
       module_name: .hooks/macros
       include_dir: .snippets/macros
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-committers:
+      enabled: !ENV [GIT_COMMITTER_ENABLED, false]
+      repository: chaosleaguewiki/chaosleaguewiki.github.io
+      branch: main
+      token: !ENV [COMMITTER_TOKEN]
 
 markdown_extensions:
   - attr_list
@@ -173,6 +183,7 @@ markdown_extensions:
       permalink: true
   - meta
   - abbr
+  - md_in_html
   - pymdownx.superfences
   - pymdownx.magiclink:
       repo_url_shortener: true

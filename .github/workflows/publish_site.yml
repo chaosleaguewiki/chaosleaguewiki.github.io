@@ -42,6 +42,9 @@ jobs:
           python -m pip install -r requirements.txt
       - name: Build Pages
         run: mkdocs build
+        env:
+          GIT_COMMITTER_ENABLED: true
+          COMMITTER_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v3
       - name: Upload Pages Artifact

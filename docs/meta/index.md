@@ -7,40 +7,30 @@ description: Information about the wiki itself such as templates, snippets, etc.
 Pages under this section cover parts of the Chaos League Wiki itself and not the actual game or parts of it.  
 The main goal is to help people understand how the wiki's mechanics work so that they can contribute more easily to it.
 
-## Macros
+<div class="grid cards" markdown>
 
-Macros are used to inject customizable content into the page or for other things that a tool like [Snippets](#snippets) cannot solve.
+-   **Macros**
+    
+    ----
+    
+    Macros are reusable pieces of code that can be added into a page to display specific content.
+    
+    [:octicons-chevron-right-24: Go to Page](macros/index.md)
 
-- [Image](macros/image.md)
-    - [`image.left`](macros/image.md#image.left)
-    - [`image.right`](macros/image.md#image.right)
-    - [`image.img`](macros/image.md#image.img)
-- [Game](macros/game.md)
-    - [`game.info`](macros/game.md#game.info)
-    - [`game.history`](macros/game.md#game.history)
-    - [`game.yt_version`](macros/game.md#game.yt_version)
-    - [`game.twitch_version`](macros/game.md#game.twitch_version)
-- [Miscellaneous](macros/misc.md)
-    - [`read_json_file`](macros/misc.md#read_json_file)
-    - [`read_file`](macros/misc.md#read_file)
-- [Utils](macros/utils.md)
-    - [`utils.table`](macros/utils.md#utils.table)
+-   **Snippets**
+    
+    ----
+    
+    Snippets are reusable files that can be inserted into a page using the `--8<-- "<file>.<extension>"` pattern.
+    
+    [:octicons-chevron-right-24: Go to Page](snippets/index.md)
 
-## Snippets
+-   **Terminology**
+    
+    ----
+    
+    This page explains the different terms used throughout the wiki in order to help understand what something means or refers to.
+    
+    [:octicons-chevron-right-24: Go to Page](terminology/index.md)
 
-Snippets are text files which are inserted using the `--8<-- "<filename>.<extension>"` format.  
-Unlike [Macros](#macros) can you not define any options for the snippet to include.
-
-### Automatically added
-
-These Snippets are added automatically to all pages of the wiki.
-
-- [Commands](snippets/commands.md)
-- [Games](snippets/games.md)
-- [Game Terminology](snippets/game-terminology.md)
-
-### Other Snippets
-
-These Snippets are not automatically added to pages and therefore need to manually be added.
-
-- [Unreleased](snippets/unreleased.md)
+</div>

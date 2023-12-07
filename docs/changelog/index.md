@@ -1,7 +1,7 @@
 ---
 template: changelog.html
 
-description: Past and current changes to the Chaos League Game
+description: Past and current changes to the Chaos League Game.
 ---
 
 # Changelog

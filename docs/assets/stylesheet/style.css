@@ -114,6 +114,10 @@
   max-width: 45%;
 }
 
+.md-typeset .md-author img {
+  max-width: 100%;
+}
+
 .md-typeset figcaption {
   font-size: 85%;
 }

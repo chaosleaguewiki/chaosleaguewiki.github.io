@@ -1,5 +1,5 @@
 ---
-description: How attacking the king works.
+description: A core mechanic (And the main goal) of Chaos League is to attack the king and capture the throne.
 ---
 
 # Attacking the King
