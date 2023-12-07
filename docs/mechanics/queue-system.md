@@ -18,7 +18,7 @@ As the name suggests are players shown in these slots guaranteed to participate 
 ### Raffle Slots
 
 Raffle slots are shown as green dots over the box with the text "Raffle". Unlike guaranteed slots do raffle slots not display the players that would currently be selected.  
-Every player who spents spawn tickets, but not enough to be in a guaranteed slot, will be added to the raffle. Once the queue timer reaches a certain point will `n` players be randomly selected from the raffle pool, with a bias towards players who have spent more spawn tickets on the tile.
+Every player who spents spawn tickets, but not enough to be in a guaranteed slot, will be added to the raffle. Once the queue timer reaches zero will `n` players be randomly selected from the raffle pool, with a bias towards players who have spent more spawn tickets on the tile.
 
 {{ game.history({
     'v0.1 Alpha': [

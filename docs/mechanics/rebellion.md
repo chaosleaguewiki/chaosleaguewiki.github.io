@@ -17,7 +17,7 @@ Rebellion is a game mechanic where people can give bits to start a multiplier th
 Players can cheer 200 or more bits to start a rebellion. When a rebellion is started will a circle appear around the marble of the player who started it. This circle will have certain effects on tiles and other mechanics tied to the multiplier value displayed. See the [Effects section](#effects) for details.
 
 The default multiplier starts at 2, but increases by one with every addition 100 bits added. In addition is the duration of the rebellion also increased.  
-The duration is 40 seconds per dollar worth of bits spent.
+The duration is 1 Minute per 100 Bits spent.
 
 ## Effects
 
@@ -46,5 +46,8 @@ Skull gaps in [Zero or Hero] also turn into Angel gaps. These gaps do not take a
     ],
     'v0.18 Alpha': [
         'Duration buffed to 40 sec/dollar'
+    ],
+    'v0.21 Alpha': [
+        'Increased rebellion duration to 1 Minute per 100 Bits'
     ]
 }) }}
