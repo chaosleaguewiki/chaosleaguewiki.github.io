@@ -171,11 +171,15 @@ plugins:
       include_dir: .snippets/macros
   - git-revision-date-localized:
       enable_creation_date: true
+      exclude:
+        - changelog/index.md
   - git-committers:
       enabled: !ENV [GIT_COMMITTER_ENABLED, false]
       repository: chaosleaguewiki/chaosleaguewiki.github.io
       branch: main
       token: !ENV [COMMITTER_TOKEN]
+      exclude:
+        - docs/changelog/index.md
 
 markdown_extensions:
   - attr_list
