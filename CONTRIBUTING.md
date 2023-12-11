@@ -102,7 +102,7 @@ This should clone the repository into a new folder named `chaosleaguewiki.github
 ## 3. Make and commit changes
 
 Now that you have cloned the repository to your PC (And maybe also switched or made a new branch for it) can you start making your changes...  
-The overall structure of the different pages on the wiki are explained in the [`Wiki Structure`][#wiki-structure] section further down in this document.
+The overall structure of the different pages on the wiki are explained in the [`Wiki Structure`](#wiki-structure) section further down in this document.
 
 Once you've made the changes you want, you have to commit them, creating proper records in the commit history of Git and GitHub.  
 Depending on your Git configuration will you first need to execute the following command:
