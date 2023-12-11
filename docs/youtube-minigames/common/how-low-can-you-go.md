@@ -2,7 +2,7 @@
 description: is a common minigame added in version v0.1 Alpha. A similar title has been later added in the Twitch version.
 ---
 
-{{ game.twitch_version("common/how-low-can-you-go/") }}
+{{ game.twitch_version("minigames/how-low-can-you-go/") }}
 
 # How Low Can You Go
 
@@ -19,7 +19,7 @@ description: is a common minigame added in version v0.1 Alpha. A similar title h
 ![how-low-can-you-go](../../assets/images/minigames/youtube/how-low-can-you-go.png)
 ///
 
-**How Low Can You Go** is a common minigame added in version v0.1 Alpha. A [similar tile](../../twitch-minigames/common/how-low-can-you-go.md) has been later added in the Twitch version.
+**How Low Can You Go** is a common minigame added in version v0.1 Alpha. A [similar tile](../../twitch-tiles/minigames/how-low-can-you-go.md) has been later added in the Twitch version.
 
 ## Gameplay
 

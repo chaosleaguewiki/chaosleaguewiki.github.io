@@ -1,5 +1,5 @@
 ---
-description: Hole In One is a legendary minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
+description: Hole In One is a minigame added in version v0.1 Alpha. It is based on the YouTube version of the same name.
 ---
 
 # Hole In One
@@ -13,7 +13,7 @@ description: Hole In One is a legendary minigame added in version v0.1 Alpha. It
   img_url = "../../../assets/images/minigames/twitch/hole-in-one.png"
 ) }}
 
-**Hole In One** is a legendary minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.
+**Hole In One** is a minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.
 
 ## Gameplay
 

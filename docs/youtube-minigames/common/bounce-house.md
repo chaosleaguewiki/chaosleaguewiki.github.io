@@ -2,7 +2,7 @@
 description: Bounce House is a common minigame added in version v2.6. A similar title has been later added in the Twitch version.
 ---
 
-{{ game.twitch_version("common/bounce-house/") }}
+{{ game.twitch_version("minigames/bounce-house/") }}
 
 # Bounce House
 
@@ -19,7 +19,7 @@ description: Bounce House is a common minigame added in version v2.6. A similar 
 ![bounce-house](../../assets/images/minigames/youtube/bounce-house.png)
 ///
 
-**Bounce House** is a common minigame added in version v2.6. A [similar tile](../../twitch-minigames/common/bounce-house.md) has been later added in the Twitch version.
+**Bounce House** is a common minigame added in version v2.6. A [similar tile](../../twitch-tiles/minigames/bounce-house.md) has been later added in the Twitch version.
 
 ## Gameplay
 

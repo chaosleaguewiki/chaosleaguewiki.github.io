@@ -13,7 +13,6 @@ There currently exist 2 variants.
 {% raw %}
 - [`{{ read_json_file(path) }}`](#read_json_file)
 - [`{{ read_file(path) }}`](#read_file)
-- [`{{ markdownify(text) }}`](#markdownify)
 {% endraw %}
 
 {% raw %}
@@ -96,32 +95,4 @@ This macro reads the content of a file located at the provided path (Relative to
 {%- endfor %}
 ```
 {% endif %}
-///
-
-----
-
-{% raw %}
-## `{{ markdownify(text) }}` { #markdownify }
-{% endraw %}
-
-This macro parses the provided text using the standard Markdown parser used by MkDocs (Python-Markdown).
-
-### Options { #markdownify-options }
-
-| Option | Required | Default | Description                    |
-|--------|----------|---------|--------------------------------|
-| `text` | Yes      | (Empty) | Text to parse the Markdown of. |
-
-### Example { #markdownify-example }
-
-/// tab | Raw
-{% raw %}
-```
-<p>{{ markdownify("[Link](#markdownify)") }}</p>
-```
-{% endraw %}
-///
-
-/// tab | Result
-<p>{{ markdownify("[Link](#markdownify)") }}</p>
 ///

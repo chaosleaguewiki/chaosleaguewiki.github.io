@@ -30,7 +30,7 @@ The `game.info` macro adds a info box to the right of the page containing common
 | Option             | Required | Default      | Description                                                       |
 |--------------------|----------|--------------|-------------------------------------------------------------------|
 | `title`            | No       | (Page title) | The title to display at the top of the info box.                  |
-| `rarity`           | No       | `Common`     | The rarity of the game.                                           |
+| `rarity`           | No       | `Unknown`    | List of rarities this game can have.                              |
 | `inputs`           | No       | `None`       | Any required inputs the game has.                                 |
 | `timer`            | No       | `None`       | Time limit the game has.                                          |
 | `rounds`           | No       | `None`       | Number of rounds the game has.                                    |
@@ -88,7 +88,7 @@ Lorem Ipsum Dolor sit amet
 {% raw %}
 ```
 {{ game.info(
-    rarity           = "Epic",
+    rarity           = ["Epic"],
     inputs           = "!command",
     timer            = "30 Seconds",
     rounds           = "3",
@@ -104,7 +104,7 @@ Lorem Ipsum Dolor sit amet
 
 //// tab | Result
 {{ game.info(
-    rarity           = "Epic",
+    rarity           = ["Epic"],
     inputs           = "!command",
     timer            = "30 Seconds",
     rounds           = "3",
@@ -222,24 +222,24 @@ The `game.yt_version` macro adds a banner to the page, informing the reader abou
 ## `{{ game.twitch_version(path) }}` { #game.twitch_version }
 {% endraw %}
 
-The `game.twitch_version` macro adds a banner to the page, informing the reader about this page being about the Twitch version and that a page about the YouTube version exists.
+The `game.twitch_version` macro adds a banner to the page, informing the reader about this page being about the YouTube version and that a page about the Twitch version exists.
 
 ### Options { #game.twitch_version-options }
 
-| Option | Required | Default | Description                                                                                                    |
-|--------|----------|---------|----------------------------------------------------------------------------------------------------------------|
-| `path` | Yes      | (Empty) | The path to link. This is relative to `/twitch-minigames/` and should not start with a `/` nor end with `.md` |
+| Option | Required | Default | Description                                                                                               |
+|--------|----------|---------|-----------------------------------------------------------------------------------------------------------|
+| `path` | Yes      | (Empty) | The path to link. This is relative to `/twitch-tiles/` and should not start with a `/` nor end with `.md` |
 
 ### Examples { #game.twitch_version-examples }
 
 /// tab | Raw
 {% raw %}
 ```
-{{ game.twitch_version("common/bounce-house/") }}
+{{ game.twitch_version("minigames/bounce-house/") }}
 ```
 {% endraw %}
 ///
 
 /// tab | Result
-{{ game.twitch_version("common/bounce-house/") }}
+{{ game.twitch_version("minigames/bounce-house/") }}
 ///

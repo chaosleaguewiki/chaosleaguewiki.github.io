@@ -1,11 +1,11 @@
 ---
-description: Quip Battle is a common minigame added in version v0.1 Alpha.
+description: Quip Battle is a minigame added in version v0.1 Alpha.
 ---
 
 # Quip Battle
 
 {{ game.info(
-  rarity           = ["any"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   inputs           = "Players&#58; Messages<br>Viewers&#58; Twitch-poll Votes",
   timer            = "1 Minute",
   slots_guaranteed = "3",
@@ -15,7 +15,7 @@ description: Quip Battle is a common minigame added in version v0.1 Alpha.
   img_url = "../../../assets/images/minigames/twitch/quip-battle.png"
 ) }}
 
-**Quip Battle** is a common minigame added in version v0.1 Alpha.
+**Quip Battle** is a minigame added in version v0.1 Alpha.
 
 ## Gameplay
 
