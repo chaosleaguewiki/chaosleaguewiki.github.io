@@ -143,7 +143,7 @@ This is as easy as just executing `git push` in the Git Bash Terminal.
 
 ## 5. Create Pull request
 
-A final step you should do now is create a Pull request on our repository. GitHub should already inform you about unmerged changes with a button to create a Pull request. If no such prompt is such can you simply go to our Pull requests tab and press "New pull request".
+A final step you should do now is create a Pull request on our repository. GitHub should already inform you about unmerged changes with a button to create a Pull request. If no such prompt is shown can you simply go to our Pull requests tab and press "New pull request".
 
 In the new window will you have a comparison between the target branch and changes you want to add. Make sure that `base repository` is set to `chaosleaguewiki/chaosleaguewiki.github.io` and that `base` is set to `main`.  
 Should there only be a `base` without any `base repository` dropdown are you currently viewing a comparison between branches of the same repository. To fix that, click the text reading "compare across forks".
