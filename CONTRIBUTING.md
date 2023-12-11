@@ -356,3 +356,32 @@ turns into this:
 ```
 
 [utils.table]: https://chaosleaguewiki.github.io/meta/macros/utils/#utils.table
+
+### Other files
+
+Depending on what files you add or change are you required to follow certain rules and requirements.
+
+As of right now are only images of minigame and shop tiles bound to such requirements, namely such an image needs to follow these rules:
+
+- The area depicted only includes the tile itself without the queue and prize sign
+- The tile needs to be empty. Currently active tiles are not to be used for screenshots
+- The tile on the left is being screenshoted. This is to avoid the "Development Build" text on the bottom right corner from being included.
+
+Here are some examples:
+
+| Good            | Bad (Queue and Prize sign visible) | Bad (Players in game)  | Bad (Right side screenshotted) |
+|-----------------|------------------------------------|------------------------|--------------------------------|
+| ![good example] | ![bad example queue]               | ![bad example players] | ![bad example dev build text]  |
+
+
+[good example]: .github/contributing/image_good_example.png
+[bad example queue]: .github/contributing/image_bad_example_queue.png
+[bad example players]: .github/contributing/image_bad_example_players.png
+[bad example dev build text]: .github/contributing/image_bad_example_dev_build_text.png
+
+
+
+
+
+
+
