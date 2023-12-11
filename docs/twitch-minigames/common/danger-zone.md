@@ -5,6 +5,7 @@ description: Danger Zone is a common minigame added in version v0.1 Alpha.
 # Danger Zone
 
 {{ game.info(
+  rarity           = ["any"],
   inputs           = "[`!pull @user`][pull-command]",
   timer            = "20 Seconds",
   rounds           = "3",
@@ -43,5 +44,10 @@ When there's no marbles or one marble left, or after 3 rounds, the game ends and
   'v0.20 Alpha': [
     '[`!pull`][pull-command] command removed. You can now just mention a user to pull them',
     'Fixed arrow going off-screen'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity',
+    'Round survival bonus now scales with rarity and rebellion bonus',
+    'Round survival bonuses double with each round'
   ]
 }) }}

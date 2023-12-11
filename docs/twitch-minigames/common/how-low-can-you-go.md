@@ -7,6 +7,7 @@ description: How Low Can You Go is a common minigame added in version v0.1 Alpha
 # How Low Can You Go
 
 {{ game.info(
+  rarity           = ["any"],
   slots_guaranteed = "8",
   slots_raffle     = "4",
   added            = "v0.1 Alpha",
@@ -34,5 +35,9 @@ When there's one marble left, the game ends and the players are ranked by their 
   ],
   'v0.17 Alpha': [
     'Nerfed survival Rate'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity',
+    'Minigame buffed'
   ]
 }) }}

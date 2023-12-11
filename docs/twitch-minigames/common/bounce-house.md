@@ -7,6 +7,7 @@ description: Bounce House is a common minigame added in version v0.3 Alpha. It's
 # Bounce House
 
 {{ game.info(
+  rarity           = ["any"],
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.3 Alpha",
@@ -31,5 +32,8 @@ When there's one marble left, the game ends and the players are ranked by their 
   'v0.9 Alpha': [
     'Changed values. Spinning block is now 1 point, spinning bucket -2 points and gap is 10 points.',
     'Spinning block increases value by 1 every time it gets hit. Gap increases value by 5 every time a marble passes through.'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity'
   ]
 }) }}

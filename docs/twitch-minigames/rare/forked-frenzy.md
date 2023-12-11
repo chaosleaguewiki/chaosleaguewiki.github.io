@@ -5,10 +5,10 @@ description: Forked Frenzy is an upcoming game where players fall through multip
 # Forked Frenzy
 
 {{ game.info(
-  rarity = "Rare",
-  slots_guaranteed="8",
-  slots_raffle = "3",
-  added = "v0.16 Alpha",
+  rarity           = ["Rare"],
+  slots_guaranteed ="8",
+  slots_raffle     = "3",
+  added            = "v0.16 Alpha",
   
   img_url = "../../../assets/images/minigames/twitch/forked-frenzy.png"
 ) }}

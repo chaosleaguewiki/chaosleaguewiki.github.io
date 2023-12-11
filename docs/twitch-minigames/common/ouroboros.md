@@ -5,6 +5,7 @@ description: Ouroboros is a common minigame added in version v0.18 Alpha. It's b
 # Ouroboros
 
 {{ game.info(
+  rarity           = ["any"],
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.18 Alpha",
@@ -30,5 +31,9 @@ Only the 25 points gap will change its value whenever a player passes through it
   'v0.19 Alpha': [
     'Increased death rate',
     'Nerfed point earnings'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity',
+    'Minigame buffed'
   ]
 }) }}

@@ -5,6 +5,7 @@ description: Quip Battle is a common minigame added in version v0.1 Alpha.
 # Quip Battle
 
 {{ game.info(
+  rarity           = ["any"],
   inputs           = "Players&#58; Messages<br>Viewers&#58; Twitch-poll Votes",
   timer            = "1 Minute",
   slots_guaranteed = "3",
@@ -78,5 +79,9 @@ Below is a current list of all available prompts in the game.
   ],
   'v0.20 Alpha': [
     'Minimum points earned from a vote is now 1 instead of 0'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity',
+    'Vote values now scale with rarity and rebellion multiplier'
   ]
 }) }}

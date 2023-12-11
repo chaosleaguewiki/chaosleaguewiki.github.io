@@ -14,6 +14,11 @@ There is always one minigame running, while the other remains in Queue mode. Onc
 
 ## Available minigames
 
+/// note
+Some minigames may appear at different rarities.  
+The below list has the minigames sorted by their **lowest rarity possible**.
+///
+
 The following minigames are available:
 
 ### Common
@@ -27,6 +32,7 @@ The following minigames are available:
 
 ### Rare
 
+- [Chaos Plinko](rare/chaos-plinko.md)
 - [Forked Frenzy](rare/forked-frenzy.md)
 - [Stonks](rare/stonks.md)
 - [Royal Execution](rare/royal-execution.md)

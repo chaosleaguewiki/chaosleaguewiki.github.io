@@ -5,7 +5,7 @@ description: Stonks is a rare minigame added in version v0.6 Alpha.
 # Stonks
 
 {{ game.info(
-  rarity           = "rare",
+  rarity           = ["rare"],
   slots_guaranteed = "5",
   slots_raffle     = "4",
   added            = "v0.6 Alpha",

@@ -40,6 +40,7 @@ nav:
         - twitch-minigames/common/quip-battle.md
         - twitch-minigames/common/zero-or-hero.md
       - Rare:
+        - twitch-minigames/rare/chaos-plinko.md
         - twitch-minigames/rare/forked-frenzy.md
         - twitch-minigames/rare/royal-execution.md
         - twitch-minigames/rare/stonks.md
@@ -56,6 +57,7 @@ nav:
         - youtube-minigames/common/how-low-can-you-go.md
   - Changelog:
       - changelog/index.md
+      - changelog/cl3/v0.22-alpha.md
       - changelog/cl3/v0.21-alpha.md
       - changelog/cl3/v0.20-alpha.md
       - changelog/cl3/v0.19-alpha.md

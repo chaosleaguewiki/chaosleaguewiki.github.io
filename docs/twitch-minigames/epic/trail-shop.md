@@ -5,9 +5,9 @@ description: Trail Shop is an epic Shop tile, meaning instead of playing a game,
 # Trail Shop
 
 {{ game.info(
-  rarity = "epic",
-  inputs = "[`!buy`][buy-command]",
-  timer  = "29 Seconds",
+  rarity           = ["epic"],
+  inputs           = "[`!buy`][buy-command]",
+  timer            = "29 Seconds",
   slots_guaranteed = "8",
   slots_raffle     = "4",
   added            = "v0.12 Alpha",

@@ -5,7 +5,7 @@ description: Hole In One is a legendary minigame added in version v0.1 Alpha. It
 # Hole In One
 
 {{ game.info(
-  rarity           = "legendary",
+  rarity           = ["legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.1 Alpha",

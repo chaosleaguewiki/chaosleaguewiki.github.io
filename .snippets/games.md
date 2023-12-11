@@ -7,6 +7,7 @@
 [Zero or Hero]: /twitch-minigames/common/zero-or-hero/
 
 <!-- Rare -->
+[Chaos Plinko]: /twitch-minigames/rare/chaos-plinko/
 [Forked Frenzy]: /twitch-minigames/rare/forked-frenzy/
 [Royal Execution]: /twitch-minigames/rare/royal-execution/
 [Stonks]: /twitch-minigames/rare/stonks/

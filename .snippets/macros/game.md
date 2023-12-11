@@ -7,7 +7,14 @@
       <tbody>
         <tr>
           <td class="draw_line--down">Rarity</td>
-          <td class="draw_line--down">{{ rarity | d('Unknown') | capitalize() }}</td>
+          <td class="draw_line--down">
+            {% for r in rarity %}
+              {{ r | capitalize() }}
+              {% if loop.revindex > 1 %}<br>{% endif %}
+            {% else %}
+              Unknown
+            {% endfor %}
+          </td>
         </tr>
         <tr>
           <td class="draw_line--down">Inputs</td>

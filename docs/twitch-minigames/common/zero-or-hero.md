@@ -5,6 +5,7 @@ description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is 
 # Zero or Hero
 
 {{ game.info(
+  rarity           = ["any"],
   slots_guaranteed = "8",
   slots_raffle     = "2",
   added            = "v0.9 Alpha",
@@ -28,5 +29,9 @@ When there's one marble left, the game ends and the players are ranked by their 
   ],
   'v0.10 Alpha': [
     'Danger Sign added to further hint at the possible risk of losing all your points'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity',
+    'Minigame buffed'
   ]
 }) }}
