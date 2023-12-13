@@ -12,7 +12,7 @@ description: Trail Shop is an epic Shop tile, meaning instead of playing a game,
   slots_raffle     = "4",
   added            = "v0.12 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/trail-shop.png"
+  img_url = "../../../assets/images/minigames/twitch/epic/trail-shop.png"
 ) }}
 
 **Trail Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase colored Trails using [Gold you earned as king](../../mechanics/earning-gold.md).

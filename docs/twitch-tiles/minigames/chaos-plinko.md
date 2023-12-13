@@ -8,7 +8,9 @@ description: Chaos Plinko is a minigame added in v0.22 Alpha.
   rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "6",
-  added            = "v0.22 Alpha"
+  added            = "v0.22 Alpha",
+  
+  img_url = "../../../assets/images/minigames/twitch/common/chaos-plinko.png"
 ) }}
 
 **Chaos Plinko** is a minigame added in v0.22 Alpha.

@@ -12,7 +12,7 @@ description: Quip Battle is a minigame added in version v0.1 Alpha.
   slots_raffle     = "2",
   added            = "v0.1 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/quip-battle.png"
+  img_url = "../../../assets/images/minigames/twitch/common/quip-battle.png"
 ) }}
 
 **Quip Battle** is a minigame added in version v0.1 Alpha.

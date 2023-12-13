@@ -26,8 +26,7 @@ Lets you throw `[amount]` of tomatos towards the mentioned user. This command co
 
 ### `!givepoints [amount] @user` { #givepoints }
 
-/// removed | Command removed in v0.23 Alpha
-///
+{{ utils.removed(version="v0.23 Alpha", type="Command") }}
 
 Gives the mentioned user `[amount]` of your pooints.
 
@@ -108,8 +107,7 @@ Moves the spikes at the top of the tile to the right side.
 
 ### `!pull @user` { #pull }
 
-/// removed | Command removed in v0.20 Alpha
-///
+{{ utils.removed(version="v0.20 Alpha", type="Command") }}
 
 Usable in the minigame [Danger Zone].
 

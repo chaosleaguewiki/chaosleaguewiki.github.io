@@ -28,3 +28,16 @@
     </table>
   {%- endif %}
 {% endmacro %}
+
+{% macro removed(version="", type="Feature") %}
+  {% if version -%}
+    <div class="admonition removed">
+      <p class="admonition-title">{{ type }} removed in {{ version }}</p>
+    </div>
+  {%- else -%}
+    <div class="admonition failure">
+      <p class="admonition-title">ERROR: Invalid argument</p>
+      <p>The argument <code>version</code> was either empty or not set!</p>
+    </div>
+  {%- endif %}
+{% endmacro %}

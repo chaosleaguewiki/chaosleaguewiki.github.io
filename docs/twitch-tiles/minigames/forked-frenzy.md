@@ -10,7 +10,7 @@ description: Forked Frenzy is a minigame added in v0.16 Alpha.
   slots_raffle     = "3",
   added            = "v0.16 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/forked-frenzy.png"
+  img_url = "../../../assets/images/minigames/twitch/common/forked-frenzy.png"
 ) }}
 
 **Forked Frenzy** is a minigame added in v0.16 Alpha.

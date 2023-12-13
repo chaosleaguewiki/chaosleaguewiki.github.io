@@ -13,7 +13,7 @@ description: Danger Zone is a minigame added in version v0.1 Alpha.
   slots_raffle     = "4",
   added            = "v0.1 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/danger-zone.png"
+  img_url = "../../../assets/images/minigames/twitch/common/danger-zone.png"
 ) }}
 
 **Danger Zone** is a minigame added in version v0.1 Alpha.

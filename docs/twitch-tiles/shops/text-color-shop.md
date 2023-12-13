@@ -12,7 +12,7 @@ description: Text Color Shop is an epic Shop tile, meaning instead of playing a 
   slots_raffle     = "4",
   added            = "v0.19 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/text-color-shop.png"
+  img_url = "../../../assets/images/minigames/twitch/epic/text-color-shop.png"
 ) }}
 
 **Text Color Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase text colors using [Gold you earned as king](../../mechanics/earning-gold.md).

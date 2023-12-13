@@ -10,7 +10,7 @@ description: Stonks is a minigame added in version v0.6 Alpha.
   slots_raffle     = "4",
   added            = "v0.6 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/stonks.png"
+  img_url = "../../../assets/images/minigames/twitch/common/stonks.png"
 ) }}
 
 **Stonks** is a minigame added in version v0.6 Alpha.

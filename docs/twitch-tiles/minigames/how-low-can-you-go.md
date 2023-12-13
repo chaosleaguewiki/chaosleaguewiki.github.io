@@ -12,7 +12,7 @@ description: How Low Can You Go is a minigame added in version v0.1 Alpha. It is
   slots_raffle     = "4",
   added            = "v0.1 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/how-low-can-you-go.png"
+  img_url = "../../../assets/images/minigames/twitch/common/how-low-can-you-go.png"
 ) }}
 
 **How Low Can You Go** is a minigame added in version v0.1 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/how-low-can-you-go.md).

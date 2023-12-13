@@ -10,7 +10,7 @@ description: Hole In One is a minigame added in version v0.1 Alpha. It is based 
   slots_raffle     = "8",
   added            = "v0.1 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/hole-in-one.png"
+  img_url = "../../../assets/images/minigames/twitch/legendary/hole-in-one.png"
 ) }}
 
 **Hole In One** is a minigame added in version v0.1 Alpha. It is based on the YouTube version's tile of the same name.

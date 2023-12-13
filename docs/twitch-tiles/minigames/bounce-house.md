@@ -12,7 +12,7 @@ description: Bounce House is a minigame added in version v0.3 Alpha. It's based 
   slots_raffle     = "8",
   added            = "v0.3 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/bounce-house.png"
+  img_url = "../../../assets/images/minigames/twitch/common/bounce-house.png"
 ) }}
 
 **Bounce House** is a minigame added in version v0.3 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/bounce-house.md).

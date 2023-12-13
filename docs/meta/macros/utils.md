@@ -12,6 +12,7 @@ There currently exists 1 variant.
 
 {% raw %}
 - [`{{ utils.table(entries) }}`](#utils.table)
+- [`{{ utils.removed(version, type) }}`](#utils.removed)
 {% endraw %}
 
 ----
@@ -57,4 +58,49 @@ Do note that the `entries` option can/should be treated like JSON with each stri
         'Something else'
     ]
 }) }}
+///
+
+----
+
+{% raw %}
+## `{{ utils.removed(version, type) }}` { #utils.removed }
+{% endraw %}
+
+The `utils.removed` macro adds a simple admonition box with the text `<type> got removed in <version>` to inform about a feature, command, etc. being removed.
+
+### Options { #utils.removed-options }
+
+| Option    | Required | Default   | Description                                          |
+|-----------|----------|-----------|------------------------------------------------------|
+| `version` | Yes      | (Empty)   | The version in which the mentioned type got removed. |
+| `type`    | No       | `Feature` | The type that got removed (e.g. Command, Tile, etc.) |
+
+### Example { #utils.removed-example }
+
+/// tab | Only version
+//// tab | Raw
+{% raw %}
+```
+{{ utils.removed(version="1.0") }}
+```
+{% endraw %}
+////
+
+//// tab | Result
+{{ utils.removed(version="1.0") }}
+////
+///
+
+/// tab | Different type
+//// tab | Raw
+{% raw %}
+```
+{{ utils.removed(version="1.0", type="Command") }}
+```
+{% endraw %}
+////
+
+//// tab | Result
+{{ utils.removed(version="1.0", type="Command") }}
+////
 ///

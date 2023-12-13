@@ -1,6 +1,6 @@
 {% import 'image.md' as image with context %}
 
-{% macro info(title=page.title, rarity="Common", inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=page.title, img_caption="") -%}
+{% macro info(title=page.title, rarity=["Common"], inputs="None", timer="None", rounds="None", slots_guaranteed="N/A", slots_raffle="N/A", added="Unknown", img_url=None, img_alt=page.title, img_caption="") -%}
   <div class="admonition wiki inline end">
     <p class="admonition-title">{{ title | d(page.title) }}</p>
     <table>
@@ -9,7 +9,7 @@
           <td class="draw_line--down">Rarity</td>
           <td class="draw_line--down">
             {% for r in rarity %}
-              {{ r | capitalize() }}
+              {{ chance(r|lower()) or (r|capitalize()) }}
               {% if loop.revindex > 1 %}<br>{% endif %}
             {% else %}
               Unknown
@@ -112,3 +112,10 @@
     </div>
   {%- endif %}
 {%- endmacro %}
+
+{% macro chance(key) %}{{ {
+  "common": "<abbr title='69% chance'>Common</abbr>",
+  "rare": "<abbr title='25% chance'>Rare</abbr>",
+  "epic": "<abbr title='5% chance'>Epic</abbr>",
+  "legendary": "<abbr title='1% chance'>Legendary</abbr>"
+}[key] }}{% endmacro %}

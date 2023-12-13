@@ -10,7 +10,7 @@ description: Ouroboros is a minigame added in version v0.18 Alpha. It's based on
   slots_raffle     = "8",
   added            = "v0.18 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/ouroboros.png"
+  img_url = "../../../assets/images/minigames/twitch/common/ouroboros.png"
 ) }}
 
 **Ouroboros** is a minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.

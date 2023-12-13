@@ -12,7 +12,7 @@ description: Bubble color Shop is an epic Shop tile, meaning instead of playing 
   slots_raffle     = "4",
   added            = "v0.19 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/bubble-color-shop.png"
+  img_url = "../../../assets/images/minigames/twitch/epic/bubble-color-shop.png"
 ) }}
 
 **Bubble color Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase colored speech bubbles using [Gold you earned as king](../../mechanics/earning-gold.md).

@@ -5,12 +5,12 @@ description: Zero or Hero is a minigame added in v0.9 Alpha. It is based on the 
 # Zero or Hero
 
 {{ game.info(
-  rarity           = ["any"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "2",
   added            = "v0.9 Alpha",
   
-  img_url = "../../../assets/images/minigames/twitch/zero-or-hero.png"
+  img_url = "../../../assets/images/minigames/twitch/common/zero-or-hero.png"
 ) }}
 
 **Zero or Hero** is a minigame added in v0.9 Alpha. It is based on the YouTube version's tile of the same name.

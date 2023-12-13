@@ -22,3 +22,4 @@ description: Macros are reusable pieces of code that can be added into a page to
     - [`read_file`](misc.md#read_file)
 - [Utils](utils.md)
     - [`utils.table`](utils.md#utils.table)
+    - [`utils.removed`](utils.md#utils.removed)
