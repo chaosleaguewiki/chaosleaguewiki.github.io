@@ -26,5 +26,8 @@ When there's one marble left, the game ends and the players are ranked by their 
 {{ game.history({
   'v0.6 Alpha': [
     'Minigame added'
+  ],
+  'v0.24 Alpha': [
+    'Added sudden death doubler'
   ]
 }) }}
