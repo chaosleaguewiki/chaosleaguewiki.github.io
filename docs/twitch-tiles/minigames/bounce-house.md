@@ -35,5 +35,8 @@ When there's one marble left, the game ends and the players are ranked by their 
   ],
   'v0.22 Alpha': [
     'Minigame can now appear in any rarity'
+  ],
+  'v0.24 Alpha': [
+    'Added sudden death doubler'
   ]
 }) }}

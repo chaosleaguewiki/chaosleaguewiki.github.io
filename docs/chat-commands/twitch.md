@@ -26,6 +26,9 @@ Lets you throw `[amount]` of tomatos towards the mentioned user. This command co
 
 ### `!givepoints [amount] @user` { #givepoints }
 
+/// removed | Command removed in v0.23 Alpha
+///
+
 Gives the mentioned user `[amount]` of your pooints.
 
 ### `!givegold [amount] @user` { #givegold }
