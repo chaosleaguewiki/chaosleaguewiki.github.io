@@ -35,5 +35,8 @@ Only the 25 points gap will change its value whenever a player passes through it
   'v0.22 Alpha': [
     'Minigame can now appear in any rarity',
     'Minigame buffed'
+  ],
+  'v0.24 Alpha': [
+    'Added sudden death doubler'
   ]
 }) }}
