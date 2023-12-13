@@ -1,11 +1,11 @@
 ---
-description: Ouroboros is a common minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.
+description: Ouroboros is a minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.
 ---
 
 # Ouroboros
 
 {{ game.info(
-  rarity           = ["any"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.18 Alpha",
@@ -13,7 +13,7 @@ description: Ouroboros is a common minigame added in version v0.18 Alpha. It's b
   img_url = "../../../assets/images/minigames/twitch/ouroboros.png"
 ) }}
 
-**Ouroboros** is a common minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.
+**Ouroboros** is a minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.
 
 ## Gameplay
 

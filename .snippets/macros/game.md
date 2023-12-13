@@ -18,7 +18,7 @@
         </tr>
         <tr>
           <td class="draw_line--down">Inputs</td>
-          <td class="draw_line--down">{{ markdownify(inputs) }}</td>
+          <td class="draw_line--down">{{ inputs | markdownify }}</td>
         </tr>
         <tr>
           <td class="draw_line--down">Timer</td>
@@ -37,7 +37,7 @@
         </tr>
         <tr>
           <td class="{{ 'draw_line--down' if img_url else '' }}">Added</td>
-          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ markdownify(added) }}</td>
+          <td class="{{ 'draw_line--down' if img_url else '' }}">{{ added | markdownify }}</td>
         </tr>
       </tbody>
     </table>
@@ -72,9 +72,9 @@
                 <tr>
               {% endif %}
               {% if loop.last and loop_ns.last_key %}
-                <td>{{ markdownify(entry) }}</td>
+                <td>{{ entry | markdownify }}</td>
               {% else %}
-                <td class="draw_line--down">{{ markdownify(entry) }}</td>
+                <td class="draw_line--down">{{ entry | markdownify }}</td>
               {% endif %}
             {% endfor %}
           </tr>
@@ -87,18 +87,28 @@
 
 {% macro yt_version(link) -%}
   {% if link -%}
-    {{ alternative_version(link, type="twitch", alt="youtube") }}
+    <div class="variant_info twitch">
+      {{ "You are viewing the :simple-twitch: **Twitch** version of this Minigame." | markdownify }}<br>
+      {{ ("[Switch to :simple-youtube: **YouTube** version.](/youtube-minigames/" ~ link ~ ")") | markdownify }}
+    </div>
+  {%- else -%}
+    <div class="admonition failure">
+      <p class="admonition-title">ERROR: Invalid argument 'link'</p>
+      <p>The provided argument <code>link</code> was either empty or not set!</p>
+    </div>
   {%- endif %}
 {%- endmacro %}
 
 {% macro twitch_version(link) -%}
   {% if link -%}
-    {{ alternative_version(link, type="youtube", alt="twitch") }}
+    <div class="variant_info youtube">
+      {{ "You are viewing the :simple-youtube: **YouTuve** version of this Minigame" | markdownify }}<br>
+      {{ ("[Switch to :simple-twitch: **Twitch** version.](/twitch-tiles/" ~ link ~ ")") | markdownify }}
+    </div>
+  {%- else -%}
+    <div class="admonition failure">
+      <p class="admonition-title">ERROR: Invalid argument 'link'</p>
+      <p>The provided argument <code>link</code> was either empty or not set!</p>
+    </div>
   {%- endif %}
-{%- endmacro %}
-
-{% macro alternative_version(link, type, alt) -%}
-  <div class="variant_info {{ type }}">
-    {{ markdownify("You are viewing the :simple-" ~ type|lower() ~ ": **" ~ type|capitalize() ~ "** version of this Minigame.<br>[Switch to :simple-" ~ alt|lower() ~ ": **" ~ alt|capitalize() ~ "** version.](/" ~ alt|lower() ~ "-minigames/" ~ link ~ ")") }}
-  </div>
 {%- endmacro %}

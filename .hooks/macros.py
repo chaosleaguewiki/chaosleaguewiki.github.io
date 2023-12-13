@@ -22,7 +22,7 @@ def define_env(env):
         with open(path, 'r', encoding='utf-8') as file:
             return file.readlines()
     
-    @env.macro
+    @env.filter
     def markdownify(text: str):
         md = markdown.Markdown(
             extensions=env.conf['markdown_extensions'],

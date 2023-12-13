@@ -1,11 +1,11 @@
 ---
-description: Stonks is a rare minigame added in version v0.6 Alpha.
+description: Stonks is a minigame added in version v0.6 Alpha.
 ---
 
 # Stonks
 
 {{ game.info(
-  rarity           = ["rare"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "5",
   slots_raffle     = "4",
   added            = "v0.6 Alpha",
@@ -13,7 +13,7 @@ description: Stonks is a rare minigame added in version v0.6 Alpha.
   img_url = "../../../assets/images/minigames/twitch/stonks.png"
 ) }}
 
-**Stonks** is a rare minigame added in version v0.6 Alpha.
+**Stonks** is a minigame added in version v0.6 Alpha.
 
 ## Gameplay
 
@@ -26,6 +26,9 @@ When there's one marble left, the game ends and the players are ranked by their 
 {{ game.history({
   'v0.6 Alpha': [
     'Minigame added'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity'
   ],
   'v0.24 Alpha': [
     'Added sudden death doubler'

@@ -29,27 +29,25 @@ nav:
     - mechanics/rebellion.md
     - mechanics/recruiting.md
     - mechanics/water-and-lava-bucket.md
-  - Minigames:
+  - Tiles:
     - Twitch:
-      - twitch-minigames/index.md
-      - Common:
-        - twitch-minigames/common/bounce-house.md
-        - twitch-minigames/common/danger-zone.md
-        - twitch-minigames/common/how-low-can-you-go.md
-        - twitch-minigames/common/ouroboros.md
-        - twitch-minigames/common/quip-battle.md
-        - twitch-minigames/common/zero-or-hero.md
-      - Rare:
-        - twitch-minigames/rare/chaos-plinko.md
-        - twitch-minigames/rare/forked-frenzy.md
-        - twitch-minigames/rare/royal-execution.md
-        - twitch-minigames/rare/stonks.md
-      - Epic:
-        - twitch-minigames/epic/bubble-color-shop.md
-        - twitch-minigames/epic/text-color-shop.md
-        - twitch-minigames/epic/trail-shop.md
-      - Legendary:
-        - twitch-minigames/legendary/hole-in-one.md
+      - twitch-tiles/index.md
+      - Minigames:
+        - twitch-tiles/minigames/bounce-house.md
+        - twitch-tiles/minigames/chaos-plinko.md
+        - twitch-tiles/minigames/danger-zone.md
+        - twitch-tiles/minigames/forked-frenzy.md
+        - twitch-tiles/minigames/hole-in-one.md
+        - twitch-tiles/minigames/how-low-can-you-go.md
+        - twitch-tiles/minigames/ouroboros.md
+        - twitch-tiles/minigames/quip-battle.md
+        - twitch-tiles/minigames/royal-execution.md
+        - twitch-tiles/minigames/stonks.md
+        - twitch-tiles/minigames/zero-or-hero.md
+      - Shops:
+        - twitch-tiles/shops/bubble-color-shop.md
+        - twitch-tiles/shops/text-color-shop.md
+        - twitch-tiles/shops/trail-shop.md
     - YouTube:
       - youtube-minigames/index.md
       - Common:
@@ -57,32 +55,36 @@ nav:
         - youtube-minigames/common/how-low-can-you-go.md
   - Changelog:
       - changelog/index.md
-      - changelog/cl3/v0.24-alpha.md
-      - changelog/cl3/v0.23-alpha.md
-      - changelog/cl3/v0.22-alpha.md
-      - changelog/cl3/v0.21-alpha.md
-      - changelog/cl3/v0.20-alpha.md
-      - changelog/cl3/v0.19-alpha.md
-      - changelog/cl3/v0.18-alpha.md
-      - changelog/cl3/v0.17-alpha.md
-      - changelog/cl3/v0.16-alpha.md
-      - changelog/cl3/v0.15-alpha.md
-      - changelog/cl3/v0.14-alpha.md
-      - changelog/cl3/v0.13-alpha.md
-      - changelog/cl3/v0.12-alpha.md
-      - changelog/cl3/v0.11-alpha.md
-      - changelog/cl3/v0.10-alpha.md
-      - changelog/cl3/v0.9-alpha.md
-      - changelog/cl3/v0.8-alpha.md
-      - changelog/cl3/v0.7-alpha.md
-      - changelog/cl3/v0.6-alpha.md
-      - changelog/cl3/v0.5-alpha.md
-      - changelog/cl3/v0.4-alpha.md
-      - changelog/cl3/v0.3-alpha.md
-      - changelog/cl3/v0.2-alpha.md
-      - changelog/cl3/v0.1-alpha.md
+      - v3:
+        - changelog/cl3/v0.24-alpha.md
+        - changelog/cl3/v0.23-alpha.md
+        - changelog/cl3/v0.22-alpha.md
+        - changelog/cl3/v0.21-alpha.md
+        - changelog/cl3/v0.20-alpha.md
+        - changelog/cl3/v0.19-alpha.md
+        - changelog/cl3/v0.18-alpha.md
+        - changelog/cl3/v0.17-alpha.md
+        - changelog/cl3/v0.16-alpha.md
+        - changelog/cl3/v0.15-alpha.md
+        - changelog/cl3/v0.14-alpha.md
+        - changelog/cl3/v0.13-alpha.md
+        - changelog/cl3/v0.12-alpha.md
+        - changelog/cl3/v0.11-alpha.md
+        - changelog/cl3/v0.10-alpha.md
+        - changelog/cl3/v0.9-alpha.md
+        - changelog/cl3/v0.8-alpha.md
+        - changelog/cl3/v0.7-alpha.md
+        - changelog/cl3/v0.6-alpha.md
+        - changelog/cl3/v0.5-alpha.md
+        - changelog/cl3/v0.4-alpha.md
+        - changelog/cl3/v0.3-alpha.md
+        - changelog/cl3/v0.2-alpha.md
+        - changelog/cl3/v0.1-alpha.md
   - Meta:
     - meta/index.md
+    - Filters:
+      - meta/filters/index.md
+      - meta/filters/markdownify.md
     - Macros:
       - meta/macros/index.md
       - meta/macros/image.md
@@ -170,9 +172,28 @@ validation:
 plugins:
   - search
   - glightbox
-  - macros:
-      module_name: .hooks/macros
-      include_dir: .snippets/macros
+  - redirects:
+      redirect_maps:
+        # twitch-minigames index redirect
+        'twitch-minigames/index.md': 'twitch-tiles/index.md'
+        # Common tiles redirects
+        'twitch-minigames/common/bounce-house.md': 'twitch-tiles/minigames/bounce-house.md'
+        'twitch-minigames/common/danger-zone.md': 'twitch-tiles/minigames/danger-zone.md'
+        'twitch-minigames/common/how-low-can-you-go.md': 'twitch-tiles/minigames/how-low-can-you-go.md'
+        'twitch-minigames/common/ouroboros.md': 'twitch-tiles/minigames/ouroboros.md'
+        'twitch-minigames/common/quip-battle.md': 'twitch-tiles/minigames/quip-battle.md'
+        'twitch-minigames/common/zero-or-hero.md': 'twitch-tiles/minigames/zero-or-hero.md'
+        # Rare tiles redirects
+        'twitch-minigames/rare/chaos-plinko.md': 'twitch-tiles/minigames/chaos-plinko.md'
+        'twitch-minigames/rare/forked-frenzy.md': 'twitch-tiles/minigames/forked-frenzy.md'
+        'twitch-minigames/rare/royal-execution.md': 'twitch-tiles/minigames/royal-execution.md'
+        'twitch-minigames/rare/stonks.md': 'twitch-tiles/minigames/stonks.md'
+        # Epic tiles redirects
+        'twitch-minigames/epic/bubble-color-shop.md': 'twitch-tiles/shops/bubble-color-shop.md'
+        'twitch-minigames/epic/text-color-shop.md': 'twitch-tiles/shops/text-color-shop.md'
+        'twitch-minigames/epic/trail-shop.md': 'twitch-tiles/shops/trail-shop.md'
+        # Legendary tiles redirects
+        'twitch-minigames/legendary/hole-in-one.md': 'twitch-tiles/minigames/hole-in-one.md'
   - git-revision-date-localized:
       enable_creation_date: true
       exclude:
@@ -184,6 +205,9 @@ plugins:
       token: !ENV [COMMITTER_TOKEN]
       exclude:
         - docs/changelog/index.md
+  - macros:
+      module_name: .hooks/macros
+      include_dir: .snippets/macros
 
 markdown_extensions:
   - attr_list

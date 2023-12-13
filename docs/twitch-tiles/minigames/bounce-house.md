@@ -1,5 +1,5 @@
 ---
-description: Bounce House is a common minigame added in version v0.3 Alpha. It's based on the YouTuve version of the same name.
+description: Bounce House is a minigame added in version v0.3 Alpha. It's based on the YouTuve version of the same name.
 ---
 
 {{ game.yt_version("common/bounce-house/") }}
@@ -7,7 +7,7 @@ description: Bounce House is a common minigame added in version v0.3 Alpha. It's
 # Bounce House
 
 {{ game.info(
-  rarity           = ["any"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.3 Alpha",
@@ -15,7 +15,7 @@ description: Bounce House is a common minigame added in version v0.3 Alpha. It's
   img_url = "../../../assets/images/minigames/twitch/bounce-house.png"
 ) }}
 
-**Bounce House** is a common minigame added in version v0.3 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/bounce-house.md).
+**Bounce House** is a minigame added in version v0.3 Alpha. It is based on the YouTube version's [tile of the same name](../../youtube-minigames/common/bounce-house.md).
 
 ## Gameplay
 

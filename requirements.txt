@@ -3,3 +3,4 @@ mkdocs-glightbox==0.3.5
 mkdocs-macros-plugin==1.0.5
 mkdocs-git-revision-date-localized-plugin==1.2.1
 mkdocs-git-committers-plugin-2==2.2.2
+mkdocs-redirects==1.2.1

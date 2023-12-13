@@ -14,6 +14,8 @@ Chaos League has different types of Game Mechanics available.
     
     A core mechanic (And the main goal) of Chaos League is to attack the king and capture the throne.
     
+    ----
+    
     [:octicons-chevron-right-24: Go to Page](attacking-the-king.md)
 
 -   **Earning Gold**
@@ -21,6 +23,8 @@ Chaos League has different types of Game Mechanics available.
     ----
     
     Players can earn gold, a virtual currency of the game, while being king.
+    
+    ----
     
     [:octicons-chevron-right-24: Go to Page](earning-gold.md)
 
@@ -30,6 +34,8 @@ Chaos League has different types of Game Mechanics available.
     
     A gold tile is a game mechanic where points spent and earned are increased.
     
+    ----
+    
     [:octicons-chevron-right-24: Go to Page](gold-tile.md)
 
 -   **Queue System**
@@ -37,6 +43,8 @@ Chaos League has different types of Game Mechanics available.
     ----
     
     A queue system is used in Chaos League to determine who may participate in a minigame.
+    
+    ----
     
     [:octicons-chevron-right-24: Go to Page](queue-system.md)
 
@@ -46,6 +54,8 @@ Chaos League has different types of Game Mechanics available.
     
     Rebellion is a game mechanic where people can give bits to start a multiplier that increases points earned amongst other effects.
     
+    ----
+    
     [:octicons-chevron-right-24: Go to Page](rebellion.md)
 
 -   **Recruiting**
@@ -54,6 +64,8 @@ Chaos League has different types of Game Mechanics available.
     
     Chaos League allows you to recruit others, which makes you earn points through their wins.
     
+    ----
+    
     [:octicons-chevron-right-24: Go to Page](recruiting.md)
 
 -   **Water and Lava Bucket**
@@ -61,6 +73,8 @@ Chaos League has different types of Game Mechanics available.
     ----
     
     Explanation of the Water and Lava Bucket feature.
+    
+    ----
     
     [:octicons-chevron-right-24: Go to Page](water-and-lava-bucket.md)
 

@@ -17,9 +17,9 @@
                 <tr class="no-color">
               {% endif %}
               {% if loop.last and loop_ns.last_key %}
-                <td class="no-line--top">{{ markdownify(value) }}</td>
+                <td class="no-line--top">{{ value | markdownify }}</td>
               {% else %}
-                <td class="draw_line--down no-line--top">{{ markdownify(value) }}</td>
+                <td class="draw_line--down no-line--top">{{ value | markdownify }}</td>
               {% endif %}
             {% endfor %}
           </tr>

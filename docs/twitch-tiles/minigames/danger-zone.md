@@ -1,11 +1,11 @@
 ---
-description: Danger Zone is a common minigame added in version v0.1 Alpha.
+description: Danger Zone is a minigame added in version v0.1 Alpha.
 ---
 
 # Danger Zone
 
 {{ game.info(
-  rarity           = ["any"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   inputs           = "[`!pull @user`][pull-command]",
   timer            = "20 Seconds",
   rounds           = "3",
@@ -16,7 +16,7 @@ description: Danger Zone is a common minigame added in version v0.1 Alpha.
   img_url = "../../../assets/images/minigames/twitch/danger-zone.png"
 ) }}
 
-**Danger Zone** is a common minigame added in version v0.1 Alpha.
+**Danger Zone** is a minigame added in version v0.1 Alpha.
 
 ## Gameplay
 

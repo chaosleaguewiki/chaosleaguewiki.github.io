@@ -1,11 +1,11 @@
 ---
-description: Forked Frenzy is an upcoming game where players fall through multiple sets of forking pipes.
+description: Forked Frenzy is a minigame added in v0.16 Alpha.
 ---
 
 # Forked Frenzy
 
 {{ game.info(
-  rarity           = ["Rare"],
+  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed ="8",
   slots_raffle     = "3",
   added            = "v0.16 Alpha",
@@ -13,7 +13,7 @@ description: Forked Frenzy is an upcoming game where players fall through multip
   img_url = "../../../assets/images/minigames/twitch/forked-frenzy.png"
 ) }}
 
-**Forked Frenzy** is an upcoming game where players fall through multiple sets of forking pipes.
+**Forked Frenzy** is a minigame added in v0.16 Alpha.
 
 ## Gameplay
 
@@ -27,5 +27,8 @@ The final set of pipes drops the player's marble through a gap, giving them poin
 {{ game.history({
   'v0.16 Alpha': [
     'Minigame added'
+  ],
+  'v0.22 Alpha': [
+    'Minigame can now appear in any rarity'
   ]
 }) }}

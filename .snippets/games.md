@@ -1,21 +1,17 @@
-<!-- Common -->
-[Bounce House]: /twitch-minigames/common/bounce-house/
-[Danger Zone]: /twitch-minigames/common/danger-zone/
-[How Low Can You Go]: /twitch-minigames/common/how-low-can-you-go/
-[Ouroboros]: /twitch-minigames/common/ouroboros/
-[Quip Battle]: /twitch-minigames/common/quip-battle/
-[Zero or Hero]: /twitch-minigames/common/zero-or-hero/
+<!-- Minigame tiles -->
+[Bounce House]: /twitch-tiles/minigames/bounce-house/
+[Chaos Plinko]: /twitch-tiles/minigames/chaos-plinko/
+[Danger Zone]: /twitch-tiles/minigames/danger-zone/
+[Forked Frenzy]: /twitch-tiles/minigames/forked-frenzy/
+[Hole in One]: /twitch-tiles/minigames/hole-in-one/
+[How Low Can You Go]: /twitch-tiles/minigames/how-low-can-you-go/
+[Ouroboros]: /twitch-tiles/minigames/ouroboros/
+[Quip Battle]: /twitch-tiles/minigames/quip-battle/
+[Royal Execution]: /twitch-tiles/minigames/royal-execution/
+[Stonks]: /twitch-tiles/minigames/stonks/
+[Zero or Hero]: /twitch-tiles/minigames/zero-or-hero/
 
-<!-- Rare -->
-[Chaos Plinko]: /twitch-minigames/rare/chaos-plinko/
-[Forked Frenzy]: /twitch-minigames/rare/forked-frenzy/
-[Royal Execution]: /twitch-minigames/rare/royal-execution/
-[Stonks]: /twitch-minigames/rare/stonks/
-
-<!-- Epic -->
-[Bubble color Shop]: /twitch-minigames/epic/speech-bubble-color-shop/
-[Text Color Shop]: /twitch-minigames/epic/text-color-shop/
-[Trail Shop]: /twitch-minigames/epic/trail-shop/
-
-<!-- Legendary -->
-[Hole in One]: /twitch-minigames/legendary/hole-in-one/
+<!-- Shop tiles -->
+[Bubble color Shop]: /twitch-tiles/shops/speech-bubble-color-shop/
+[Text Color Shop]: /twitch-tiles/shops/text-color-shop/
+[Trail Shop]: /twitch-tiles/shops/trail-shop/

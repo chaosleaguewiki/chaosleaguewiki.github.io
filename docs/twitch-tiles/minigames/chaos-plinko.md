@@ -1,17 +1,17 @@
 ---
-description: Chaos Plinko is a not yet released minigame.
+description: Chaos Plinko is a minigame added in v0.22 Alpha.
 ---
 
 # Chaos Plinko
 
---8<-- "unreleased.md"
-
 {{ game.info(
-    rarity = ["rare"],
-    added  = "v0.22 Alpha"
+  rarity           = ["common", "rare", "epic", "legendary"],
+  slots_guaranteed = "8",
+  slots_raffle     = "6",
+  added            = "v0.22 Alpha"
 ) }}
 
-**Chaos Plinko** is a not yet released minigame.
+**Chaos Plinko** is a minigame added in v0.22 Alpha.
 
 ## Gameplay
 

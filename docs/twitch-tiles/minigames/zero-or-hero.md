@@ -1,5 +1,5 @@
 ---
-description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is based on the YouTube version with the same name.
+description: Zero or Hero is a minigame added in v0.9 Alpha. It is based on the YouTube version with the same name.
 ---
 
 # Zero or Hero
@@ -13,7 +13,7 @@ description: Zero or Hero is a common minigame to be added in v0.9 Alpha. It is 
   img_url = "../../../assets/images/minigames/twitch/zero-or-hero.png"
 ) }}
 
-**Zero or Hero** is a common minigame to be added in v0.9 Alpha. It is based on the YouTube version with the same name.
+**Zero or Hero** is a minigame added in v0.9 Alpha. It is based on the YouTube version's tile of the same name.
 
 ## Gameplay
 
