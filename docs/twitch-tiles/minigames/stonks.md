@@ -27,12 +27,10 @@ When there's one marble left, the game ends and the players are ranked by their 
   'v0.6 Alpha': [
     'Minigame added'
   ],
-<<<<<<< HEAD:docs/twitch-tiles/minigames/stonks.md
   'v0.22 Alpha': [
     'Minigame can now appear in any rarity'
-=======
+  ],
   'v0.24 Alpha': [
     'Added sudden death doubler'
->>>>>>> main:docs/twitch-minigames/rare/stonks.md
   ]
 }) }}
