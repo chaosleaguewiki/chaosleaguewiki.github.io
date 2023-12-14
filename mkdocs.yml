@@ -23,6 +23,7 @@ nav:
   - Game Mechanics:
     - mechanics/index.md
     - mechanics/attacking-the-king.md
+    - mechanics/death-ball.md
     - mechanics/earning-gold.md
     - mechanics/gold-tile.md
     - mechanics/queue-system.md

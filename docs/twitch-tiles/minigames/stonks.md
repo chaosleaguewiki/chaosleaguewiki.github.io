@@ -17,11 +17,19 @@ description: Stonks is a minigame added in version v0.6 Alpha.
 
 ## Gameplay
 
-The tile consists of a row of small rotating squares, below which there is a series of gaps. Above and below it there are 2 closed gaps moving diagonally.
+The tile consists of a row of small rotating pins, below which there is a series of gaps. Above and below it there are 2 slowly moving gaps.
 
-The participating players' marbles are dropped and begin to collect points by falling through the gaps. After passing through the gap, it's point value is increased by it's initial value. If a marble falls to the bottom of the tile, it appears back in the game through the pipe at the top. If a marble falls into a closed gap, it is eliminated from the game and the given number of points is transfered to the king's balance. The negative value of closed gaps in the bottom-right corner is increased by it's initial value after a marble falls into one of them.
+The players are droped at the top from the pipe into the tile after which they make their way through the row of rotating pins.  
+Should they end up at the right will they fall down into one of the two buckets, eliminating them while also transferring the displayed point value from them to the king.
 
-When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
+Falling through any other gap will give the player the displayed point value. Falling to any gap not having a grey line at the top will make it increase its value by a certain factor based on its line color.
+
+After falling through any gap will they fall to the bottom of the tile after which they reappear at the top at the location of the pipe.
+
+## Point multiplier
+
+A point multiplier is located at the top left of the tile, displaying a x2.  
+Every 10 seconds will it increase the point values of the gaps and buckets by a factor of 2. Every 3rd multiplication will a death ball be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
 
 {{ game.history({
   'v0.6 Alpha': [

@@ -19,11 +19,16 @@ description: Bounce House is a minigame added in version v0.3 Alpha. It's based 
 
 ## Gameplay
 
-The tile consists of a 1 point block and an elimination bowl rotating around it's center and 2 moving structures with a 5 points gap between them. Just under the pipe, there's a small, rotating rectangle.
+The tile consists of a 8 points cube and an elimination bucket of 1 point value rotating counter-clockwise around the center. At the bottom is a 8 point gap with two diagonal components on the side moving up and down. At the top is a spinning plate.
 
-The participating players' marbles are dropped and begin to fly around the tile, launched by the moving structures. If a marble touches the point block, the given number of points is added to it's balance and the block's value is increased by 1. If a marble falls through the gap, 5 points are added to it's balance, it appears back in the game through the pipe at the top and the gap's value is increased by 5. If a marble gets into the rotating bowl, it is eliminated from the game and 2 points are transfered to the king's balance.
+The players are droped from the pipe at the top falling into the tile where they will be bounced around by the moving components at the bottom. When they touch the rotating cube or fall through the gap at the bottom will the displayed point values be added to the player. Should they touch the rotating bucket will the displayed point value be removed from them and transferred to the king.
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
+
+## Point multiplier
+
+A point multiplier is located at the top left of the tile, displaying a x2.  
+Every 10 seconds will it increase the point values of the gap, block and bucket by a factor of 2. Every 3rd multiplication will a death ball be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
 
 {{ game.history({
   'v0.3 Alpha': [

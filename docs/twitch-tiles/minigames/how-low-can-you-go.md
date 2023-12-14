@@ -19,12 +19,19 @@ description: How Low Can You Go is a minigame added in version v0.1 Alpha. It is
 
 ## Gameplay
 
-The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps.
+The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps and buckets.
 
-The participating players' marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the game through the pipe at the top. If a marble falls into a closed gap, it is eliminated from the game and a given number of points is transfered to the king's balance.  
-With the exception of closed gaps does every gap increase its point value by one for every marble falling through it.
+The player marbles are droped from the pipe at the top into the tile after which they will find their way through open gaps or closed buckets with point values displayed.  
+Should the player end up in a bucket will the displayed point value get removed from them and transferred to the current king while their marble also gets eliminated. Falling through a gap gives the player the displayed point value.
 
-When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
+Each row has one bucket with gaps filling the remaining area. The first row has gaps with an initial point value of 2 and a bucket with an initial point value of 2. The second row has the values of the first row doubled and the 3rd row has its point values be doubled from the 2nd row.
+
+Once the player reaches the bottom of the tile will they reappear at the top at the location of the pipe, repeating the cicle.
+
+## Point multiplier
+
+A point multiplier is located at the top left of the tile, displaying a x2.  
+Every 10 seconds will it increase the point values of the gaps and buckets by a factor of 2. Every 3rd multiplication will a death ball be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
 
 {{ game.history({
   'v0.1 Alpha': [

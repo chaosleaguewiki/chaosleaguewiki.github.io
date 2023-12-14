@@ -4,6 +4,13 @@ description: Players can earn gold, a virtual currency of the game, while being 
 
 # Earning Gold
 
+{{ image.right(
+    url = "../../assets/images/earning-gold.png",
+    
+    title   = "Earning Gold",
+    caption = "Image depicting the current king earning gold"
+) }}
+
 Players can earn gold, a virtual currency of the game, while being king.  
 This earned gold can then be used on Shop tiles to receive cosmetics in return. Currently available shop tiles are [Bubble color Shop], [Text color Shop] and [Trail Shop].
 
@@ -17,5 +24,8 @@ Additionally can players use the [`!givegold`][givegold-command] to give another
 {{ game.history({
     'v0.8 Alpha': [
         'Gameplay mechanic added'
+    ],
+    'v0.25 Alpha': [
+        'Travel indicator for gold changed from a number to individual coins.'
     ]
 }) }}

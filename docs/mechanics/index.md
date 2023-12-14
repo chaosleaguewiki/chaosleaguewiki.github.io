@@ -18,6 +18,16 @@ Chaos League has different types of Game Mechanics available.
     
     [:octicons-chevron-right-24: Go to Page](attacking-the-king.md)
 
+-   **Death Ball**
+    
+    ----
+    
+    Death Ball is a Game mechanic where either a ball moves around a tile and eliminates marbles, should they touch its spikes.
+    
+    ----
+    
+    [:octicons-chevron-right-24: Go to Page](death-ball.md)
+
 -   **Earning Gold**
     
     ----
