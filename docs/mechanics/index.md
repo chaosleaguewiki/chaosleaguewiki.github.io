@@ -48,6 +48,16 @@ Chaos League has different types of Game Mechanics available.
     
     [:octicons-chevron-right-24: Go to Page](gold-tile.md)
 
+-   **Points Multiplier**
+    
+    ----
+    
+    Points multiplier is a mechanic where the points earned in a tile will be multiplied by 2 every 10 seconds.
+    
+    ----
+    
+    [:octicons-chevron-right-24: Go to Page](points-multiplier.md)
+
 -   **Queue System**
     
     ----
