@@ -8,6 +8,7 @@
 [Ouroboros]: /twitch-tiles/minigames/ouroboros/
 [Quip Battle]: /twitch-tiles/minigames/quip-battle/
 [Royal Execution]: /twitch-tiles/minigames/royal-execution/
+[Simon Says]: /twitch-tiles/minigames/simon-says/
 [Stonks]: /twitch-tiles/minigames/stonks/
 [Zero or Hero]: /twitch-tiles/minigames/zero-or-hero/
 

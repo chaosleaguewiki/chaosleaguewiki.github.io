@@ -5,8 +5,7 @@ description: Quip Battle is a minigame added in version v0.1 Alpha.
 # Quip Battle
 
 {{ game.info(
-  rarity           = ["common", "rare", "epic", "legendary"],
-  inputs           = "Players&#58; Messages<br>Viewers&#58; Twitch-poll Votes",
+  inputs           = "Players: Messages<br>Viewers: Twitch-poll Votes",
   timer            = "1 Minute",
   slots_guaranteed = "3",
   slots_raffle     = "2",

@@ -5,7 +5,6 @@ description: Ouroboros is a minigame added in version v0.18 Alpha. It's based on
 # Ouroboros
 
 {{ game.info(
-  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.18 Alpha",

@@ -7,7 +7,6 @@ description: How Low Can You Go is a minigame added in version v0.1 Alpha. It is
 # How Low Can You Go
 
 {{ game.info(
-  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "4",
   added            = "v0.1 Alpha",

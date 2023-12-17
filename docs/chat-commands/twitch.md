@@ -66,6 +66,10 @@ Gives a link to this wiki you're currently reading.
 
 Gives a Link to DoodleChaos' Patreon page.
 
+### `!discord`
+
+Gives a link to DoodleChaos' Discord server.
+
 ## Throne Commands
 
 Only executable by the current king on the throne.

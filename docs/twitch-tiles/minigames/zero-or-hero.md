@@ -5,7 +5,6 @@ description: Zero or Hero is a minigame added in v0.9 Alpha. It is based on the 
 # Zero or Hero
 
 {{ game.info(
-  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed = "8",
   slots_raffle     = "2",
   added            = "v0.9 Alpha",

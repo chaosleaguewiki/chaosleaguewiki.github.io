@@ -44,6 +44,7 @@ nav:
         - twitch-tiles/minigames/ouroboros.md
         - twitch-tiles/minigames/quip-battle.md
         - twitch-tiles/minigames/royal-execution.md
+        - twitch-tiles/minigames/simon-says.md
         - twitch-tiles/minigames/stonks.md
         - twitch-tiles/minigames/zero-or-hero.md
       - Shops:
@@ -58,31 +59,33 @@ nav:
   - Changelog:
       - changelog/index.md
       - v3:
-        - changelog/cl3/v0.25-alpha.md
-        - changelog/cl3/v0.24-alpha.md
-        - changelog/cl3/v0.23-alpha.md
-        - changelog/cl3/v0.22-alpha.md
-        - changelog/cl3/v0.21-alpha.md
-        - changelog/cl3/v0.20-alpha.md
-        - changelog/cl3/v0.19-alpha.md
-        - changelog/cl3/v0.18-alpha.md
-        - changelog/cl3/v0.17-alpha.md
-        - changelog/cl3/v0.16-alpha.md
-        - changelog/cl3/v0.15-alpha.md
-        - changelog/cl3/v0.14-alpha.md
-        - changelog/cl3/v0.13-alpha.md
-        - changelog/cl3/v0.12-alpha.md
-        - changelog/cl3/v0.11-alpha.md
-        - changelog/cl3/v0.10-alpha.md
-        - changelog/cl3/v0.9-alpha.md
-        - changelog/cl3/v0.8-alpha.md
-        - changelog/cl3/v0.7-alpha.md
-        - changelog/cl3/v0.6-alpha.md
-        - changelog/cl3/v0.5-alpha.md
-        - changelog/cl3/v0.4-alpha.md
-        - changelog/cl3/v0.3-alpha.md
-        - changelog/cl3/v0.2-alpha.md
-        - changelog/cl3/v0.1-alpha.md
+        - Alpha:
+          - changelog/cl3/alpha/v0.26-alpha.md
+          - changelog/cl3/alpha/v0.25-alpha.md
+          - changelog/cl3/alpha/v0.24-alpha.md
+          - changelog/cl3/alpha/v0.23-alpha.md
+          - changelog/cl3/alpha/v0.22-alpha.md
+          - changelog/cl3/alpha/v0.21-alpha.md
+          - changelog/cl3/alpha/v0.20-alpha.md
+          - changelog/cl3/alpha/v0.19-alpha.md
+          - changelog/cl3/alpha/v0.18-alpha.md
+          - changelog/cl3/alpha/v0.17-alpha.md
+          - changelog/cl3/alpha/v0.16-alpha.md
+          - changelog/cl3/alpha/v0.15-alpha.md
+          - changelog/cl3/alpha/v0.14-alpha.md
+          - changelog/cl3/alpha/v0.13-alpha.md
+          - changelog/cl3/alpha/v0.12-alpha.md
+          - changelog/cl3/alpha/v0.11-alpha.md
+          - changelog/cl3/alpha/v0.10-alpha.md
+          - changelog/cl3/alpha/v0.9-alpha.md
+          - changelog/cl3/alpha/v0.8-alpha.md
+          - changelog/cl3/alpha/v0.7-alpha.md
+          - changelog/cl3/alpha/v0.6-alpha.md
+          - changelog/cl3/alpha/v0.5-alpha.md
+          - changelog/cl3/alpha/v0.4-alpha.md
+          - changelog/cl3/alpha/v0.3-alpha.md
+          - changelog/cl3/alpha/v0.2-alpha.md
+          - changelog/cl3/alpha/v0.1-alpha.md
   - Meta:
     - meta/index.md
     - Filters:
@@ -177,6 +180,32 @@ plugins:
   - glightbox
   - redirects:
       redirect_maps:
+        # Changelog alpha pages before move
+        "changelog/cl3/v0.25-alpha.md": "changelog/cl3/alpha/v0.25-alpha.md"
+        "changelog/cl3/v0.24-alpha.md": "changelog/cl3/alpha/v0.24-alpha.md"
+        "changelog/cl3/v0.23-alpha.md": "changelog/cl3/alpha/v0.23-alpha.md"
+        "changelog/cl3/v0.22-alpha.md": "changelog/cl3/alpha/v0.22-alpha.md"
+        "changelog/cl3/v0.21-alpha.md": "changelog/cl3/alpha/v0.21-alpha.md"
+        "changelog/cl3/v0.20-alpha.md": "changelog/cl3/alpha/v0.20-alpha.md"
+        "changelog/cl3/v0.19-alpha.md": "changelog/cl3/alpha/v0.19-alpha.md"
+        "changelog/cl3/v0.18-alpha.md": "changelog/cl3/alpha/v0.18-alpha.md"
+        "changelog/cl3/v0.17-alpha.md": "changelog/cl3/alpha/v0.17-alpha.md"
+        "changelog/cl3/v0.16-alpha.md": "changelog/cl3/alpha/v0.16-alpha.md"
+        "changelog/cl3/v0.15-alpha.md": "changelog/cl3/alpha/v0.15-alpha.md"
+        "changelog/cl3/v0.14-alpha.md": "changelog/cl3/alpha/v0.14-alpha.md"
+        "changelog/cl3/v0.13-alpha.md": "changelog/cl3/alpha/v0.13-alpha.md"
+        "changelog/cl3/v0.12-alpha.md": "changelog/cl3/alpha/v0.12-alpha.md"
+        "changelog/cl3/v0.11-alpha.md": "changelog/cl3/alpha/v0.11-alpha.md"
+        "changelog/cl3/v0.10-alpha.md": "changelog/cl3/alpha/v0.10-alpha.md"
+        "changelog/cl3/v0.9-alpha.md": "changelog/cl3/alpha/v0.9-alpha.md"
+        "changelog/cl3/v0.8-alpha.md": "changelog/cl3/alpha/v0.8-alpha.md"
+        "changelog/cl3/v0.7-alpha.md": "changelog/cl3/alpha/v0.7-alpha.md"
+        "changelog/cl3/v0.6-alpha.md": "changelog/cl3/alpha/v0.6-alpha.md"
+        "changelog/cl3/v0.5-alpha.md": "changelog/cl3/alpha/v0.5-alpha.md"
+        "changelog/cl3/v0.4-alpha.md": "changelog/cl3/alpha/v0.4-alpha.md"
+        "changelog/cl3/v0.3-alpha.md": "changelog/cl3/alpha/v0.3-alpha.md"
+        "changelog/cl3/v0.2-alpha.md": "changelog/cl3/alpha/v0.2-alpha.md"
+        "changelog/cl3/v0.1-alpha.md": "changelog/cl3/alpha/v0.1-alpha.md"
         # twitch-minigames index redirect
         'twitch-minigames/index.md': 'twitch-tiles/index.md'
         # Common tiles redirects
@@ -198,7 +227,7 @@ plugins:
         # Legendary tiles redirects
         'twitch-minigames/legendary/hole-in-one.md': 'twitch-tiles/minigames/hole-in-one.md'
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: !ENV [GIT_COMMITTER_ENABLED, false]
       exclude:
         - changelog/index.md
   - git-committers:

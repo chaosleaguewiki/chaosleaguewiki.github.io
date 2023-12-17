@@ -121,6 +121,16 @@ The following rarities exist with their aproximated chance of appearance:
     
     [:octicons-chevron-right-24: Go to Page](minigames/royal-execution.md)
 
+-   **Simon Says**
+    
+    ----
+    
+    Simon Says, in the game displayed as Zobm Says, is a minigame tile where the king controls the game and chooses the order in which to eliminate the players.
+    
+    ----
+    
+    [:octicons-chevron-right-24: Go to Page](minigames/simon-says.md)
+
 -   **Stonks**
     
     ----

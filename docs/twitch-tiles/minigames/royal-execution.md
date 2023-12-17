@@ -5,8 +5,7 @@ description: Royal Execution is a minigame added in version v0.8 Alpha.
 # Royal Execution
 
 {{ game.info(
-  rarity           = ["common", "rare", "epic", "legendary"],
-  inputs           = "King&#58; [`!left`][left-command], [`!right`][right-command]",
+  inputs           = "King: [`!left`][left-command], [`!right`][right-command]",
   timer            = "30 Seconds",
   rounds           = "1-3",
   slots_guaranteed = "6",

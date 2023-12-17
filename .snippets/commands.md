@@ -12,6 +12,7 @@
 [cancelbid-command]: /chat-commands/twitch/#cancelbid
 [wiki-command]: /chat-commands/twitch/#wiki
 [patreon-command]: /chat-commands/twitch/#patreon
+[discord-command]: /chat-commands/twitch/#discord
 
 <!-- King commands -->
 [song-command]: /chat-commands/twitch/#song

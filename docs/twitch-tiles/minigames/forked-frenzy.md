@@ -5,7 +5,6 @@ description: Forked Frenzy is a minigame added in v0.16 Alpha.
 # Forked Frenzy
 
 {{ game.info(
-  rarity           = ["common", "rare", "epic", "legendary"],
   slots_guaranteed ="8",
   slots_raffle     = "3",
   added            = "v0.16 Alpha",
