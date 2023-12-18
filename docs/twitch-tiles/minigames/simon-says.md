@@ -5,11 +5,13 @@ description: Simon Says, in the game displayed as Zobm Says, is a minigame tile 
 # Simon Says
 
 {{ game.info(
-    inputs           = "King: `@mention` user",
-    timer            = "60 Seconds",
-    slots_guaranteed = "3",
-    slots_raffle     = "2",
-    added            = "v0.26 Alpha"
+  inputs           = "King: `@mention` user",
+  timer            = "60 Seconds",
+  slots_guaranteed = "3",
+  slots_raffle     = "2",
+  added            = "v0.26 Alpha",
+  
+  img_url = "../../../assets/images/minigames/twitch/common/simon-says.png"
 ) }}
 
 **Simon Says**, in the game displayed as **Zobm Says**, is a minigame tile where the king controls the game and chooses the order in which to eliminate the players.

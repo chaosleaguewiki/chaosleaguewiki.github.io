@@ -29,5 +29,8 @@ The final set of pipes drops the player's marble through a gap, giving them poin
   ],
   'v0.22 Alpha': [
     'Minigame can now appear in any rarity'
+  ],
+  'v0.26 Alpha': [
+    'Game now waits for all players to be eliminated before switching to podium'
   ]
 }) }}

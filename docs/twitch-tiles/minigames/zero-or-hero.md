@@ -34,6 +34,11 @@ When there's one marble left, the game ends and the players are ranked by their 
     'Minigame buffed'
   ],
   'v0.25 Alpha': [
-    'Changed Skull textures to infinity symbols.'
+    'Changed Skull textures to infinity symbols'
+  ],
+  'v0.26 Alpha': [
+    'Max players changed to 16',
+    'Game now starts a countdown even while empty and skips if no player joins',
+    'Enabled sudden death'
   ]
 }) }}

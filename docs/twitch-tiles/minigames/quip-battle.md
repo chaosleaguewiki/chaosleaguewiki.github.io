@@ -82,5 +82,8 @@ Below is a current list of all available prompts in the game.
   'v0.22 Alpha': [
     'Minigame can now appear in any rarity',
     'Vote values now scale with rarity and rebellion multiplier'
+  ],
+  'v0.26 Alpha': [
+    'Emotes are now longer spoken by the TTS'
   ]
 }) }}
