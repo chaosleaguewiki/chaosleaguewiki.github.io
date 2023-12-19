@@ -7,24 +7,26 @@ description: A list of all tiles available in Chaos League to participate in.
 Chaos League offers various tiles to participate in.
 
 Tiles exist in two forms: [Minigame tiles](#available-minigame-tiles) and [Shop tiles](#available-shop-tiles).  
-Minigame tiles give or take points from every participating player with a prize at the end being distributed to all participants with 1st plays getting 100% of the prize while everyone else gets a fraction based on their ranking.
+Minigame tiles give or take points from every participating player with a prize at the end being distributed to all participants with 1st place getting 100% of the prize and everyone else getting a certain percentage of the prize based on their ranking.
 
 Shop tiles allow players to buy cosmetics for their marble using gold.
 
 No matter the type of tile, there is always one active while the other is in queue mode.
 
+Shop tiles and certain minigame tiles may be skipped should no player join its queue for 15 seconds after the previous tile has finished.
+
 ## Rarities
 
-Each tile can have a specific rarity which can influence certain factors of the tile such as the initial prize to earn as well as points to earn and lose.
+Each tile can appear as one or multiple rarities. Depending on the rarity will certain factors such as the base prize to win be different.
 
-The following rarities exist with their approximated chance of appearance:
+Here is a list of all currently available rarities, the aproximate chance of them appearing and the factor at which they increase the prize value and points you can earn in a tile:
 
-| Rarity    | Chance |
-|-----------|-------:|
-| Common    | 69%    |
-| Rare      | 25%    |
-| Epic      | 5%     |
-| Legendary | 1%     |
+| Rarity    | Chance | Point increase |
+|-----------|-------:|---------------:|
+| Common    | 69%    | x1             |
+| Rare      | 25%    | x2             |
+| Epic      | 5%     | x10            |
+| Legendary | 1%     | x40            |
 
 
 ## Available minigame tiles
@@ -121,16 +123,6 @@ The following rarities exist with their approximated chance of appearance:
     
     [:octicons-chevron-right-24: Go to Page](minigames/royal-execution.md)
 
--   **Simon Says**
-    
-    ----
-    
-    Simon Says, in the game displayed as Zobm Says, is a minigame tile where the king controls the game and chooses the order in which to eliminate the players.
-    
-    ----
-    
-    [:octicons-chevron-right-24: Go to Page](minigames/simon-says.md)
-
 -   **Stonks**
     
     ----
@@ -150,6 +142,16 @@ The following rarities exist with their approximated chance of appearance:
     ----
     
     [:octicons-chevron-right-24: Go to Page](minigames/zero-or-hero.md)
+
+-   **Zobm Says**
+    
+    ----
+    
+    Zobm Says is a minigame tile where the king controls the game and chooses the order in which to eliminate the players.
+    
+    ----
+    
+    [:octicons-chevron-right-24: Go to Page](minigames/zobm-says.md)
 
 </div>
 

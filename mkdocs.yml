@@ -44,9 +44,9 @@ nav:
         - twitch-tiles/minigames/ouroboros.md
         - twitch-tiles/minigames/quip-battle.md
         - twitch-tiles/minigames/royal-execution.md
-        - twitch-tiles/minigames/simon-says.md
         - twitch-tiles/minigames/stonks.md
         - twitch-tiles/minigames/zero-or-hero.md
+        - twitch-tiles/minigames/zobm-says.md
       - Shops:
         - twitch-tiles/shops/bubble-color-shop.md
         - twitch-tiles/shops/text-color-shop.md
@@ -180,6 +180,8 @@ plugins:
   - glightbox
   - redirects:
       redirect_maps:
+        # Simon Says redirect
+        "twitch-tiles/minigames/simon-says.md": "twitch-tiles/minigames/zobm-says.md"
         # Changelog alpha pages before move
         "changelog/cl3/v0.25-alpha.md": "changelog/cl3/alpha/v0.25-alpha.md"
         "changelog/cl3/v0.24-alpha.md": "changelog/cl3/alpha/v0.24-alpha.md"

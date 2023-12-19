@@ -5,7 +5,7 @@ description: Danger Zone is a minigame added in version v0.1 Alpha.
 # Danger Zone
 
 {{ game.info(
-  inputs           = "[`!pull @user`][pull-command]",
+  inputs           = "`@mention` user",
   timer            = "20 seconds",
   rounds           = "3",
   slots_guaranteed = "8",

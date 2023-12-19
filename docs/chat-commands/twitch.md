@@ -20,6 +20,8 @@ You can read more about attacking the king on the [game mechanics page](../mecha
 
 Gives you a link to share. Every player that joins using your link will earn you 50% of the points they earn.
 
+[Learn more about recruiting](../mechanics/recruiting.md).
+
 ### `!tomato [amount] @user` { #tomato }
 
 Lets you throw `[amount]` of tomatos towards the mentioned user. This command costs you points, but the hit player will also lose points.
@@ -40,7 +42,7 @@ Spend `[amount]` of your points to spread across the 10 obsidian defense blocks.
 
 ### `!stats @user` / `!mystats` { #stats }
 
-Get statistics of the mentioned user. `!stats` gives your statistics by default.
+Get statistics of the mentioned user. `!stats` without a mention returns your statistics by default.
 
 ### `!playlist`
 
@@ -50,9 +52,13 @@ Gives a link to the [Spotify Playlist][song-playlist] used for the music playing
 
 Adds `[bits]` amount of bits to the lava progress bar. Once full, a bucket of lava will be released. Players killed by the lava will lose half their points.
 
+[Learn more about Lava and Water Bucket](../mechanics/water-and-lava-bucket.md).
+
 ### `!water [bits]` { #water }
 
 Adds `[bits]` amount of bits to the water progress bar. Once full, a bucket of water will be released. It will extinguish existing lava previously spread through the [`!lava` command](#lava).
+
+[Learn more about Lava and Water Bucket](../mechanics/water-and-lava-bucket.md).
 
 ### `!cancelbid`
 
@@ -93,7 +99,7 @@ Only executable by players participating in a tile, or by the king while a certa
 
 ### `!buy<number>` { #buy }
 
-Usable in the minigames [Bubble Color Shop], [Text Color Shop] and [Trail Shop] to buy one of three available cosmetics using Gold you've earned.
+Usable in the Shop tiles [Bubble Color Shop], [Text Color Shop] and [Trail Shop] to buy one of three available cosmetics using Gold you've earned.
 
 `buy1` buys the cheapest, `buy2` the second cheapest and `buy3` the most expensive option.
 

@@ -9,7 +9,7 @@ A mechanic in the game is the Water and Lava Bucket. They can be activated eithe
 ## How to fill the buckets
 
 In order to fill the buckets, one has to use the `!lava [bits]` or `!water [bits]` chat command for filling the progress bar of the lava or water bucket respectively. `[bits]` needs to replaced by the amount of bits you want to spend, using the `cheer<bits>` format.  
-As an example: `!lava cheer100`.
+As an example, `!lava cheer100` will fill the progress bar for the lava bucket by 100 bits.
 
 The Lava bucket needs 750 bits while the Water Bucket only requires 500 bits to be filled.  
 Once either is filled, they will be activated in the attack tile.
@@ -23,6 +23,7 @@ Activating said water bucket will spread water across the attack tile, removing 
 
 - Water drops can't hurt a player's marble, but they can slow it down.
 - Lava and Water Buckets have existed in a previous iteration of Chaos league.
+- It was possible for lava to eliminate players who exited the raffle queue, causing a hard lock for the game/shop tile starting.
 
 {{ game.history({
     'v0.9 Alpha': [
@@ -36,5 +37,8 @@ Activating said water bucket will spread water across the attack tile, removing 
     ],
     'v0.25 Alpha': [
         'Player marbles now sink into water to aid in attacking'
+    ],
+    'v0.26 Alpha': [
+        'Fixed bug causing lava to kill players exiting raffle slot'
     ]
 }) }}

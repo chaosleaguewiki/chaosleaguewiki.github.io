@@ -18,6 +18,10 @@
 
 *[bits]: Bits are a virtual product on Twitch that can be bought with real money. They are used for cheering in chat using 'cheer[bits]'
 
+*[bucket]: A bucket is a closed gap which when touched will eliminate the player and transfer the displayed point value from the player to the king.
+
+*[gap]: A gap gives every player passing through it points.<br>Depending on the color above will it also increase its own point value when passed through.
+
 *[v0.1 Alpha]: 2 November 2023 (CET/CEST)
 *[v0.3 Alpha]: 6 November 2023 (CET/CEST)
 *[v0.6 Alpha]: 11 November 2023 (CET/CEST)
@@ -36,4 +40,8 @@
 *[v0.19 Alpha]: 5 December 2023 (CET/CEST)
 *[v0.20 Alpha]: 6 December 2023 (CET/CEST)
 *[v0.21 Alpha]: 7 December 2023 (CET/CEST)
-*[v0.21 Alpha]: 11 December 2023 (CET/CEST)
+*[v0.22 Alpha]: 11 December 2023 (CET/CEST)
+*[v0.23 Alpha]: 12 December 2023 (CET/CEST)
+*[v0.24 Alpha]: 13 December 2023 (CET/CEST)
+*[v0.25 Alpha]: 14 December 2023 (CET/CEST)
+*[v0.26 Alpha]: 17 December 2023 (CET/CEST)
