@@ -8,7 +8,7 @@ description: Chat commands available for the Twitch version of Chaos League.
 
 ### `!attack`
 
-/// note | Command cannot be used while in a tile
+/// note | Command cannot be used while spawned in
 ///
 
 Starts an attack against the current king by spawning you at the red pipe with the `!attack` text on it (bottom-center of the screen).  
@@ -40,7 +40,7 @@ Spend `[amount]` of your points to spread across the 10 obsidian defense blocks.
 
 ### `!stats @user` / `!mystats` { #stats }
 
-Get statistics of the mentioned user.
+Get statistics of the mentioned user. `!stats` gives your statistics by default.
 
 ### `!playlist`
 
@@ -76,15 +76,15 @@ Only executable by the current king on the throne.
 
 ### `!song [Artist - Song]` { #song }
 
-Plays a song available on [this playlist][song-playlist]
+Plays a song available on [this playlist][song-playlist].
 
 ### `!nextsong`
 
-Skips to a new random song from [the playlist][song-playlist]
+Skips to a new random song from [the playlist][song-playlist].
 
 ### `!toll [amount]` { #toll }
 
-Sets a point fee that each player has to pay when entering gameplay on a tile.  
+Sets a point fee that each player has to pay when going through the pipe on a tile.  
 `[amount]` can be a number between 0 and 15.
 
 ## Tile commands
@@ -117,4 +117,4 @@ Usable in the minigame [Danger Zone].
 
 Pulls the mentioned player marble towards your own. Only players in the game can be pulled.
 
-[song-playlist]: https://open.spotify.com/playlist/5gdz9X9y9hpBOCjYo6TI31
+[song-playlist]: https://open.spotify.com/playlist/4P2LPOHaCPmSAyoTYEHuKA

@@ -18,7 +18,7 @@ description: Simon Says, in the game displayed as Zobm Says, is a minigame tile 
 
 ## Gameplay
 
-The players are moved into a tile similar in design to [Quip Battle tile].  
+The players are moved into a tile similar in design to [Quip Battle].  
 A countdown starts during which the current king can eliminate the players by mentioning them in chat.
 
 Every time the king eliminates a player, a sound effect is played and all remaining players receive points.

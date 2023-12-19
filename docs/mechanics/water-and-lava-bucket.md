@@ -4,7 +4,7 @@ description: Explanation of the Water and Lava Bucket feature.
 
 # Water and Lava Bucket
 
-A mechanic in the game is the Water and Lava Bucket. They can be activated either by using bits to fill up a progress bar, or by buying the respective item using Tickets.
+A mechanic in the game is the Water and Lava Bucket. They can be activated either by using bits to fill up a progress bar, or by buying the respective item using tickets.
 
 ## How to fill the buckets
 
@@ -21,7 +21,7 @@ Activating said water bucket will spread water across the attack tile, removing 
 
 ## Trivia
 
-- Water drops can't hurt a player's marble, but stop them from touching a block and reducing its value.
+- Water drops can't hurt a player's marble, but they can slow it down.
 - Lava and Water Buckets have existed in a previous iteration of Chaos league.
 
 {{ game.history({
@@ -33,5 +33,8 @@ Activating said water bucket will spread water across the attack tile, removing 
         'SFW added for filling Lava or Water progress bar',
         'Announcement added for releasing Lava or Water Bucket',
         'Price for Lava Bucket changed from 1000 Bits to 750 Bits'
+    ],
+    'v0.25 Alpha': [
+        'Player marbles now sink into water to aid in attacking'
     ]
 }) }}

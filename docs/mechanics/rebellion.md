@@ -32,7 +32,7 @@ The circle around the rebellion starter has specific effects on players, tiles a
 
 When a player bids spawn tickets to participate while in the effect area of the rebellion leader, the tickets spent will be multiplied. This will also affect the prize a player can win on a tile.
 
-Should the rebellion leader not be king and also not be in a tile's guaranteed slots, their effect area will be located at the bottom of the queue, applying the multiplier to any tickets a player bids for this tile while not already being in the guaranteed slots (outside the effect radius).
+If the rebellion leader is not currently spawned in, then their effect area will be located at the bottom of the queue, applying the multiplier to any tickets a player bids for this tile while not already being in the guaranteed slots (outside the effect radius).
 
 ### Point gaps
 

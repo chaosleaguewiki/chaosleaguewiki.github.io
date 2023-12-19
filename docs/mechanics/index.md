@@ -42,7 +42,7 @@ Chaos League has different types of Game Mechanics available.
     
     ----
     
-    A gold tile is a game mechanic where points spent and earned are increased.
+    A gold tile is a game mechanic where tickets spent and points earned are increased.
     
     ----
     

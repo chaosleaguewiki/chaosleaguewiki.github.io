@@ -21,7 +21,7 @@ description: Danger Zone is a minigame added in version v0.1 Alpha.
 
 The tile consists of 6 chambers.
 
-At the beginning of each round, the participating players' marbles are distributed evenly between the chambers. For 20 seconds, the players gain the ability to pull other players' marbles to their marble by typing [`!pull @username`][pull-command]. It is possible to pull several marbles at once.
+At the beginning of each round, the participating players' marbles are distributed evenly between the chambers. For 20 seconds, the players gain the ability to pull other players' marbles to their marble by typing [`!pull @username`][pull-command]. It is possible to be pulled by several marbles at once.
 
 When the timer is up, the pulls are executed for 4 seconds. Marbles in the green chamber are safe. Marbles in the red chamber are eliminated. In the remaining chambers, a needle is spinned. If it points at the red area, the marbles are eliminated, otherwise they are safe.
 

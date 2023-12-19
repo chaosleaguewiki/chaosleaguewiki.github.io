@@ -84,6 +84,6 @@ Below is a current list of all available prompts in the game.
     'Vote values now scale with rarity and rebellion multiplier'
   ],
   'v0.26 Alpha': [
-    'Emotes are now longer spoken by the TTS'
+    'Emotes are no longer spoken by the TTS'
   ]
 }) }}
