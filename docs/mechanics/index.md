@@ -12,7 +12,7 @@ Chaos League has different types of Game Mechanics available.
     
     ----
     
-    A core mechanic (And the main goal) of Chaos League is to attack the king and capture the throne.
+    A core mechanic (and the main goal) of Chaos League is to attack the king and capture the throne.
     
     ----
     

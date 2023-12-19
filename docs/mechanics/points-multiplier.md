@@ -8,12 +8,12 @@ description: Points multiplier is a mechanic where the points earned in a tile w
 
 ## How it works
 
-Certain tiles will display a circle with a x2 text displayed on it. Once the game starts will a outline slowly increase around the circle. Once it completed a full revolution will purple x2 text fly towards components in a tile that can give or take points.  
-Depending on the tile played will either all or only a selection of components have their values doubled.
+Certain tiles will display a circle with a x2 text displayed on it. Once the game starts, an outline will slowly increase around the circle. Once it has completed a full revolution, purple x2 texts will fly towards components in a tile that can give or take points.  
+Depending on the tile played, either all or only a selection of components will have their values doubled.
 
 The outline will appear in two colors: Yellow and red.  
-Yellow indicates a simple multiplication of point values, while red indicates that alonside the multiplication, a [death ball](death-ball.md) will be spawned right underneath it.  
-Depending on the tile can this happen every 3rd multiplication or even every multiplication after an initial 3 iterations.
+Yellow indicates a simple multiplication of point values, while red indicates that alongside the multiplication, a [death ball](death-ball.md) will be spawned right underneath it.  
+Depending on the tile, this can happen every 3rd multiplication or even every multiplication after an initial 3 iterations.
 
 ## Trivia
 

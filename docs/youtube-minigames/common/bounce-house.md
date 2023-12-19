@@ -23,9 +23,9 @@ description: Bounce House is a common minigame added in version v2.6. A similar 
 
 ## Gameplay
 
-The tile consists of a 10 points block in it's center, a 2 point block and a skeleton image rotating around it and 2 moving structures with a 1 point gap between them. Just under the pipe, there's a small, rotating rectangle.
+The tile consists of a 10 points block in its center, a 2 point block and a skeleton image rotating around it and 2 moving structures with a 1 point gap between them. Just under the pipe, there's a small, rotating rectangle.
 
-The participating players' marbles are dropped and begin to fly around the tile, launched by the moving structures. If a marble touches one of the blocks, it's points value is added to it's balance. If a marble falls through, 1 points are added to it's balance and it appears back in the queue.
+The participating players' marbles are dropped and begin to fly around the tile, launched by the moving structures. If a marble touches one of the blocks, its point value is added to its balance. If a marble falls through, 1 point is added to its balance and it appears back in the queue.
 
 {{ game.history(
   versions = {

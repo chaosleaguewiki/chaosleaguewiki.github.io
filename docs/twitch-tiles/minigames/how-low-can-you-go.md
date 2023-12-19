@@ -18,19 +18,19 @@ description: How Low Can You Go is a minigame added in version v0.1 Alpha. It is
 
 ## Gameplay
 
-The tile consists of 2 circles moving horizantally, below which there are 3 rows with several gaps and buckets.
+The tile consists of 2 circles moving horizontally, below which there are 3 rows with several gaps and buckets.
 
-The player marbles are droped from the pipe at the top into the tile after which they will find their way through open gaps or closed buckets with point values displayed.  
-Should the player end up in a bucket will the displayed point value get removed from them and transferred to the current king while their marble also gets eliminated. Falling through a gap gives the player the displayed point value.
+The player marbles are dropped from the pipe at the top into the tile after which they will find their way through open gaps or closed buckets with point values displayed.  
+If the player ends up in a bucket, the displayed point value will get removed from them and transferred to the current king while their marble also gets eliminated. Falling through a gap gives the player the displayed point value.
 
-Each row has one bucket with gaps filling the remaining area. The first row has gaps with an initial point value of 2 and a bucket with an initial point value of 2. The second row has the values of the first row doubled and the 3rd row has its point values be doubled from the 2nd row.
+Each row has one bucket with gaps filling the remaining area. The first row has gaps with an initial point value of 2 and a bucket with an initial point value of 2. The second row has the values of the first row doubled and the 3rd row has its point values doubled from the 2nd row.
 
-Once the player reaches the bottom of the tile will they reappear at the top at the location of the pipe, repeating the cicle.
+Once the player reaches the bottom of the tile, they will reappear at the top at the location of the pipe, repeating the circle.
 
 ## Point multiplier
 
-A point multiplier is located at the top left of the tile, displaying a x2.  
-Every 10 seconds will it increase the point values of the gaps and buckets by a factor of 2. Every 3rd multiplication will a death ball be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
+A point multiplier is located at the top left of the tile, displaying x2.  
+Every 10 seconds, it will increase the point values of the gap, block and bucket by a factor of 2. Every 3rd multiplication, a death ball will be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
 
 {{ game.history({
   'v0.1 Alpha': [
@@ -40,7 +40,7 @@ Every 10 seconds will it increase the point values of the gaps and buckets by a 
     '(Experimental) Gaps now increase in value every time a player passes through'
   ],
   'v0.17 Alpha': [
-    'Nerfed survival Rate'
+    'Nerfed survival rate'
   ],
   'v0.22 Alpha': [
     'Minigame can now appear in any rarity',

@@ -14,10 +14,10 @@ Rebellion is a game mechanic where people can give bits to start a multiplier th
 
 ## How it works
 
-Players can cheer 200 or more bits to start a rebellion. When a rebellion is started will a circle appear around the marble of the player who started it. This circle will have certain effects on tiles and other mechanics tied to the multiplier value displayed. See the [Effects section](#effects) for details.
+Players can cheer 200 or more bits to start a rebellion. When a rebellion is started, a circle will appear around the marble of the player who started it. This circle will have certain effects on tiles and other mechanics tied to the multiplier value displayed. See the [Effects section](#effects) for details.
 
-The default multiplier starts at 2, but increases by one with every addition 100 bits added. In addition is the duration of the rebellion also increased.  
-The duration is 1 Minute per 100 Bits spent.
+The default multiplier starts at 2, but increases by 1 with every 100 bits added. In addition, the duration of the rebellion is also increased.  
+The duration is 1 minute per 100 bits spent.
 
 ## Effects
 
@@ -30,9 +30,9 @@ The circle around the rebellion starter has specific effects on players, tiles a
 
 ### Bidding spawn tickets
 
-When a player bids spawn tickets to participate while in the effect area of the rebellion leader will the tickets they spent be multiplied. This will also affect the prize a player can win on a tile.
+When a player bids spawn tickets to participate while in the effect area of the rebellion leader, the tickets spent will be multiplied. This will also affect the prize a player can win on a tile.
 
-Should the rebellion leader not be king and also not be in a tile's guaranteed slots will their effect area be located at the bottom of the queue, applying the multiplier to any tickets a player bids for this tile while not already being in the guaranteed slots (Outside the effect radius).
+Should the rebellion leader not be king and also not be in a tile's guaranteed slots, their effect area will be located at the bottom of the queue, applying the multiplier to any tickets a player bids for this tile while not already being in the guaranteed slots (outside the effect radius).
 
 ### Point gaps
 
@@ -48,6 +48,6 @@ Skull gaps in [Zero or Hero] also turn into Angel gaps. These gaps do not take a
         'Duration buffed to 40 sec/dollar'
     ],
     'v0.21 Alpha': [
-        'Increased rebellion duration to 1 Minute per 100 Bits'
+        'Increased rebellion duration to 1 minute per 100 bits'
     ]
 }) }}

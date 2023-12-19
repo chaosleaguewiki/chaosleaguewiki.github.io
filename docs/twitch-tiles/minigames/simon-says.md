@@ -24,7 +24,7 @@ A countdown starts during which the current king can eliminate the players by me
 Every time the king eliminates a player, a sound effect is played and all remaining players receive points.
 
 The game is over when the countdown reaches zero or all but one player got eliminated.  
-Players are ranked based on elimination orders. Multiple players can win.
+Players are ranked based on elimination order. Multiple players can win.
 
 {{ game.history({
     'v0.26 Alpha': [

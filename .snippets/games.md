@@ -13,6 +13,6 @@
 [Zero or Hero]: /twitch-tiles/minigames/zero-or-hero/
 
 <!-- Shop tiles -->
-[Bubble color Shop]: /twitch-tiles/shops/speech-bubble-color-shop/
+[Bubble Color Shop]: /twitch-tiles/shops/speech-bubble-color-shop/
 [Text Color Shop]: /twitch-tiles/shops/text-color-shop/
 [Trail Shop]: /twitch-tiles/shops/trail-shop/

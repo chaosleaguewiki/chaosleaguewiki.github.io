@@ -18,7 +18,7 @@ You can read more about attacking the king on the [game mechanics page](../mecha
 
 ### `!recruit`
 
-Gives you a link to share. Every player that joins using your link will earn you 50% of the points they will earn.
+Gives you a link to share. Every player that joins using your link will earn you 50% of the points they earn.
 
 ### `!tomato [amount] @user` { #tomato }
 
@@ -28,7 +28,7 @@ Lets you throw `[amount]` of tomatos towards the mentioned user. This command co
 
 {{ utils.removed(version="v0.23 Alpha", type="Command") }}
 
-Gives the mentioned user `[amount]` of your pooints.
+Gives the mentioned user `[amount]` of your points.
 
 ### `!givegold [amount] @user` { #givegold }
 
@@ -48,11 +48,11 @@ Gives a link to the [Spotify Playlist][song-playlist] used for the music playing
 
 ### `!lava [bits]` { #lava }
 
-Adds `[bits]` amount of bits to the lava progress bar. Once full will a bucket of lava be released. Players killed by the lava will lose half their points.
+Adds `[bits]` amount of bits to the lava progress bar. Once full, a bucket of lava will be released. Players killed by the lava will lose half their points.
 
 ### `!water [bits]` { #water }
 
-Adds `[bits]` amount of bits to the water progress bar. Once full will a bucket of water be released. It will extinguish existing lava previously spread through the [`!lava` command](#lava).
+Adds `[bits]` amount of bits to the water progress bar. Once full, a bucket of water will be released. It will extinguish existing lava previously spread through the [`!lava` command](#lava).
 
 ### `!cancelbid`
 
@@ -64,7 +64,7 @@ Gives a link to this wiki you're currently reading.
 
 ### `!patreon`
 
-Gives a Link to DoodleChaos' Patreon page.
+Gives a link to DoodleChaos' Patreon page.
 
 ### `!discord`
 
@@ -80,11 +80,11 @@ Plays a song available on [this playlist][song-playlist]
 
 ### `!nextsong`
 
-Skip to a new random song from [the playlist][song-playlist]
+Skips to a new random song from [the playlist][song-playlist]
 
 ### `!toll [amount]` { #toll }
 
-Set a point fee that each player has to pay when entering gameplay on a tile.  
+Sets a point fee that each player has to pay when entering gameplay on a tile.  
 `[amount]` can be a number between 0 and 15.
 
 ## Tile commands
@@ -93,7 +93,7 @@ Only executable by players participating in a tile, or by the king while a certa
 
 ### `!buy<number>` { #buy }
 
-Usable in the minigames [Speech bubble color Shop], [Speech bubble text color Shop] and [Trail Shop] to buy one of three available cosmetics using Gold you've earned.
+Usable in the minigames [Bubble Color Shop], [Text Color Shop] and [Trail Shop] to buy one of three available cosmetics using Gold you've earned.
 
 `buy1` buys the cheapest, `buy2` the second cheapest and `buy3` the most expensive option.
 
