@@ -15,9 +15,9 @@ No matter the type of tile, there is always one active while the other is in que
 
 ## Rarities
 
-Each tile can have a specific rarity wich can influence certain factors of the tile such as the initial prize to earn as well as points to earn and lose.
+Each tile can have a specific rarity which can influence certain factors of the tile such as the initial prize to earn as well as points to earn and lose.
 
-The following rarities exist with their aproximated chance of appearance:
+The following rarities exist with their approximated chance of appearance:
 
 | Rarity    | Chance |
 |-----------|-------:|
@@ -145,7 +145,7 @@ The following rarities exist with their aproximated chance of appearance:
     
     ----
     
-    Zero or Hero is a minigame added in v0.9 Alpha. It is baed on the YouTube version's tile of the same name.
+    Zero or Hero is a minigame added in v0.9 Alpha. It is based on the YouTube version's tile of the same name.
     
     ----
     

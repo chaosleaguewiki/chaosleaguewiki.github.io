@@ -25,7 +25,7 @@ description: is a common minigame added in version v0.1 Alpha. A similar title h
 
 The tile consists of a row of small rotating squares, below which there are 4 rows with several gaps.
 
-The participating players' marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the queue. If a marble falls into a closed gap, it is despawned, and the given number of points is transfered to the king's balance.
+The participating players' marbles are dropped and begin to collect points by falling through the gaps. If a marble falls through the last row, it appears back in the queue. If a marble falls into a closed gap, it is despawned, and the given number of points is transferred to the king's balance.
 
 {{ game.history(
   versions = {

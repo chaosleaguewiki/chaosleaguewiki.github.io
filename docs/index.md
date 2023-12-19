@@ -23,7 +23,7 @@ Check the [`Attacking the King` page][attacking-the-king] for more info.
 
 ### Earning Points
 
-To earn points, you have to participate in Minigames. To participate, you have to either spent Channel Points or Bits to buy "tickets".  
+To earn points, you have to participate in Minigames. To participate, you have to either spend Channel Points or Bits to buy "tickets".  
 Each ticket bought will be added to a Prize that the winner of the Minigame can earn. The more tickets bought, the higher the Prize will be.
 
 ## Wiki Sections

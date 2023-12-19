@@ -102,7 +102,7 @@
 {% macro twitch_version(link) -%}
   {% if link -%}
     <div class="variant_info youtube">
-      {{ "You are viewing the :simple-youtube: **YouTuve** version of this Minigame" | markdownify }}<br>
+      {{ "You are viewing the :simple-youtube: **YouTube** version of this Minigame" | markdownify }}<br>
       {{ ("[Switch to :simple-twitch: **Twitch** version.](/twitch-tiles/" ~ link ~ ")") | markdownify }}
     </div>
   {%- else -%}

@@ -6,7 +6,7 @@ description: Quip Battle is a minigame added in version v0.1 Alpha.
 
 {{ game.info(
   inputs           = "Players: Messages<br>Viewers: Twitch-poll Votes",
-  timer            = "1 Minute",
+  timer            = "1 minute",
   slots_guaranteed = "3",
   slots_raffle     = "2",
   added            = "v0.1 Alpha",
@@ -18,9 +18,9 @@ description: Quip Battle is a minigame added in version v0.1 Alpha.
 
 ## Gameplay
 
-The participating players are given a random question. They can send messages with their answer, which is displayed next to their marble. A new message overrides previous one. At the same time is a poll started in the twitch chat where the name of each participating player is given as an answer. The viewers of the stream can vote for the player whos answer they find the funniest.
+The participating players are given a random question. They can send messages with their answer, which is displayed next to their marble. A new message overrides the previous one. At the same time, a poll is started in the twitch chat where the name of each participating player is given as an answer. The viewers of the stream can vote for the player whose answer they find the funniest.
 
-After 60 seconds the game ends and the players are ranked by number of votes they got. The player with the most votes wins. It is possible for several players to get the same rank.
+After 60 seconds, the game ends and the players are ranked by the number of votes they got. The player with the most votes wins. It is possible for several players to get the same rank.
 
 ## Prompts
 
@@ -84,6 +84,6 @@ Below is a current list of all available prompts in the game.
     'Vote values now scale with rarity and rebellion multiplier'
   ],
   'v0.26 Alpha': [
-    'Emotes are now longer spoken by the TTS'
+    'Emotes are no longer spoken by the TTS'
   ]
 }) }}
