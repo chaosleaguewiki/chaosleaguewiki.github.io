@@ -10,7 +10,7 @@
 [Royal Execution]: /twitch-tiles/minigames/royal-execution/
 [Stonks]: /twitch-tiles/minigames/stonks/
 [Zero or Hero]: /twitch-tiles/minigames/zero-or-hero/
-[Simon Says]: /twitch-tiles/minigames/zobm-says/
+[Zobm Says]: /twitch-tiles/minigames/zobm-says/
 
 <!-- Shop tiles -->
 [Bubble Color Shop]: /twitch-tiles/shops/speech-bubble-color-shop/

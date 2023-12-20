@@ -29,16 +29,16 @@ Below is a current list of all available prompts in the game.
 /// details | Click to open/close
     type: info
 
-{% set json = read_json_file("docs/assets/extra_quips.json") %}
-{% if json and json.prompts -%}
+{% set json = read_json_file("docs/assets/quip_battle_prompts.json") %}
+{% if json -%}
   <table>
     <thead>
       <tr>
-        <th><small>Auto-generated from <a href="https://github.com/chaosleaguewiki/chaosleaguewiki.github.io/blob/main/docs/assets/extra_quips.json" target="_blank" rel="nofollow">extra_quips.json</a></small></th>
+        <th><small>Auto-generated from <a href="https://github.com/chaosleaguewiki/chaosleaguewiki.github.io/blob/main/docs/assets/quip_battle_prompts.json" target="_blank" rel="nofollow">quip_battle_prompts.json</a></small></th>
       </tr>
     </thead>
     <tbody>
-      {% for entry in json.prompts %}
+      {% for entry in json %}
         <tr>
           <td>{{ entry }}</td>
         </tr>
@@ -85,5 +85,8 @@ Below is a current list of all available prompts in the game.
   ],
   'v0.26 Alpha': [
     'Emotes are no longer spoken by the TTS'
+  ],
+  'v0.27 Alpha': [
+    'Added 29 new Prompts, courtesy of MailDropFolder.'
   ]
 }) }}
