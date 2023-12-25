@@ -15,6 +15,7 @@ on:
       - requirements.txt
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
