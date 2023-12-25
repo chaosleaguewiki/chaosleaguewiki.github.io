@@ -15,6 +15,7 @@ on:
       - requirements.txt
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -50,9 +51,9 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'site/'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v3
+        uses: actions/deploy-pages@v4
