@@ -60,6 +60,7 @@ nav:
       - changelog/index.md
       - v3:
         - Alpha:
+          - changelog/cl3/alpha/v0.28-alpha.md
           - changelog/cl3/alpha/v0.27-alpha.md
           - changelog/cl3/alpha/v0.26-alpha.md
           - changelog/cl3/alpha/v0.25-alpha.md
