@@ -230,7 +230,8 @@ plugins:
         # Legendary tiles redirects
         'twitch-minigames/legendary/hole-in-one.md': 'twitch-tiles/minigames/hole-in-one.md'
   - git-revision-date-localized:
-      enable_creation_date: !ENV [GIT_COMMITTER_ENABLED, false]
+      enabled: !ENV [GIT_COMMITTER_ENABLED, false]
+      enable_creation_date: true
       exclude:
         - changelog/index.md
   - git-committers:
