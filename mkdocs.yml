@@ -231,17 +231,13 @@ plugins:
         # Legendary tiles redirects
         'twitch-minigames/legendary/hole-in-one.md': 'twitch-tiles/minigames/hole-in-one.md'
   - git-revision-date-localized:
-      enabled: !ENV [GIT_COMMITTER_ENABLED, false]
+      enabled: true #!ENV [GIT_COMMITTER_ENABLED, false]
       enable_creation_date: true
-      exclude:
-        - changelog/index.md
   - git-committers:
       enabled: !ENV [GIT_COMMITTER_ENABLED, false]
       repository: chaosleaguewiki/chaosleaguewiki.github.io
       branch: main
       token: !ENV [COMMITTER_TOKEN]
-      exclude:
-        - docs/changelog/index.md
   - macros:
       module_name: .hooks/macros
       include_dir: .snippets/macros
