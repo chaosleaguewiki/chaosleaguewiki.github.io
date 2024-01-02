@@ -13,7 +13,7 @@ The main goal is to help people understand how the wiki's mechanics work so that
     
     ----
     
-    Markdownify is a filter that allows to parse markdown inside a html text by sending it through the Markdown parser used by MkDocs (Python-Markdown).
+    Filters allow to apply special handling of any jinja2 variable.
     
     ----
     
