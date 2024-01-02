@@ -19,6 +19,8 @@ Players can also purchase a Lava or Water bucket directly through tickets, which
 Activating the lava bucket causes lava to be spread across the attack tile. Every Player Marble hitting the lava will be eliminated and lose half their points. The lava will disappear slowly over time, or can be removed directly using the Water bucket.  
 Activating said water bucket will spread water across the attack tile, removing any lava it touches, while being destroyed itself.
 
+Should a player capture the throne will any existing water and lava be removed once the block wall regenerates.
+
 ## Trivia
 
 - Water drops can't hurt a player's marble, but they can slow it down.
