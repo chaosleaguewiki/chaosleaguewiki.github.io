@@ -180,7 +180,7 @@ Any Markdown page in the wiki that you add needs to also be included in the navi
 To do that, open the `mkdocs.yml` file located in the root of this repository and head to the `nav` setting in it. This setting defines the navigation to use for MkDocs, as well as actually tells it what pages exist.
 
 Be sure to keep the format (indents) the same. Also, make sure that the pages themself are sorted alphabetically in their respective sub-section.  
-This means, if you add a new minigame page called `example.md` to the `commons` section while there are `bounce-house.md`, `danger-zone.md` and `quip-battle.md`, you would add it after `bounce-house.md` and `danger-zone.md` but before `quip-battle.md` in the nav.
+This means, if you add a new minigame page called `example.md` to the `minigames` section while there are `bounce-house.md`, `danger-zone.md` and `quip-battle.md`, you would add it after `bounce-house.md` and `danger-zone.md` but before `quip-battle.md` in the nav.
 
 The only exception to the above rule are `index.md` pages, which should **always** be the first entry in a sub-section.
 
@@ -188,12 +188,12 @@ Also, please note that all pages need to be lowercased and only use alphanumeric
 
 ### Minigame pages
 
-Minigame pages can be found either in `twitch-minigames` or `youtube-minigames` where they are further split up into folders matching their rarity.  
+Minigame pages can be found either in `twitch-tiles/minigames/` or `youtube-minigames/`. In later they are further split up into folders matching their rarity.  
 A bare-bone minigame page should have the following content:
 
 - YAML frontmatter containing a `description` property, holding the first line of the page content (without any markdown formatting).
 - A H1 header as the very first line after the YAML frontmatter
-  - Only exception is when there is a YouTube or Twitch variant of this game in which case the [`{{ game.yt_variant(path) }}`][game.yt_version] or [`{{ game.twitch_version(path) }}`][game.twitch_version] would come first after the YAML frontmatter before the H1 header.
+  - Only exception is when there is a YouTube or Twitch variant of this game in which case the [`{{ game.yt_variant(path) }}`][game.yt_version] or [`{{ game.twitch_version(path) }}`][game.twitch_version] would come first after the YAML frontmatter and before the H1 header.
 - The [`{{ game.info(...) }}`][game.info] macro containing information about this game.
   - Note: This macro is designed for Gen 3 minigames. Old game pages, namely youtube versions, may not work with this macro and require manual implementation of the info box. Check an existing page for the design.
 - The page content itself, including a `Gameplay` H2 header explaining the game mechanics.
@@ -234,10 +234,14 @@ Players do stuff. The end.
 ) }}
 ```
 
-You also need to add the link to this page to the `games.md` file located in the `.snippets` folder. The pattern is always `[<name>]: /twitch-minigames/<rarity>/<page>/` where `<name>` is the actual name of the game, including capitalization, spaces, etc., `<rarity>` is the rarity (folder) the page is located in and `<page>` is the file name without the `.md` extension.
+You also need to add the link to this page to the `games.md` file located in the `.snippets` folder. The pattern is always `[<name>]: /twitch-tiles/minigames/<page>/` where `<name>` is the actual name of the game, including capitalization, spaces, etc., and `<page>` is the file name without the `.md` extension.
+
+With our above example, the link would look like this:
+```markdown
+[Example]: /twitch-tiles/minigames/example/
+```
 
 [game.info]: https://chaosleaguewiki.github.io/meta/macros/game/#game.info
-[game.history]: https://chaosleaguewiki.github.io/meta/macros/game/#game.history
 [game.yt_version]: https://chaosleaguewiki.github.io/meta/macros/game/#game.yt_version
 [game.twitch_version]: https://chaosleaguewiki.github.io/meta/macros/game/#game.twitch_version
 
@@ -251,6 +255,7 @@ It is recommended to put this macro after a header of where it should be.
 The [`{{ game.history(...) }}`][game.history] macro is also used here and also put at the very bottom of the page.
 
 [image.right]: https://chaosleaguewiki.github.io/meta/macros/image/#image.right
+[game.history]: https://chaosleaguewiki.github.io/meta/macros/game/#game.history
 
 ### Commands
 
@@ -266,8 +271,7 @@ Example:
 
 If a command has been removed from Chaos League, you should **not** remove it. Instead, add the following right after the header:
 ```markdown
-/// removed | Command removed in <version where it got removed>
-///
+{{ utils.removed(version="<version it got removed in>", type="Command") }}
 ```
 
 This will add a banner informing about the removal.
@@ -278,8 +282,9 @@ You should also add the command to the `commands.md` file located in the `.snipp
 
 The changelog page is special in that the displayed changelogs are from separate files. This helps us to keep things organized.
 
-The changelog files themself are located in `changelog/cl3/` and always named after the version they are about (i.e. `v0.1-alpha.md` for the `v0.1 Alpha` release).  
-There is also a `.template.md` file available that can be used to make a new changelog entry. It contains all necessary content and looks like this:
+The changelog files can be found in `changelog/cl3/` (relative to `docs/`) where they are sorted into folders matching their release state (Currently only `alpha`) and named after the version they are about (i.e. `v0.1-alpha.md` for `v0.1 Alpha`).
+
+A `.template.md` file is also located in the `changelog/cl3/` folder where it can be copied from to use for changelog files. It contains all necessary content and looks like this:
 ```markdown
 ---
 weight: 100 # Change this number to the currently highest one +1.
