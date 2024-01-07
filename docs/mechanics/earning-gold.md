@@ -16,7 +16,7 @@ This earned gold can then be used on [Shop tiles](../twitch-tiles/index.md#avail
 
 ## How to obtain Gold
 
-To earn gold, a player has to [capture the throne](attacking-the-king.md). Once they capture the throne will they receive the currently accumulated gold. After that will they receive gold every 5 minutes while being king.
+To earn gold, a player has to [capture the throne](attacking-the-king.md). Once they capture the throne will they receive gold every 5 minutes while being king.
 
 The gold earned is increased every time a new tile is selected, with the tile's rarity determening the number of gold to add to the chest.
 

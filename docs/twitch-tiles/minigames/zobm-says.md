@@ -6,7 +6,6 @@ description: Zobm Says is a minigame tile where the king controls the game and c
 
 {{ game.info(
   inputs           = "King: `@mention` user",
-  timer            = "60 Seconds",
   slots_guaranteed = "3",
   slots_raffle     = "2",
   added            = "v0.26 Alpha",
@@ -21,10 +20,10 @@ description: Zobm Says is a minigame tile where the king controls the game and c
 The players are moved into a tile similar in design to [Quip Battle].  
 A countdown starts during which the current king can eliminate the players by mentioning them in chat.
 
-Every time the king eliminates a player, a sound effect is played and all remaining players receive points. In addition is the reward for surviving a round doubled.
+Every time the king eliminates a player, a sound effect is played, the mentioned player loses points and gets eliminated, and all remaining players receive points. In addition are the points a player can earn or lose doubled after each elimination.
 
-The game is over when the countdown reaches zero or all but one player got eliminated.  
-Players are ranked based on elimination order, with first eliminated being lowest. Multiple players can win.
+The game is over when all but one player got eliminated.  
+Players are ranked based on elimination order, with first eliminated being lowest.
 
 ## Trivia
 
@@ -35,7 +34,7 @@ Players are ranked based on elimination order, with first eliminated being lowes
         'Minigame added'
     ],
     'v0.28 Alpha': [
-      'Timer removed',
+      'Timer increased',
       'Eliminated players now lose points and points lost and given double with each elimination'
     ]
 }) }}
