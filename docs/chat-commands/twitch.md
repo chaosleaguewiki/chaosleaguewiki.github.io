@@ -42,7 +42,7 @@ Spend `[amount]` of your points to spread across the 10 obsidian defense blocks.
 
 ### `!stats @user` / `!mystats` { #stats }
 
-Get statistics of the mentioned user. `!stats` without a mention returns your statistics by default.
+Get statistics of the mentioned user. `!stats` without a mention or `!mystats` returns your statistics.
 
 ### `!playlist`
 
@@ -60,7 +60,7 @@ Adds `[bits]` amount of bits to the water progress bar. Once full, a bucket of w
 
 [Learn more about Lava and Water Bucket](../mechanics/water-and-lava-bucket.md).
 
-### `!cancelbid`
+### `!cancelbid` / `!unbid` { #cancelbid }
 
 Cancels the current bid tickets or bits and removes the player from the queue. The invested tickets or bits won't be refunded.
 

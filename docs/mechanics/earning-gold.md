@@ -12,14 +12,15 @@ description: Players can earn gold, a virtual currency of the game, while being 
 ) }}
 
 Players can earn gold, a virtual currency of the game, while being king.  
-This earned gold can then be used on Shop tiles to receive cosmetics in return. Currently available shop tiles are [Bubble Color Shop], [Text Color Shop] and [Trail Shop].
+This earned gold can then be used on [Shop tiles](../twitch-tiles/index.md#available-shop-tiles) to receive cosmetics in return.
 
 ## How to obtain Gold
 
-Players earn gold in two ways. First they will earn gold by [capturing the throne](attacking-the-king.md). And next they earn gold passively every 15 seconds while being king.  
-The amount of Gold earned is equal to the number of current viewers of the stream, meaning 15 viewers will give the king 15 gold every 15 seconds.
+To earn gold, a player has to [capture the throne](attacking-the-king.md). Once they capture the throne will they receive the currently accumulated gold. After that will they receive gold every 5 minutes while being king.
 
-Additionally, players can use the [`!givegold`][givegold-command] to give another player some of their own gold.
+The gold earned is increased every time a new tile is selected, with the tile's rarity determening the number of gold to add to the chest.
+
+Another way to earn gold is by other players using the [`!givegold` command][givegold-command] to give some or all of their gold to another player.
 
 {{ game.history({
     'v0.8 Alpha': [
@@ -27,5 +28,9 @@ Additionally, players can use the [`!givegold`][givegold-command] to give anothe
     ],
     'v0.25 Alpha': [
         'Travel indicator for gold changed from a number to individual coins'
+    ],
+    'v0.28 Alpha': [
+        'Gold now increases for every selected tile and value increases based on the tile\'s rarity',
+        'King now only earns gold every 5 minutes'
     ]
 }) }}

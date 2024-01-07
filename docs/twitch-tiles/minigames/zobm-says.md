@@ -33,5 +33,9 @@ Players are ranked based on elimination order, with first eliminated being lowes
 {{ game.history({
     'v0.26 Alpha': [
         'Minigame added'
+    ],
+    'v0.28 Alpha': [
+      'Timer removed',
+      'Eliminated players now lose points and points lost and given double with each elimination'
     ]
 }) }}
