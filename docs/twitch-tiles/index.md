@@ -21,13 +21,12 @@ Each tile can appear as one or multiple rarities. Depending on the rarity will c
 
 Here is a list of all currently available rarities, the aproximate chance of them appearing and the factor at which they increase the prize value and points you can earn in a tile:
 
-| Rarity    | Chance | Point increase |
-|-----------|-------:|---------------:|
-| Common    | 69%    | x1             |
-| Rare      | 25%    | x2             |
-| Epic      | 5%     | x10            |
-| Legendary | 1%     | x40            |
-
+| Rarity    | Chance | Point increase | Start Prize |
+|-----------|-------:|---------------:|------------:|
+| Common    | 69%    | x1             | 100         |
+| Rare      | 25%    | x2             | 200         |
+| Epic      | 5%     | x10            | 1,000       |
+| Legendary | 1%     | x40            | 4,000       |
 
 ## Available minigame tiles
 
