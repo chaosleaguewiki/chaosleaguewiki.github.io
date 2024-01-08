@@ -58,6 +58,16 @@ Chaos League has different types of Game Mechanics available.
     
     [:octicons-chevron-right-24: Go to Page](points-multiplier.md)
 
+-   **Predictions**
+    
+    ----
+    
+    Predictions are a game mechanic using Twitch's prediction system.
+    
+    ----
+    
+    [:octicons-chevron-right-24: Go to Page](predictions.md)
+
 -   **Queue System**
     
     ----

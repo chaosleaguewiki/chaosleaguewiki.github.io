@@ -1,0 +1,7 @@
+{
+    "Will the king say \"zobm\" within 15 min?": "King sends a message containing \"zobm\"",
+    "Will a legendary appear within 30 minutes?": "A Minigame tile with rarity Legendary appears",
+    "Will a new rebellion start within 30 minutes?": "A player starts a new rebellion",
+    "Will a lava bucket pour within 30 minutes?": "A player activates a lava bucket",
+    "Will a water bucket pour within 15 minutes?": "A player activates a water bucket"
+}
