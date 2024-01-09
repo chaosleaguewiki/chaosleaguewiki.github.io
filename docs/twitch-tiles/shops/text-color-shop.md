@@ -1,5 +1,5 @@
 ---
-description: Text Color Shop is an epic Shop tile, meaning instead of playing a game, you can purchase colored Speech bubble texts using Gold you earned as king.
+description: Text Color Shop is an epic Shop tile added in v0.19 Alpha, where players can buy a different color for their message text, using the gold they earned.
 ---
 
 # Text Color Shop
@@ -15,7 +15,7 @@ description: Text Color Shop is an epic Shop tile, meaning instead of playing a 
   img_url = "../../../assets/images/minigames/twitch/epic/text-color-shop.png"
 ) }}
 
-**Text Color Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase text colors using [Gold you earned as king](../../mechanics/earning-gold.md).
+**Text Color Shop** is an epic Shop tile added in v0.19 Alpha, where players can buy a different color for their message text, using the [gold they earned](../../mechanics/attacking-the-king.md).
 
 ## Gameplay
 

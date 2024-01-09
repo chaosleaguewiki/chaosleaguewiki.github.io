@@ -52,6 +52,14 @@ Here is a list of all currently available rarities, the aproximate chance of the
     
     [:octicons-chevron-right-24: Go to Page](minigames/chaos-plinko.md)
 
+-   **Chicken Out**
+    
+    ----
+    
+    Chicken out is a minigame tile added in v0.29 Alpha of the game where the player can chose when to exit the tile by bitting a spawn ticket.
+    
+    [:octicons-chevron-right-24: Go to Page](minigames/chicken-out.md)
+
 -   **Danger Zone**
     
     ----
@@ -164,17 +172,27 @@ The following Shops are available:
     
     ----
     
-    Bubble Color Shop is a shop added in v0.19 Alpha.
+    Bubble Color Shop is an epic Shop tile added in v0.19 Alpha, where players can buy a different color for their speech bubble, using the gold they earned.
     
     ----
     
     [:octicons-chevron-right-24: Go to Page](shops/bubble-color-shop.md)
     
+-   **Crown Shop**
+    
+    ----
+    
+    Crown Shop is an epic Shop tile added in v0.29 Alpha, where players can buy a different crown for their marble when being king, using the gold they earned.
+    
+    ----
+    
+    [:octicons-chevron-right-24: Go to Page](shops/crown-shop.md)
+    
 -   **Text Color Shop**
     
     ----
     
-    Text Color Shop is a shop added in v0.19 Alpha.
+    Text Color Shop is an epic Shop tile added in v0.19 Alpha, where players can buy a different color for their message text, using the gold they earned.
     
     ----
     
@@ -184,7 +202,7 @@ The following Shops are available:
     
     ----
     
-    Trail Shop is a shop added in v0.12 Alpha.
+    Trail Shop is an epic Shop tile added in v0.12 Alpha, where players can buy a different color for their trail, using the gold they earned.
     
     ----
     

@@ -1,5 +1,5 @@
 ---
-description: Bubble Color Shop is an epic Shop tile, meaning instead of playing a game, you can purchase colored Speech bubbles using Gold you earned as king.
+description: Bubble Color Shop is an epic Shop tile added in v0.19 Alpha, where players can buy a different color for their speech bubble, using the gold they earned.
 ---
 
 # Bubble Color Shop
@@ -15,7 +15,7 @@ description: Bubble Color Shop is an epic Shop tile, meaning instead of playing 
   img_url = "../../../assets/images/minigames/twitch/epic/bubble-color-shop.png"
 ) }}
 
-**Bubble Color Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase colored speech bubbles using [Gold you earned as king](../../mechanics/earning-gold.md).
+**Bubble Color Shop** is an epic Shop tile added in v0.19 Alpha, where players can buy a different color for their speech bubble, using the [gold they earned](../../mechanics/attacking-the-king.md).
 
 ## Gameplay
 

@@ -1,5 +1,5 @@
 ---
-description: Trail Shop is an epic Shop tile, meaning instead of playing a game, you can purchase colored Trails using Gold you earned as king.
+description: Trail Shop is an epic Shop tile added in v0.12 Alpha, where players can buy a different color for their trail, using the gold they earned.
 ---
 
 # Trail Shop
@@ -15,7 +15,7 @@ description: Trail Shop is an epic Shop tile, meaning instead of playing a game,
   img_url = "../../../assets/images/minigames/twitch/epic/trail-shop.png"
 ) }}
 
-**Trail Shop** is an epic Shop tile, meaning instead of playing a game, you can purchase colored Trails using [Gold you earned as king](../../mechanics/earning-gold.md).
+**Trail Shop** is an epic Shop tile added in v0.12 Alpha, where players can buy a different color for their trail, using the [gold they earned](../../mechanics/attacking-the-king.md).
 
 ## Gameplay
 
