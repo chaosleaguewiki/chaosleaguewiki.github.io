@@ -12,9 +12,7 @@ status: new
   timer            = "29 seconds",
   slots_guaranteed = "8",
   slots_raffle     = "4",
-  added            = "v0.29 Alpha",
-  
-  img_url = "../../../assets/images/minigames/twitch/epic/bubble-color-shop.png"
+  added            = "v0.29 Alpha"
 ) }}
 
 **Bubble Color Shop** is an epic Shop tile added in v0.29 Alpha, where players can buy a different crown for their marble when being king, using the [gold they earned](../../mechanics/attacking-the-king.md).
