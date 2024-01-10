@@ -31,5 +31,10 @@ Every 10 seconds, it will increase the point values of the gap at the bottom by 
 {{ game.history({
   'v0.29 Alpha': [
     'Minigame added'
+  ],
+  'v0.30 Alpha': [
+    'Clarified how to safely exit chicken out',
+    'Max risk level is now displayed to show when it is done increasing',
+    'Added warning sign to further indicate about the risk of losing all points'
   ]
 }) }}

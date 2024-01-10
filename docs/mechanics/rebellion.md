@@ -52,5 +52,8 @@ Skull gaps in [Zero or Hero] also turn into Angel gaps. These gaps do not take a
     ],
     'v0.28 Alpha': [
         'Rebellions now last a certain number of tiles instead of a certain time, with every 100 bits adding 1 tile'
+    ],
+    'v0.29 Alpha': [
+        'Rebellions won\'t end until a new tile spins when it is at "0 tiles remain"'
     ]
 }) }}

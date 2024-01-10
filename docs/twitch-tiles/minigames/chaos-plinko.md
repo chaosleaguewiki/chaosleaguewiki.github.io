@@ -26,5 +26,8 @@ The game is over once only a single player remains. Players are listed by their 
 {{ game.history({
     'v0.22 Alpha': [
         'Minigame added'
+    ],
+    'v0.30 Alpha': [
+      'Fix bug causing pegs to reset to 5 points.'
     ]
 }) }}

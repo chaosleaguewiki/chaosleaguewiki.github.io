@@ -16,11 +16,10 @@ This earned gold can then be used on [Shop tiles](../twitch-tiles/index.md#avail
 
 ## How to obtain Gold
 
-To earn gold, a player has to [capture the throne](attacking-the-king.md). Once they capture the throne will they receive gold every 5 minutes while being king.
+Every 5 minutes will gold be given to the current king. This means to earn gold, a player has to [capture the throne](attacking-the-king.md) and remain king until the 5 minute cooldown runs out.  
+Gold is added to the chest for every tile that has been selected, with the gold value added being equal to the tile's initial prize value.
 
-The gold earned is increased every time a new tile is selected, with the tile's rarity determening the number of gold to add to the chest.
-
-Another way to earn gold is by other players using the [`!givegold` command][givegold-command] to give some or all of their gold to another player.
+Other ways to earn gold is either by breaking gold ore blocks that are in the defense wall of the king, or receiving gold from another player who used the [`!givegold` command][givegold-command].
 
 {{ game.history({
     'v0.8 Alpha': [
@@ -32,5 +31,8 @@ Another way to earn gold is by other players using the [`!givegold` command][giv
     'v0.28 Alpha': [
         'Gold now increases for every selected tile and value increases based on the tile\'s rarity',
         'King now only earns gold every 5 minutes'
+    ],
+    'v0.30 Alpha': [
+        'Gold ore blocks added to the wall, which when broken will give the player who broke it gold'
     ]
 }) }}
