@@ -4,6 +4,10 @@ description: Chicken out is a minigame tile added in v0.29 Alpha of the game whe
 status: new
 ---
 
+/// wip | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Chicken out
 
 {{ game.info(
@@ -27,6 +31,23 @@ The tile has a visible "Risk Level" that increases with each point multiplicatio
 
 A point multiplier is located at the top left of the tile, displaying x2.  
 Every 10 seconds, it will increase the point values of the gap at the bottom by a factor of 2. Every 3rd multiplication.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires images for common, rare, epic and legendary rarity of this tile.
+///
+
+No images yet.
+
+<!-- No images yet.
+![common](../../assets/images/minigames/twitch/common/ouroboros.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/ouroboros.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+![epic](../../assets/images/minigames/twitch/epic/ouroboros.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/ouroboros.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
   'v0.29 Alpha': [

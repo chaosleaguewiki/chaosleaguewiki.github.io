@@ -4,6 +4,10 @@ description: How Low Can You Go is a minigame added in version v0.1 Alpha. It is
 
 {{ game.yt_version("common/how-low-can-you-go/") }}
 
+/// wip | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # How Low Can You Go
 
 {{ game.info(
@@ -31,6 +35,21 @@ Once the player reaches the bottom of the tile, they will reappear at the top at
 
 A point multiplier is located at the top left of the tile, displaying x2.  
 Every 10 seconds, it will increase the point values of the gap, block and bucket by a factor of 2. Every 3rd multiplication, a death ball will be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires images for epic and legendary rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/how-low-can-you-go.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/how-low-can-you-go.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+<!-- No images yet.
+![epic](../../assets/images/minigames/twitch/epic/how-low-can-you-go.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/how-low-can-you-go.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
   'v0.1 Alpha': [

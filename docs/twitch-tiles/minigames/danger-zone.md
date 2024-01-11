@@ -2,6 +2,10 @@
 description: Danger Zone is a minigame added in version v0.1 Alpha.
 ---
 
+/// wip | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Danger Zone
 
 {{ game.info(
@@ -27,6 +31,22 @@ When the timer is up, the pulls are executed for 4 seconds. Marbles in the green
 Every marble that survives a round will earn points and the reward gets doubled for the next round.
 
 When there are no marbles or one marble left, or after 3 rounds, the game ends and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires an image for the epic rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/danger-zone.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/danger-zone.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/danger-zone.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+
+<!-- 
+![epic](../../assets/images/minigames/twitch/epic/danger-zone.png "Epic rarity version"){ loading="lazy" style="max-width: 20%" }
+-->
 
 {{ game.history({
   'v0.1 Alpha': [

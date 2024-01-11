@@ -2,6 +2,10 @@
 description: Ouroboros is a minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.
 ---
 
+/// wip | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Ouroboros
 
 {{ game.info(
@@ -32,6 +36,21 @@ Gaps will only change their values through the [multiplier](#point-multiplier)
 
 A point multiplier is located at the top left of the tile, displaying x2.
 Every 10 seconds, it will increase the point values of the gaps and buckets by a factor of 2. Every 3rd multiplication, a [death ball](../../mechanics/death-ball.md) will be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires images for epic and legendary rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/ouroboros.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/ouroboros.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+<!-- No images yet.
+![epic](../../assets/images/minigames/twitch/epic/ouroboros.png){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/ouroboros.png){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
   'v0.18 Alpha': [

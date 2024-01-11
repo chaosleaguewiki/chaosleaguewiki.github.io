@@ -5,7 +5,7 @@ description: Royal Execution is a minigame added in version v0.8 Alpha.
 # Royal Execution
 
 {{ game.info(
-  inputs           = "King: [`!left`][left-command], [`!right`][right-command]",
+  inputs           = "King&#58; [`!left`][left-command], [`!right`][right-command]",
   timer            = "30 seconds",
   rounds           = "1-3",
   slots_guaranteed = "6",
@@ -28,6 +28,21 @@ When there's one marble left, the game ends and the players are ranked by their 
 ## Trivia
 
 - It is actually possible to die to the spikes when exiting the forking pipe, if your marble happens to have the right velocity.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires an image for the legendary rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/royal-execution.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/royal-execution.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+![epic](../../assets/images/minigames/twitch/epic/royal-execution.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+<!-- No images yet.
+![legendary](../../assets/images/minigames/twitch/legendary/royal-execution.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
   'v0.8 Alpha': [

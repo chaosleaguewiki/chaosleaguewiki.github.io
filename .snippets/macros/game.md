@@ -43,7 +43,11 @@
     </table>
     {% if img_url %}
       <p>
-        {{ image.img(url=img_url, alt=img_alt, caption=img_caption) }}
+        {% set caption = img_caption %}
+        {% if rarity|length() > 1 %}
+          {% set caption = "All rarities listed below" %}
+        {% endif %}
+        {{ image.img(url=img_url, alt=img_alt, caption=caption) }}
       </p>
     {% endif %}
   </div>

@@ -2,6 +2,10 @@
 description: Forked Frenzy is a minigame added in v0.16 Alpha.
 ---
 
+/// wip | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Forked Frenzy
 
 {{ game.info(
@@ -22,6 +26,21 @@ Players ending up on the left side will enter another forking pipe where they wi
 The right side is the same, but mirrored, meaning players on the right get eliminated while players on the left move on.
 
 The final set of pipes drops the player's marble through a gap, giving them points no matter what side they exit from. Once the marble reaches the bottom, they will reappear at the top, repeating the circle.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires images for rare, epic and legendary rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/forked-frenzy.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+<!-- No images yet.
+![rare](../../assets/images/minigames/twitch/rare/forked-frenzy.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+![epic](../../assets/images/minigames/twitch/epic/forked-frenzy.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/forked-frenzy.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
   'v0.16 Alpha': [

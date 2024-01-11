@@ -5,7 +5,7 @@ description: Quip Battle is a minigame added in version v0.1 Alpha.
 # Quip Battle
 
 {{ game.info(
-  inputs           = "Players: Messages<br>Viewers: Twitch-poll Votes",
+  inputs           = "Players&#58; Messages<br>Viewers&#58; Twitch-poll Votes",
   timer            = "1 minute",
   slots_guaranteed = "3",
   slots_raffle     = "2",
@@ -49,6 +49,21 @@ Below is a current list of all available prompts in the game.
   No prompts available to display.
 {%- endif %}
 ///
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires an image for the epic rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/quip-battle.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/quip-battle.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/quip-battle.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+<!-- No images yet.
+![epic](../../assets/images/minigames/twitch/epic/quip-battle.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
   'v0.1 Alpha': [

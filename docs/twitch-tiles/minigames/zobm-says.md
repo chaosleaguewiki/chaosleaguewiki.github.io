@@ -5,7 +5,7 @@ description: Zobm Says is a minigame tile where the king controls the game and c
 # Zobm Says
 
 {{ game.info(
-  inputs           = "King: `@mention` user",
+  inputs           = "King&#58; `@mention` user",
   slots_guaranteed = "3",
   slots_raffle     = "2",
   added            = "v0.26 Alpha",
@@ -28,6 +28,22 @@ Players are ranked based on elimination order, with first eliminated being lowes
 ## Trivia
 
 - The name is a reference to the stream participant Mr_Zobm, who is known for gifting hundreds of twitch subscriptions and spending a lot of bits, most of them for spawning lava.
+
+## Images
+
+### Tile rarities
+
+/// warning |
+This section requires images for epic and legendary rarity of this tile.
+///
+
+![common](../../assets/images/minigames/twitch/common/zobm-says.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
+![rare](../../assets/images/minigames/twitch/rare/zobm-says.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+
+<!-- No images yet.
+![epic](../../assets/images/minigames/twitch/epic/zobm-says.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/zobm-says.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
+-->
 
 {{ game.history({
     'v0.26 Alpha': [
