@@ -58,5 +58,8 @@ This section requires images for epic and legendary rarity of this tile.
   ],
   'v0.24 Alpha': [
     'Added sudden death doubler'
+  ],
+  'v0.31 Alpha': [
+    'Fixed bug causing axis of spinning pegs to shift after long streams'
   ]
 }) }}

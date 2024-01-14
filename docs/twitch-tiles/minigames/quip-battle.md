@@ -103,5 +103,8 @@ This section requires an image for the epic rarity of this tile.
   ],
   'v0.27 Alpha': [
     'Added 29 new Prompts, courtesy of MailDropFolder.'
+  ],
+  'v0.31 Alpha': [
+    'Added additional prompts from Discord.'
   ]
 }) }}

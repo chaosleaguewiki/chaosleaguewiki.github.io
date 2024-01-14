@@ -13,6 +13,7 @@
 [wiki-command]: /chat-commands/twitch/#wiki
 [patreon-command]: /chat-commands/twitch/#patreon
 [discord-command]: /chat-commands/twitch/#discord
+[flipcoin-command]: /chat-commands/twitch/#flipcoin
 
 <!-- King commands -->
 [song-command]: /chat-commands/twitch/#song

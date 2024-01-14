@@ -76,6 +76,10 @@ Gives a link to DoodleChaos' Patreon page.
 
 Gives a link to DoodleChaos' Discord server.
 
+### `!flipcoin`
+
+Flips a coin for you, giving heads or tails at random.
+
 ## Throne Commands
 
 Only executable by the current king on the throne.

@@ -34,5 +34,8 @@ Other ways to earn gold is either by breaking gold ore blocks that are in the de
     ],
     'v0.30 Alpha': [
         'Gold ore blocks added to the wall, which when broken will give the player who broke it gold'
+    ],
+    'v0.31 Alpha': [
+        'Gold ore blocks now can\'t go beyond 256 in value'
     ]
 }) }}
