@@ -28,7 +28,7 @@ Lets you throw `[amount]` of tomatos towards the mentioned user. This command co
 
 ### `!givepoints [amount] @user` { #givepoints }
 
-{{ utils.removed(version="v0.23 Alpha", type="Command") }}
+{{ utils.removed(version="v0.24 Alpha", type="Command") }}
 
 Gives the mentioned user `[amount]` of your points.
 
