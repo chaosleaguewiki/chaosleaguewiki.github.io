@@ -27,7 +27,7 @@ Players are ranked based on elimination order, with first eliminated being lowes
 
 ## Trivia
 
-- The name is a reference to the stream participant Mr_Zobm, who is known for gifting hundreds of twitch subscriptions and spending a lot of bits, most of them for spawning lava.
+- The name of this tile is a reference to the stream participant Mr_Zobm, who is known for gifting hundreds of twitch subscriptions and spending a lot of bits, most of them for spawning lava.
 
 ## Images
 
