@@ -38,7 +38,7 @@ Gives the mentioned user `[amount]` of your gold.
 
 ### `!defend [amount]` { #defend }
 
-Spend `[amount]` of your points to spread across the 10 obsidian defense blocks.
+Takes `[amount]` from your own points and spreads it evenly across the obsidian blocks in the defense wall of the king.
 
 ### `!stats @user` / `!mystats` { #stats }
 
@@ -50,13 +50,15 @@ Gives a link to the [Spotify Playlist][song-playlist] used for the music playing
 
 ### `!lava [bits]` { #lava }
 
-Adds `[bits]` amount of bits to the lava progress bar. Once full, a bucket of lava will be released. Players killed by the lava will lose half their points.
+Adds `[bits]` amount of bits to the lava progress bar. Once full, a bucket of lava will be released. Players killed by the lava will lose half their points.  
+`[bits]` needs to be a twitch cheer.
 
 [Learn more about Lava and Water Bucket](../mechanics/water-and-lava-bucket.md).
 
 ### `!water [bits]` { #water }
 
-Adds `[bits]` amount of bits to the water progress bar. Once full, a bucket of water will be released. It will extinguish existing lava previously spread through the [`!lava` command](#lava).
+Adds `[bits]` amount of bits to the water progress bar. Once full, a bucket of water will be released. It will extinguish existing lava previously spread through the [`!lava` command](#lava).  
+`[bits]` needs to be a twitch cheer.
 
 [Learn more about Lava and Water Bucket](../mechanics/water-and-lava-bucket.md).
 
@@ -103,9 +105,9 @@ Only executable by players participating in a tile, or by the king while a certa
 
 ### `!buy<number>` { #buy }
 
-Usable in the Shop tiles [Bubble Color Shop], [Text Color Shop] and [Trail Shop] to buy one of three available cosmetics using Gold you've earned.
+Can only be used in [Shop Tiles](../twitch-tiles/index.md#available-shop-tiles).
 
-`buy1` buys the cheapest, `buy2` the second cheapest and `buy3` the most expensive option.
+Allows you to buy one of the displayed items at the displayed gold price. `!buy1` buys the cheapest, `!buy2` the middle and `!buy3` the most expensive item in the Shop Tile.
 
 ### `!left`
 
