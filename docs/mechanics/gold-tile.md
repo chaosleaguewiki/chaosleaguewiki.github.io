@@ -1,5 +1,5 @@
 ---
-description: A gold tile is a game mechanic where points spent and earned are increased. It has a 1% chance of appearing on any game tile.
+description: Gold Tile is a game mechanic where a minigame or shop tile can spawn with a golden border, affecting the points you can earn or the gold you spent respectively.
 ---
 
 # Gold Tile
@@ -10,13 +10,14 @@ description: A gold tile is a game mechanic where points spent and earned are in
     title = "Gold Tile"
 ) }}
 
-A gold tile is a game mechanic where tickets spent and points earned are increased. It has a 1% chance of appearing on any game tile.
+**Gold Tile** is a game mechanic where a minigame or shop tile can spawn with a golden border, affecting the points you can earn or the gold you spent respectively.  
+It has a 1% chance of appearing on any tile.
 
-A gold tile is indicated by the tile having a golden-yellow border with particles moving clockwise on it.  
-Any tickets spent on this tile will be increased by a factor of 10, meaning 10 tickets become 100 tickets. The same multiplier applies to all components and mechanics of a tile that give or take points from a player such as gaps, points earned by surviving a round of [Danger Zone] or getting points for votes in [Quip Battle].  
-An exception to this mechanic are [Bubble Color Shop], [Text Color Shop] and [Trail Shop] where instead of multiplying, the listed gold prices receive a discount of 25%.
+Gold Tiles are indicated by a yellow border with particles moving clockwise on it. Every ticket a player spents on this tile will be multiplied by a factor of 10, meaning a player spending 10 tickets will get 100 tickets spent.  
+Additionally will any components in a tile that give or take points also increase by the same factor. This includes gaps/buckets, points earned by surviving a round of [Danger Zone] or [Zobm Says] or losing a round in those tiles.  
+An exception to this rule are [Shop Tiles](../twitch-tiles/index.md#available-shop-tiles) where instead of increasing prices, a 25% discount is applied to all shop prices instead.
 
-If a [Rebellion multiplier](rebellion.md) is used, it and the x10 multiplier of the golden tile will be added together, meaning a player inside a x5 rebellion multiplier in a golden tile will receive a x15 multiplier on any points they earn or lose.
+In case a [Rebellion Multiplier](rebellion.md) is active will its effect and the Gold Tile effect get added together, meaning a x5 rebellion in a gold tile will increase points earned by a factor of 15. This has no effect on Shop Tiles.
 
 {{ game.history({
     'v0.13 Alpha': [
