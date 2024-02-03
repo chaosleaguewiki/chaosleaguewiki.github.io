@@ -33,9 +33,9 @@ This macro reads the content of a JSON file located at the provided path (Relati
 {% raw %}
 ```
 {% set json = read_json_file("docs/assets/quip_battle_prompts.json") %}
-{% if json and json.prompts -%}
+{% if json -%}
   <ul>
-  {% for entry in json.prompts %}
+  {% for entry in json %}
     <li>{{ entry }}</li>
   {% endfor %}
   </ul>
@@ -46,9 +46,9 @@ This macro reads the content of a JSON file located at the provided path (Relati
 
 /// tab | Result
 {% set json = read_json_file("docs/assets/quip_battle_prompts.json") %}
-{% if json and json.prompts -%}
+{% if json -%}
   <ul>
-  {% for entry in json.prompts %}
+  {% for entry in json %}
     <li>{{ entry }}</li>
   {% endfor %}
   </ul>
