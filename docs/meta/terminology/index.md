@@ -29,7 +29,7 @@ Tickets can't be used for anything else, while the channel points, which also ar
 A `Gap` is a component of a [Tile](#tile) and is also often referred to as a "bucket".
 
 A Gap can exist in two states, open and closed, and may have different point values. Closed gaps always take points from a player and transfer them over to the current king, while open gaps give a player points. The amount they get depends on the number the gap displays while they fall through it.  
-Two unique gaps in the form of a infinity and angel gap only exist in the game [Zero or Hero]. Former takes all the points of the player while later doesn't take any points. Later also only exists while a infinity gap is inside a [Rebellion's effect Area](../../mechanics/rebellion.md).
+Two unique gaps in the form of a infinity and angel gap only exist in the games [Zero or Hero] and [Chicken Out]. Former takes all the points of the player while later doesn't take any points. Later also only exists while a infinity gap is inside a [Rebellion's effect Area](../../mechanics/rebellion.md).
 
 The gap can increase its own point value when a player passes through it. Whether this is possible is indicated by a colored line on top of the gap.
 
