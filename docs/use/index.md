@@ -1,3 +1,7 @@
+---
+description: How to setup Chaos League for your own Twitch Channel.
+---
+
 # Stream it yourself
 
 /// info
