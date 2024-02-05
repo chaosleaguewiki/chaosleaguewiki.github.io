@@ -16,6 +16,8 @@ repo_url: https://github.com/chaosleaguewiki/chaosleaguewiki.github.io
 
 nav:
   - index.md
+  - Stream it yourself:
+    - use/index.md
   - Chat Commands:
     - chat-commands/index.md
     - chat-commands/twitch.md
