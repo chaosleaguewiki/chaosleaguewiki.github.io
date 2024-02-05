@@ -15,7 +15,8 @@ Chaos League can be easily streamed by Twitch streamers themself. To do this, fo
 To run the game, you first need to meet certain requirements, namely:
 
 - You use Windows. Chaos League only supports Windows right now.
-- You are a Twitch afiliate or have access to a Twitch afiliate channel. The game relies on Twitch's channel point system which are only available for afiliates.
+- You are a Twitch afiliate or have access to a Twitch afiliate channel.
+    The game relies on Twitch's channel point system which are only available for afiliates. [[Affiliate Requirements](https://help.twitch.tv/s/article/twitch-affiliate-program-faq?language=en_US)]
 
 ## Setup
 
