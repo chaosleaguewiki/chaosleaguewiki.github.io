@@ -1,4 +1,6 @@
 ---
+status: new
+
 description: How to setup Chaos League for your own Twitch Channel.
 ---
 

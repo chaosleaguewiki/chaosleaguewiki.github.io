@@ -41,6 +41,7 @@ nav:
         - twitch-tiles/minigames/bounce-house.md
         - twitch-tiles/minigames/chaos-plinko.md
         - twitch-tiles/minigames/chicken-out.md
+        - twitch-tiles/minigames/combo-breaker.md
         - twitch-tiles/minigames/danger-zone.md
         - twitch-tiles/minigames/forked-frenzy.md
         - twitch-tiles/minigames/hole-in-one.md
@@ -65,6 +66,8 @@ nav:
       - changelog/index.md
       - v3:
         - Alpha:
+          - changelog/cl3/alpha/v0.33-alpha.md
+          - changelog/cl3/alpha/v0.32-alpha.md
           - changelog/cl3/alpha/v0.31-alpha.md
           - changelog/cl3/alpha/v0.30-alpha.md
           - changelog/cl3/alpha/v0.29-alpha.md
@@ -112,7 +115,7 @@ nav:
       - meta/snippets/commands.md
       - meta/snippets/games.md
       - meta/snippets/game-terminology.md
-      - meta/snippets/unreleased.md
+      - meta/snippets/wip.md
     - Terminology:
       - meta/terminology/index.md
 

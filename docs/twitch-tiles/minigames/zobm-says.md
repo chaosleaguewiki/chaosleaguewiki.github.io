@@ -52,5 +52,9 @@ This section requires images for epic and legendary rarity of this tile.
     'v0.28 Alpha': [
       'Timer increased',
       'Eliminated players now lose points and points lost and given double with each elimination'
+    ],
+    'v0.33 Alpha': [
+      'Added warning Sign',
+      'Changed "Survival reward" to "Reward/Punishment"'
     ]
 }) }}

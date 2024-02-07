@@ -10,7 +10,7 @@
   {% endif %}
   {{ page.content }}
   {% for p in nav.pages|rejectattr("meta", "undefined")|rejectattr("meta.weight", "undefined")|sort(attribute="meta.weight", reverse=True) %}
-    {% if p.url.startswith("changelog/") %}
+    {% if p.url.startswith("changelog/cl3/") %}
       <div class="admonition wiki">
         <p class="admonition-title"><a href="{{ p.url | url }}">{{ p.title }}</a></p>
         {{ p.content }}

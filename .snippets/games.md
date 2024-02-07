@@ -2,6 +2,7 @@
 [Bounce House]: /twitch-tiles/minigames/bounce-house/
 [Chaos Plinko]: /twitch-tiles/minigames/chaos-plinko/
 [Chicken Out]: /twitch-tiles/minigames/chicken-out/
+[Combo Breaker]: /twitch-tiles/minigames/combo-breaker/
 [Danger Zone]: /twitch-tiles/minigames/danger-zone/
 [Forked Frenzy]: /twitch-tiles/minigames/forked-frenzy/
 [Hole in One]: /twitch-tiles/minigames/hole-in-one/

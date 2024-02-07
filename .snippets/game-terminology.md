@@ -45,3 +45,10 @@
 *[v0.24 Alpha]: 13 December 2023 (CET/CEST)
 *[v0.25 Alpha]: 14 December 2023 (CET/CEST)
 *[v0.26 Alpha]: 17 December 2023 (CET/CEST)
+*[v0.27 Alpha]: 20 December 2023 (CET/CEST)
+*[v0.28 Alpha]: 7 January 2024 (CET/CEST)
+*[v0.29 Alpha]: 9 January 2024 (CET/CEST)
+*[v0.30 Alpha]: 10 January 2024 (CET/CEST)
+*[v0.31 Alpha]: 14 January 2024 (CET/CEST)
+*[v0.32 Alpha]: Unknown Date
+*[v0.33 Alpha]: 7 February 2024 (CET/CEST)

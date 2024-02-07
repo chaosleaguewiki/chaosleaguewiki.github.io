@@ -15,4 +15,4 @@ Snippets listed with :octicons-plus-circle-24:{ title="Automatically included" }
 - [Commands](commands.md) :octicons-plus-circle-24:{ title="Automatically included" }
 - [Games](games.md) :octicons-plus-circle-24:{ title="Automatically included" }
 - [Game Terminology](game-terminology.md) :octicons-plus-circle-24:{ title="Automatically included" }
-- [Unreleased](unreleased.md)
+- [WIP](wip.md)

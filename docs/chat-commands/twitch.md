@@ -40,9 +40,9 @@ Gives the mentioned user `[amount]` of your gold.
 
 Takes `[amount]` from your own points and spreads it evenly across the obsidian blocks in the defense wall of the king.
 
-### `!stats @user` / `!mystats` { #stats }
+### `!stats @user` / `!points` { #stats }
 
-Get statistics of the mentioned user. `!stats` without a mention or `!mystats` returns your statistics.
+Get statistics of the mentioned user. Using the command without any mention returns your stats.
 
 ### `!playlist`
 

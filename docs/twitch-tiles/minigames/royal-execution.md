@@ -53,5 +53,9 @@ This section requires an image for the legendary rarity of this tile.
   ],
   'v0.14 Alpha': [
     'Fixed bug causing commands from king to not be registered'
+  ],
+  'v0.33 Alpha': [
+    'Moved platform back on the z-layer to avoid obstructing player points',
+    'Simplified wording'
   ]
 }) }}

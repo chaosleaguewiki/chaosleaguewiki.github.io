@@ -1,7 +1,5 @@
 ---
 description: Chicken out is a minigame tile added in v0.29 Alpha of the game where the player can chose when to exit the tile by bitting a spawn ticket.
-
-status: new
 ---
 
 /// wip | Images missing
