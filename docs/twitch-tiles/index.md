@@ -58,7 +58,17 @@ Here is a list of all currently available rarities, the aproximate chance of the
     
     Chicken out is a minigame tile added in v0.29 Alpha of the game where the player can chose when to exit the tile by bitting a spawn ticket.
     
+    ----
+    
     [:octicons-chevron-right-24: Go to Page](minigames/chicken-out.md)
+
+-   **Combo Breaker**
+    
+    ----
+    
+    Combo Breaker is a minigame tile added in v0.33 Alpha of Chaos League.
+    
+    [:octicons-chevron-right-24: Go to Page](minigames/combo-breaker.md)
 
 -   **Danger Zone**
     
