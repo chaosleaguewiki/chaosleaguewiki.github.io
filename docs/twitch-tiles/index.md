@@ -68,6 +68,8 @@ Here is a list of all currently available rarities, the aproximate chance of the
     
     Combo Breaker is a minigame tile added in v0.33 Alpha of Chaos League.
     
+    ----
+    
     [:octicons-chevron-right-24: Go to Page](minigames/combo-breaker.md)
 
 -   **Danger Zone**
