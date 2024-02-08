@@ -8,16 +8,14 @@ description: Death Ball is a Game mechanic where a ball moves around a tile and 
 
 ## How it works
 
-Depending on the tile, a death ball will already exist or will be spawned after enough time has passed.
+A death ball may either exist already, such as in [Chaos Plinko], or may be spawned from a [points multiplier](points-multiplier.md) after a while.
 
-In either case, a ball with a skull displayed will move inside the tile. They have the same physics applied as any normal marble.
+They behave similar to a normal marble in terms of physics and tile interactions, but does not earn or lose any points.
 
-If a player collides with a death ball while it has spikes shown, they will be eliminated. After elimination of a player, the spikes will disappear and the death ball will cease all movement immediately.  
-It remains in this state for a while, indicated by a red outline slowly filling up. During this time, it cannot be moved by player marbles or components of the tile it is in. In addition, players can collide with it without being eliminated. Once the cooldown has passed, the spikes will reappear and the ball will resume movement once again.
+The marble has a Skull shown while also displaying red spikes on its outside. Should a player marble collide with the death ball while the spikes are shown, will the marble be eliminated.  
+Once a player got eliminated will the death ball ceise all movement and lose its spikes. A red outline will slowly do a full resolution around the death ball, indicating a cooldown. Touching the death ball during this cooldown will not cause the player to be eliminated. Once the cooldown ellapses will the spikes re-appear and the death ball move again, while also being able again to eliminate players.
 
-Players eliminated by the death ball do not lose points to the king.
-
-After a certain amount of time has passed, additional death balls will be spawned. This happens around every 30 seconds as additional death balls are spawned by the 3rd multiplication of a tile's x2 multiplier.
+The usual cooldown for a death ball is 10 seconds. Exception to this rule is [Combo Breaker], where the cooldown of the death ball is significantly shorter.
 
 {{ game.history({
     'v0.22 Alpha': [
