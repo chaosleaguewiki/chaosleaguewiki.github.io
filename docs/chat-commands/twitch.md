@@ -18,13 +18,18 @@ You can read more about attacking the king on the [game mechanics page](../mecha
 
 ### `!recruit`
 
-Gives you a link to share. Every player that joins using your link will earn you 50% of the points they earn.
+Gives you a link to share. Every player that joins using your link will earn you 25% of the gold they earn (ignoring gold earned from [`!givegold`](#givegold)).
 
 [Learn more about recruiting](../mechanics/recruiting.md).
 
 ### `!tomato [amount] @user` { #tomato }
 
 Lets you throw `[amount]` of tomatos towards the mentioned user. This command costs you points, but the hit player will also lose points.
+
+The tomato will also cause a kickback on you and an impact force on the target specifically.
+
+Kickback is calculated like this (Result treated as percentage capped at 100%): `100 / <thrower points> * <tomato points>`  
+Impact is calculated like this (Result treated as percentage capped at 100%): `100 / <target points> * <tomato points>`
 
 ### `!givepoints [amount] @user` { #givepoints }
 
@@ -33,6 +38,9 @@ Lets you throw `[amount]` of tomatos towards the mentioned user. This command co
 Gives the mentioned user `[amount]` of your points.
 
 ### `!givegold [amount] @user` { #givegold }
+
+/// warning | Command disabled in v0.34 Alpha
+///
 
 Gives the mentioned user `[amount]` of your gold.
 

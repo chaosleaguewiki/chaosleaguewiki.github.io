@@ -42,5 +42,9 @@ Should a player capture the throne will any existing water and lava be removed o
     ],
     'v0.26 Alpha': [
         'Fixed bug causing lava to kill players exiting raffle slot'
+    ],
+    'v0.34 Alpha': [
+        'Flow speed of lava decreased.',
+        'Decreased drag on player when overlapping with water particles.'
     ]
 }) }}

@@ -57,5 +57,8 @@ This section requires an image for the legendary rarity of this tile.
   'v0.33 Alpha': [
     'Moved platform back on the z-layer to avoid obstructing player points',
     'Simplified wording'
+  ],
+  'v0.34 Alpha': [
+    'Player points show above the platform (For real this time).'
   ]
 }) }}
