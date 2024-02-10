@@ -23,6 +23,7 @@ If they try joining another player while already being recruited or being consid
         'Gameplay mechanic added'
     ],
     'v0.34 Alpha': [
-        'Recruited players now give 25% of any gold they earned. This does not include gold earned from a player using the [`!givegold`][givegold-command] command.'
+        'Recruited players now give 25% of any gold they earned. This does not include gold earned from a player using the [`!givegold`][givegold-command] command.',
+        'Invited players that remain inactive for more than an hour can be invited again.'
     ]
 }) }}
