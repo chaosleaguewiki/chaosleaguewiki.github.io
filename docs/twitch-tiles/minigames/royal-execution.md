@@ -59,6 +59,9 @@ This section requires an image for the legendary rarity of this tile.
     'Simplified wording'
   ],
   'v0.34 Alpha': [
-    'Player points show above the platform (For real this time).'
+    'Player points show above the platform (For real this time)'
+  ],
+  'v0.35 Alpha': [
+    'Player points show above the platform (3rd time is the charm)'
   ]
 }) }}

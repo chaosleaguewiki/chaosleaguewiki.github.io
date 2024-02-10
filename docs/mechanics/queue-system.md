@@ -25,5 +25,11 @@ If fewer players are in the raffle than the available slots, then all players wi
 {{ game.history({
     'v0.1 Alpha': [
         'Gameplay mechanic added'
+    ],
+    'v0.33 Alpha': [
+        'Raffle slot indicators now light up to indicate how many slots are filled'
+    ],
+    'v0.35 Alpha': [
+        'Raffle slot indicators now only light up yellow when raffle is overflowing, not when just full'
     ]
 }) }}

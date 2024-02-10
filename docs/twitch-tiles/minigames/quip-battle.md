@@ -102,9 +102,12 @@ This section requires an image for the epic rarity of this tile.
     'Emotes are no longer spoken by the TTS'
   ],
   'v0.27 Alpha': [
-    'Added 29 new Prompts, courtesy of MailDropFolder.'
+    'Added 29 new Prompts, courtesy of MailDropFolder'
   ],
   'v0.31 Alpha': [
-    'Added additional prompts from Discord.'
+    'Added additional prompts from Discord'
+  ],
+  'v0.35 Alpha': [
+    'Fixed Podium not displaying points earned during game'
   ]
 }) }}

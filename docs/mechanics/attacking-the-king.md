@@ -35,6 +35,9 @@ The wall only regerenates when a player captures the throne.
         'Gameplay mechanic added'
     ],
     'v0.30 Alpha': [
-        'Gold Ore block now give the attacking player gold when it gets broken by them. Texture was also changed.'
+        'Gold Ore block now give the attacking player gold when it gets broken by them. Texture was also changed'
+    ],
+    'v0.35 Alpha': [
+        'Added camera movement to emphasise the throne capture'
     ]
 }) }}
