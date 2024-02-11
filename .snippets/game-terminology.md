@@ -52,3 +52,5 @@
 *[v0.31 Alpha]: 14 January 2024 (CET/CEST)
 *[v0.32 Alpha]: Unknown Date
 *[v0.33 Alpha]: 7 February 2024 (CET/CEST)
+*[v0.34 Alpha]: 9 February 2024 (CET/CEST)
+*[v0.35 Alpha]: 11 February 2024 (CET/CEST)
