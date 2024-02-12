@@ -2,6 +2,10 @@
 description: Zero or Hero is a minigame added in v0.9 Alpha. It is based on the YouTube version with the same name.
 ---
 
+/// missing | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Zero or Hero
 
 {{ game.info(

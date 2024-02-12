@@ -2,15 +2,11 @@
 description: Danger Zone is a minigame added in version v0.1 Alpha.
 ---
 
-/// wip | Images missing
-This wiki page lacks images of the different [tile rarities](#tile-rarities).
-///
-
 # Danger Zone
 
 {{ game.info(
   inputs           = "`@mention` user",
-  timer            = "20 seconds",
+  timer            = "20 seconds per round",
   rounds           = "3",
   slots_guaranteed = "8",
   slots_raffle     = "4",
@@ -36,17 +32,10 @@ When there are no marbles or one marble left, or after 3 rounds, the game ends a
 
 ### Tile rarities
 
-/// warning |
-This section requires an image for the epic rarity of this tile.
-///
-
 ![common](../../assets/images/minigames/twitch/common/danger-zone.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
 ![rare](../../assets/images/minigames/twitch/rare/danger-zone.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
-![legendary](../../assets/images/minigames/twitch/legendary/danger-zone.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
-
-<!-- 
 ![epic](../../assets/images/minigames/twitch/epic/danger-zone.png "Epic rarity version"){ loading="lazy" style="max-width: 20%" }
--->
+![legendary](../../assets/images/minigames/twitch/legendary/danger-zone.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
 
 {{ game.history({
   'v0.1 Alpha': [

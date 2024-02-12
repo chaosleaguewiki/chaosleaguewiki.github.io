@@ -4,7 +4,7 @@ description: Bounce House is a minigame added in version v0.3 Alpha. It's based 
 
 {{ game.yt_version("common/bounce-house/") }}
 
-/// wip | Images missing
+/// missing | Images missing
 This wiki page lacks images of the different [tile rarities](#tile-rarities).
 ///
 
@@ -38,12 +38,12 @@ Every 10 seconds, it will increase the point values of the gap, block and bucket
 ### Tile rarities
 
 /// warning |
-This section requires images for rare, epic and legendary rarity of this tile.
+This section requires images for epic and legendary rarity of this tile.
 ///
 
 ![common](../../assets/images/minigames/twitch/common/bounce-house.png "Common rarity version"){ loading="lazy" style="max-width: 25%;" }
-<!-- No images yet.
 ![rare](../../assets/images/minigames/twitch/rare/bounce-house.png "Rare rarity verion"){ loading="lazy" style="max-width: 25%;" }
+<!-- No images yet.
 ![epic](../../assets/images/minigames/twitch/epic/bounce-house.png){ loading="lazy" style="max-width: 25%;" }
 ![legendary](../../assets/images/minigames/twitch/legendary/bounce-house.png){ loading="lazy" style="max-width: 25%;" }
 -->

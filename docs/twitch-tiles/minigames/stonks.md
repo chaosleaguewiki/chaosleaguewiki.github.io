@@ -2,7 +2,7 @@
 description: Stonks is a minigame added in version v0.6 Alpha.
 ---
 
-/// wip | Images missing
+/// missing | Images missing
 This wiki page lacks images of the different [tile rarities](#tile-rarities).
 ///
 

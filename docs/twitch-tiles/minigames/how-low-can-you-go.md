@@ -4,7 +4,7 @@ description: How Low Can You Go is a minigame added in version v0.1 Alpha. It is
 
 {{ game.yt_version("common/how-low-can-you-go/") }}
 
-/// wip | Images missing
+/// missing | Images missing
 This wiki page lacks images of the different [tile rarities](#tile-rarities).
 ///
 

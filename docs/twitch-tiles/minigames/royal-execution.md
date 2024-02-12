@@ -2,6 +2,10 @@
 description: Royal Execution is a minigame added in version v0.8 Alpha.
 ---
 
+/// missing | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Royal Execution
 
 {{ game.info(

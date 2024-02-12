@@ -298,6 +298,7 @@ markdown_extensions:
         - wiki
         - wip
         - removed
+        - missing
   - pymdownx.blocks.details:
   - pymdownx.blocks.tab:
       alternate_style: true

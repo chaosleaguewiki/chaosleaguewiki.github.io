@@ -2,6 +2,10 @@
 description: Quip Battle is a minigame added in version v0.1 Alpha.
 ---
 
+/// missing | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Quip Battle
 
 {{ game.info(

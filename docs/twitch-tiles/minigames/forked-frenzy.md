@@ -2,7 +2,7 @@
 description: Forked Frenzy is a minigame added in v0.16 Alpha.
 ---
 
-/// wip | Images missing
+/// missing | Images missing
 This wiki page lacks images of the different [tile rarities](#tile-rarities).
 ///
 

@@ -2,6 +2,10 @@
 description: Zobm Says is a minigame tile where the king controls the game and chooses the order in which to eliminate the players.
 ---
 
+/// missing | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
+
 # Zobm Says
 
 {{ game.info(

@@ -2,11 +2,14 @@
 description: Combo Breaker is a minigame tile added in v0.33 Alpha of Chaos League.
 ---
 
---8<-- "wip.md"
+/// missing | Images missing
+This wiki page lacks images of the different [tile rarities](#tile-rarities).
+///
 
 # Combo Breaker
 
 {{ game.info(
+  added            = "v0.33 Alpha"
 ) }}
 
 **Combo Breaker** is a minigame tile added in v0.33 Alpha of Chaos League.

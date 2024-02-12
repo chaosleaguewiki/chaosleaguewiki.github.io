@@ -2,7 +2,7 @@
 description: Ouroboros is a minigame added in version v0.18 Alpha. It's based on the YouTube version of the same name.
 ---
 
-/// wip | Images missing
+/// missing | Images missing
 This wiki page lacks images of the different [tile rarities](#tile-rarities).
 ///
 
