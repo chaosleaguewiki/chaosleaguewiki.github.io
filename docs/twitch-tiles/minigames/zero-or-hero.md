@@ -31,15 +31,15 @@ When there's one marble left, the game ends and the players are ranked by their 
 ### Tile rarities
 
 /// warning |
-This section requires images for epic and legendary rarity of this tile.
+This section requires images for legendary rarity of this tile.
 ///
 
 ![common](../../assets/images/minigames/twitch/common/zero-or-hero.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
 ![rare](../../assets/images/minigames/twitch/rare/zero-or-hero.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
+![legendary](../../assets/images/minigames/twitch/legendary/zero-or-hero.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
 
 <!-- No images yet.
 ![epic](../../assets/images/minigames/twitch/epic/zero-or-hero.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
-![legendary](../../assets/images/minigames/twitch/legendary/zero-or-hero.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
 -->
 
 {{ game.history({

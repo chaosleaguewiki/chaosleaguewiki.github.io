@@ -41,13 +41,14 @@ Every 10 seconds, it will increase the point values of the gap, block and bucket
 ### Tile rarities
 
 /// warning |
-This section requires images for epic and legendary rarity of this tile.
+This section requires images for legendary rarity of this tile.
 ///
 
 ![common](../../assets/images/minigames/twitch/common/how-low-can-you-go.png "Common rarity version"){ loading="lazy" style="max-width: 20%;" }
 ![rare](../../assets/images/minigames/twitch/rare/how-low-can-you-go.png "Rare rarity verion"){ loading="lazy" style="max-width: 20%;" }
-<!-- No images yet.
 ![epic](../../assets/images/minigames/twitch/epic/how-low-can-you-go.png "Epic rarity version"){ loading="lazy" style="max-width: 20%;" }
+
+<!-- No images yet.
 ![legendary](../../assets/images/minigames/twitch/legendary/how-low-can-you-go.png "Legendary rarity version"){ loading="lazy" style="max-width: 20%;" }
 -->
 
