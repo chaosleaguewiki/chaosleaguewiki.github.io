@@ -23,11 +23,14 @@ This wiki page lacks images of the different [tile rarities](#tile-rarities).
 
 ## Gameplay
 
-The tile consists of 2 chambers separated vertically and a segregator below the entrance, splitting the participating players' marbles evenly between the two chambers.
+The tile consists of 2 sides separated by a triangle shape that is open at the top. A splitting pipe at the top splits the players to the left and right, always alternating between the sides with each player entering it.
 
-Above one of the chambers, there is a spiked platform. For 20 seconds, the king has the ability to move the platform between the chambers using the [`!left`][left-command] and [`!right`][right-command] commands. When the timer is up, the platform is dropped, the marbles underneath transfer 4 points to the king's balance and are eliminated from the game.
+A row of spikes is located at the top on either the left or right side.  
+After players have been distributed will a 30 second countdown start during wich the current king can choose a side to eliminate using the [`!left`][left-command] or [`!right`][right-command] respectively. During this time can the players throw tomatoes at each other, or themself, to throw them in the air and try to move into the other area.
 
-When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins. It is possible for several players to get the same rank, however, only one person can win.
+Once the timer is up will the spikes move down, eliminating all players on its side and take points from that. Should more than 1 player remain will the floor below them disappear and they will be droped into the row of gaps to earn points, before reappearing at the top, being distributed again through the splitting pipe.
+
+This loop repeats until all or all but one player got eliminated.
 
 ## Trivia
 

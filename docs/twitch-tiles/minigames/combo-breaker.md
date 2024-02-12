@@ -9,7 +9,8 @@ This wiki page lacks images of the different [tile rarities](#tile-rarities).
 # Combo Breaker
 
 {{ game.info(
-  added            = "v0.33 Alpha"
+  inputs = "Bidding tickets to change Pipe exit.",
+  added  = "v0.33 Alpha"
 ) }}
 
 **Combo Breaker** is a minigame tile added in v0.33 Alpha of Chaos League.

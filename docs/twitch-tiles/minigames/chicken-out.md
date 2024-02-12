@@ -9,6 +9,7 @@ This wiki page lacks images of the different [tile rarities](#tile-rarities).
 # Chicken out
 
 {{ game.info(
+  inputs           = "Bidding tickets to change Pipe exit.",
   slots_guaranteed = "8",
   slots_raffle     = "8",
   added            = "v0.29 Alpha",
