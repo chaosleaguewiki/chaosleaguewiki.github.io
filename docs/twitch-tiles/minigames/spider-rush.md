@@ -37,5 +37,9 @@ The game ends once all but one player got eliminated.
 {{ game.history({
   'v0.35 Alpha': [
     'Minigame added'
+  ],
+  'v0.36 Alpha': [
+    'Added Death Ball to timeout game after 2 minutes',
+    'Fixed buckets not resetting, causing them to eliminate players while positive'
   ]
 }) }}

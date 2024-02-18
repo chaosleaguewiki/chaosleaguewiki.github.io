@@ -70,5 +70,8 @@ This section requires an image for the legendary rarity of this tile.
   ],
   'v0.35 Alpha': [
     'Player points show above the platform (3rd time is the charm)'
+  ],
+  'v0.36 Alpha': [
+    'Reduced ejection speed of pipe'
   ]
 }) }}
