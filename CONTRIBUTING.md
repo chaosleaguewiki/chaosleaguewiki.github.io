@@ -182,7 +182,7 @@ To do that, open the `mkdocs.yml` file located in the root of this repository an
 Be sure to keep the format (indents) the same. Also, make sure that the pages themself are sorted alphabetically in their respective sub-section.  
 This means, if you add a new minigame page called `example.md` to the `minigames` section while there are `bounce-house.md`, `danger-zone.md` and `quip-battle.md`, you would add it after `bounce-house.md` and `danger-zone.md` but before `quip-battle.md` in the nav.
 
-The only exception to the above rule are `index.md` pages, which should **always** be the first entry in a sub-section.
+The only exceptions to the above rule are `index.md` pages, which should **always** be the first entry in a sub-section, and changelog pages, which are sorted most recent to oldest.
 
 Also, please note that all pages need to be lowercased and only use alphanumeric characters and hyphens (`a-z`, `0-9` and `-`). Spaces are not allowed in file names.
 
@@ -193,13 +193,13 @@ A bare-bone minigame page should have the following content:
 
 - YAML frontmatter containing a `description` property, holding the first line of the page content (without any markdown formatting).
 - A H1 header as the very first line after the YAML frontmatter
-  - Only exception is when there is a YouTube or Twitch variant of this game in which case the [`{{ game.yt_variant(path) }}`][game.yt_version] or [`{{ game.twitch_version(path) }}`][game.twitch_version] would come first after the YAML frontmatter and before the H1 header.
+    - Only exception is when there is a YouTube or Twitch variant of this game in which case the [`{{ game.yt_variant(path) }}`][game.yt_version] or [`{{ game.twitch_version(path) }}`][game.twitch_version] would come first after the YAML frontmatter and before the H1 header.
 - The [`{{ game.info(...) }}`][game.info] macro containing information about this game.
-  - Note: This macro is designed for Gen 3 minigames. Old game pages, namely youtube versions, may not work with this macro and require manual implementation of the info box. Check an existing page for the design.
+    - Note: This macro is designed for Gen 3 minigames. Old game pages, namely youtube versions, may not work with this macro and require manual implementation of the info box. Check an existing page for the design.
 - The page content itself, including a `Gameplay` H2 header explaining the game mechanics.
 - The [`{{ game.history(...) }}`][game.history] macro containing the changes to the game, including its initial addition to Chaos League.
 
-If the game is not released yet, you are also required to add a `--8<-- "unreleased.md"` right after the H1 header to insert a banner informing about the displayed content not being released yet and any info most likely being inaccurate or outdated.
+Should there not be enough infor for the tile yet (i.e. due to the tile not being live yet) will you need to add a `--8<-- "wip.md"` after the H1 header to insert a notice about the page being Work in Progress and not yet complete or up-to-date.
 
 Here is a complete example using a fictional game named `Example`:
 ```markdown
@@ -211,7 +211,7 @@ description: Example is a common example minigame where players do stuff.
 
 # Example
 
---8<-- "unreleased.md"
+--8<-- "wip.md"
 
 {{ game.info(
   slots_guaranteed = "8",
@@ -318,7 +318,7 @@ title: v0.100 Alpha # Change this to the actual version this changelog is about.
 
 To use the file, simply copy it, rename it to the version you want to add and change the following values:
 
-- `weight` should be changed to the highest value not used yet. This means if the latest release in the changelog list uses weight 10, yours should be 11.
+- `weight` should be changed to the highest value not used yet. This means if the latest release in the changelog list uses weight 10, yours should be 11. Right now can you just set it to the minor version of the release (i.e. for `v0.30 Alpha` it would be `30`).
 - `title` and `v0.100 Alpha` in the page content should be changed to the current changelog version.
 - `January 1st, 2100` should be changed to the date on when the changelog has been published by DoodleChaos on Discord (which is usually followed by a stream of this version). The timezone for the date is CET/CEST.
 
