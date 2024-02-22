@@ -5,7 +5,7 @@ This Wiki is a work in progress and may contain outdated and/or incomplete infor
 If you can, consider [contributing to the wiki on GitHub][repo].
 ///
 
-This is the unofficial documentation of the Chaos League Stream Game created by DoodleChaos.
+This is the official documentation of the Chaos League Stream Game created by DoodleChaos.
 
 [repo]: https://github.com/chaosleaguewiki/chaosleaguewiki.github.io
 
