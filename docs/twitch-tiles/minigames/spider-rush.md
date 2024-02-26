@@ -28,6 +28,12 @@ Should they manage to get through the cross section will they end up at a gap th
 
 The game ends once all but one player got eliminated.
 
+## Point multiplier and Death Ball
+
+A point multiplier is located in the top-left corner of the tile, displaying a `x2` text. Every 120 seconds (2 minutes), purple text displaying `x2` fly towards the buckets and cubes, multiplying their values by a factor of 2.
+
+On every multiplication, a [Death Ball](../../mechanics/death-ball.md) is spawned.
+
 ## Images
 
 ### Tile rarities

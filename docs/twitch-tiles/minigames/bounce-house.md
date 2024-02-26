@@ -28,10 +28,11 @@ The players are dropped from the pipe at the top falling into the tile where the
 
 When there's one marble left, the game ends and the players are ranked by their elimination order. The longest surviving player wins.
 
-## Point multiplier
+## Point multiplier and Death Ball
 
-A point multiplier is located at the top left of the tile, displaying x2.  
-Every 10 seconds, it will increase the point values of the gap, block and bucket by a factor of 2. Every 3rd multiplication, a death ball will be spawned underneath the multiplier, eliminating every player that touches its spikes when exposed.
+A point multiplier is located in the top-left corner of the tile, displaying a `x2` text. Every 15 seconds, purple text displaying `x2` fly towards the rotating bucket, rotating block and rotating open bucket at the bottom, multiplying their values by a factor of 2.
+
+On the 4th and 8th to 13th multiplication is a [Death Ball](../../mechanics/death-ball.md) spawned.
 
 ## Images
 

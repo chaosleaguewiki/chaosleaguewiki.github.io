@@ -21,10 +21,11 @@ Players are droped in at the top and move down the tile in a reverse S-Shape-lik
 By default will the pipe drop the players to the left side, where they fall through a gap, receiving points before re-appearing again at the top pipe. Should a player bid a ticket while in the tile will they exit to the right of the splitting pipe, hitting a red button which causes a gate to move and redirect all other players to an elimination block. The player who pressed the button will be moved into a gap where they receive a much higher number of points.  
 Any extra player who moved to the right, but didn't get into the gap, will be moved down and re-appear at the top, as if they exited the splitting pipe to the left.
 
-## Point multiplier
+## Point multiplier and Death Ball
 
-A point multiplier is located at the top left of the tile, displaying x2.  
-Every 4 minutes, it will increase the point values of the gaps and elimination block by a factor of 2. In addition is a [death ball](../../mechanics/death-ball.md) spawned that eliminates players it touches. Unlike any other death ball does this one have a much shorter cooldown, eliminating players much faster.
+A point multiplier is located in the top-left corner of the tile, displaying a `x2` text. Every 120 seconds (2 Minutes), purple text displaying `x2` fly towards the buckets, multiplying their value by a factor of 2.
+
+On the very first multiplication is a [Death Ball](../../mechanics/death-ball.md) spawned. This Death Ball is special in that it has no cooldown for its spikes and that it can't go through the splitting pipe at the bottom, blocking it permanently.
 
 ## Images
 

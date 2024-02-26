@@ -28,10 +28,11 @@ Players droped on the left will fall through gaps and spawn back at the top, rep
 
 The tile has a visible "Risk Level" that increases with each point multiplication and can go up to level 9. For every level, the two walls above the infinity gap become triangles and increase in width. At level 9 will they cover as much space that only one marble may fit between them and the wall. Level increases with each point multiplication.
 
-## Point multiplier
+## Point multiplier and Death Ball
 
-A point multiplier is located at the top left of the tile, displaying x2.  
-Every 10 seconds, it will increase the point values of the gap at the bottom by a factor of 2. Every 3rd multiplication a [death ball](../../mechanics/death-ball.md) is spawned.
+A point multiplier is located in the top-left corner of the tile, displaying a `x2` text. Every 15 seconds, purple text displaying `x2` fly towards the bucket in the center, multiplying its value by a factor of 2.
+
+Only on the 20th multiplication is a [Death Ball](../../mechanics/death-ball.md) spawned.
 
 ## Images
 

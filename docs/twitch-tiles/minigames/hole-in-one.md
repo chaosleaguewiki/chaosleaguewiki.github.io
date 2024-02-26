@@ -23,6 +23,12 @@ The participating players' marbles are dropped. Points can only be obtained by f
 
 When there's one marble left, the game ends, and the players are ranked by their elimination order. The longest surviving player wins.
 
+## Point multiplier and Death Ball
+
+A point multiplier is located in the top-left corner of the tile, displaying a `x2` text. Every 15 seconds, purple text displaying `x2` fly towards the buckets at the bottom, multiplying their value by a factor of 2.
+
+Starting with the 6th multiplication, a [Death Ball](../../mechanics/death-ball.md) is spawned with every subsequent multiplication.
+
 ## Images
 
 ### Tile rarities

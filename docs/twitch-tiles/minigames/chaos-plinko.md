@@ -23,9 +23,13 @@ This wiki page lacks images of the different [tile rarities](#tile-rarities).
 The tile consists of various obstacles and circles, also referred to as pegs, with point values. The player marbles are dropped into the tile where they earn points by hitting the circles.  
 A death bubble is also dropped into the tile. Should a player marble collide with it, they will be eliminated.
 
-For every 10 seconds survived, the pegs double their value. In addition, an additional death bubble will get spawned for every 3rd doubling of points.
-
 The game is over once only a single player remains. Players are listed by their survival time.
+
+## Point multiplier and Death Ball
+
+A point multiplier is located in the top-left corner of the tile, displaying a `x2` text. Every 15 seconds, purple text displaying `x2` fly towards the existing pegs, multiplying their value by a factor of 2.
+
+On the 3rd, 5th and 7th to 13th multiplication is a [Death Ball](../../mechanics/death-ball.md) spawned.
 
 ## Images
 
