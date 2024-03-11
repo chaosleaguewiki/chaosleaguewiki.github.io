@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > This Wiki has entered a "Maintenance only" state, meaning the following:
 >
-> - No active additions/chnages to the wiki will be made by the core maintainer(s)
+> - No active additions/changes to the wiki will be made by the core maintainer(s)
 > - Only chores to keep dependencies updates (merging Dependabot PRs) will be done by core maintainer(s)
 >
 > Contributions from non-maintainers are still accepted and merged when following the [Contributing guidelines][contribute].
